@@ -749,7 +749,7 @@
                             }
                         ]
                     ],
-                    "source": "fateweaver",
+                    "source": "FW",
                     "shortName": "Aspect of the Sun"
                 },
                 {
@@ -836,7 +836,7 @@
                             }
                         ]
                     ],
-                    "source": "fateweaver",
+                    "source": "FW",
                     "shortName": "Aspect of the Moon"
                 },
                 {
@@ -934,7 +934,7 @@
                             }
                         ]
                     ],
-                    "source": "fateweaver",
+                    "source": "FW",
                     "shortName": "Aspect of Twilight"
                 }
             ],
