@@ -1,0 +1,1207 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "fateweaver",
+                "abbreviation": "FW",
+                "full": "Fate Weaver",
+                "authors": [
+                    "Erikku Blade"
+                ],
+                "convertedBy": [
+                    "CrimtaneCreeper"
+                ],
+                "version": "1.0",
+                "url": "https://www.dmsguild.com/product/303804/The-Fate-Weaver",
+                "targetSchema": "1.0.0"
+            }
+        ]
+    },
+    "class": [
+        {
+            "name": "Fate Weaver",
+            "Source": "FW",
+            "hd": {
+                "number": 1,
+                "faces": 6
+            },
+            "proficiency": [
+                "wis",
+                "cha"
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Fate Dice",
+                        "Cantrips"
+                    ],
+                    "rows": [
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            3,
+                            3
+                        ],
+                        [
+                            4,
+                            4
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            6,
+                            4
+                        ],
+                        [
+                            7,
+                            4
+                        ],
+                        [
+                            8,
+                            4
+                        ],
+                        [
+                            9,
+                            4
+                        ],
+                        [
+                            10,
+                            5
+                        ],
+                        [
+                            11,
+                            5
+                        ],
+                        [
+                            12,
+                            5
+                        ],
+                        [
+                            13,
+                            5
+                        ],
+                        [
+                            14,
+                            5
+                        ],
+                        [
+                            15,
+                            5
+                        ],
+                        [
+                            16,
+                            5
+                        ],
+                        [
+                            17,
+                            5
+                        ],
+                        [
+                            18,
+                            5
+                        ],
+                        [
+                            19,
+                            5
+                        ],
+                        [
+                            20,
+                            5
+                        ]
+                    ]
+                },
+                {
+                    "title": "Spell Slots per Spell Level",
+                    "colLabels": [
+                        "{@filter 1st|spells|level=1|class=Fate Weaver (FW)}",
+                        "{@filter 2nd|spells|level=2|class=Fate Weaver (FW)}",
+                        "{@filter 3rd|spells|level=3|class=Fate Weaver (FW)}",
+                        "{@filter 4th|spells|level=4|class=Fate Weaver (FW)",
+                        "{@filter 5th|spells|level=5|class=Fate Weaver (FW)}",
+                        "{@filter 6th|spells|level=6|class=Fate Weaver (FW)}",
+                        "{@filter 7th|spells|level=7|class=Fate Weaver (FW)}",
+                        "{@filter 8th|spells|level=8|class=Fate Weaver (FW)}",
+                        "{@filter 9th|spells|level=9|class=Fate Weaver (FW)}"
+                    ],
+                    "rows": [
+                        [
+                            2,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            3,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            2,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            2,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            "-",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            "-",
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            "-"
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            3,
+                            2,
+                            2,
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "startingProficiencies": {
+                "armor": [],
+                "weapons": [
+                    "daggers",
+                    "darts",
+                    "light crossbows",
+                    "slings",
+                    "quarterstaffs"
+                ],
+                "tools": [
+                    "Divination Deck"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "deception",
+                                "history",
+                                "insight",
+                                "medicine",
+                                "nature",
+                                "persuasion",
+                                "religion"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) a Divination Deck",
+                    "(a) Light Crossbow or (b) any simple weapon",
+                    "(a) Component Pouch or (b) Arcane Focus",
+                    "(a) Priest's Pack or (b) Explorer's Pack",
+                    "(a) 2 Daggers"
+                ],
+                "goldAlternative": "5d4x10"
+            },
+            "classFeatures": [
+                [
+                    {
+                        "name": "Divination Deck",
+                        "entries": [
+                            "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 9 or lower automatically fails, and the card you draw is blank. A roll of 10 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
+                            "A divination deck is usually pawned off as a cheap toy in shops, being worth only 1 sp. Most shopkeepers will not purchase one from a player as it is of little interest. Finding one should not be difficult however."
+                        ]
+                    },
+                    {
+                        "name": "Spellcasting",
+                        "entries": [
+                            "Born with an innate ability to manipulate the weave and the magic that follows, you can cast spells and bend fate to your whim. See chapter 10 of the Player’s Handbook for the general rules of spellcasting",
+                            {
+                                "type": "entries",
+                                "name": "Cantrips",
+                                "entries": [
+                                    "At 1st level, you know three cantrips of your choice from the Fate Weaver spell list. You learn additional Fate Weaver cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Fate Weaver table"
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Preparing and Casting Spells",
+                                "entries": [
+                                    "The Fate Weaver table shows how many spell slots you have to cast your Fate Weaver spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                                    "You prepare the list of Fate Weaver spells that are available for you to cast, choosing from the Fate Weaver spell list. When you do so, choose a number of Fate Weaver spells equal to your Charisma modifier + your Fate Weaver level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+                                    "For example, if you are a 3rd-level Fate Weaver, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells. You can change your list of prepared spells when you finish a long rest. Preparing a new list of Fate Weaver spells requires time spent in meditation: at least 1 minute per spell level for each spell on your list."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Spellcasting Ability",
+                                "entries": [
+                                    "Charisma is your spellcasting ability for your Fate Weaver spells. The power of your spells comes from your innate ability to bend the weave, granted to you by the Goddess of Magic at birth. You use your Charisma whenever a Fate Weaver spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Fate Weaver spell you cast and when making an attack roll with one.",
+                                    {
+                                        "type": "abilityDc",
+                                        "name": "Spell",
+                                        "attributes": [
+                                            "cha"
+                                        ]
+                                    },
+                                    {
+                                        "type": "abilityAttackMod",
+                                        "name": "Spell",
+                                        "attributes": [
+                                            "cha"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Ritual Casting",
+                                "entries": [
+                                    "You can cast a Fate Weaver spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Spellcasting Focus",
+                                "entries": [
+                                    "You can use a Divination Deck (found above) as a spellcasting focus for your Fate Weaver spells."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fate Weaving",
+                        "entries": [
+                            "Beginning at 1st level, you have the ability to bend fate around you. You have a pool of dice that you can use to grant you or your allies the ability to avoid danger. You have a number of d4s in this pool equal to your Fate Weaver level. These are known as “Fate Dice” . As a bonus action on your turn you can spend a die and roll it. Choose a willing creature that you can see within 60 feet. That creature gains a number of temporary hit points equal to the result, is granted the fate die, and gains one of the following benefits for 1 minute:",
+                            "The creature can add the Fate Die to one ability check or saving throw.",
+                            "The creature can add or subtract the Fate Die to one attack roll from either themselves or a hostile creature targeting them.",
+                            "The creature can use the bonus action to roll a Fate Die to restore hit points equal to what they roll.",
+                            "Once one of the following effects is used, the creature loses the fate die. You regain expended Fate Dice after a long rest. At higher levels your Fate dice increase in size, becoming a d6 at level 5, a d8 at level 10, a d10 at level 15, and a d12 at level 20."
+                        ]
+                    },
+                    {
+                        "name": "Aspect of Fate Feature",
+                        "entries": [
+                            "At 1st level, you gain a feature from your chosen Aspect of Fate"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Boon of Fate",
+                        "entries": [
+                            "Starting at 2nd level, you gain the ability to change the fates of those around you. As an action on your turn by spending a 1st level spell slot you can give a willing creature within 15 ft of you a Boon of Fate for one hour. Whenever a creature with a Boon of Fate makes an attack roll, ability check, or saving throw, they can expend their Boon of Fate to roll an additional d20 and choose the highest or lowest result of their choice.",
+                            "When you gain higher level spell slots, you can expend those to give a number of creatures equal to the spell slot’s level a Boon of Fate. A creature can only have one Boon of Fate at a time."
+                        ]
+                    },
+                    {
+                        "name": "Divination Dice",
+                        "entries": [
+                            "Starting at 2nd level your powers to control and predict fate itself begins to blossom. You gain the ability to predict the future of events, or maybe even manipulate them in certain instances of time. Whenever you complete a long rest you roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn. Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls. When you reach 10th level the amount of dice you roll increases to three, and at 20th level it increases to four."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Spell Weaving",
+                        "entries": [
+                            "Some were born with magic, some were born to have magic, some were born to master magic, the Fate Weaver was born with all of these traits.",
+                            "Starting at 3rd level, you gain the uncanny ability to manipulate the spell slots that you possess. As a bonus action on your turn, by expending a spell slot of 2nd level or higher you can convert that spell slot into a number of lower level spell slots equal to the spell slot’s level. You can distribute the spell slots as you wish. For example, if you are a 5th level Fate Weaver and you expend a 3rd level spell slot, you can either make three 1st level spell slots or you can make one 2nd level and one 1st level spell slot. You cannot create more spell slots than the maximum amount you can normally possess.",
+                            "Alternatively you can convert two spell slots of 8th level or lower into a higher level spell. For example, you can take two 1st level spell slots to make one 2nd level, or one 2nd level and one 1st level spell slots to make one 3rd level spell slot. You cannot create a spell slot level higher than what you have access to."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Fateful Rest",
+                        "entries": [
+                            "Starting at 5th level you regain half of your expended Fate Dice at the end of a short rest."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Aspect of Fate Feature",
+                        "entries": [
+                            "At 6th level, you gain a feature from your chosen Aspect of Fate"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Fateful Divination",
+                        "entries": [
+                            "Upon reaching 7th level, you can cast the Divination spell without expending a spell slot a number of times equal to half your Charisma Modifier. (Rounded down) You regain all expended uses of this feature after a long rest."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Boon of Healing",
+                        "entries": [
+                            "Starting at 9th level, when you would heal a creature with a 1st level spell or higher you regain a number of hit points equal to the spell slot’s level + your Charisma Modifier."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Aspect of Fate Feature",
+                        "entries": [
+                            "At 10th level, your gain a feature from your chosen Aspect of Fate"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Fate Prediction",
+                        "entries": [
+                            "Starting at 11th level, you gain the ability to predict an enemy’s movements through your divination prowess. As a bonus action on your turn by spending 2 fate dice you can choose one creature within 60 ft of you. That creature has disadvantage on attack rolls against you, and you have advantage on saving throws imposed by that creature. In addition you have advantage on attack rolls against that creature. Each of these effects ends at the end of your next turn. Once you use this feature you cannot do so again until you finish a long rest."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Visions of Fate",
+                        "entries": [
+                            "Starting at 13th level, you have an uncanny ability to see incoming powerful attacks and warn your allies ahead of time. When a creature would score a critical hit on you or an ally within 30 ft of you, by spending a fate die you can use your reaction to turn that hit into a normal hit. Any effects triggered by a critical hit are canceled. You have a number of uses of this feature equal to your Charisma modifier. (minimum of once)"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Aspect of Fate Feature",
+                        "entries": [
+                            "At 14th level, you gain a feature from your chosen Aspect of Fate"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Fateful Retribution",
+                        "entries": [
+                            "Beginning at 15th level, whenever you are hit by a weapon attack, you can spend a fate die and roll it to deal an amount of psychic damage equal to the result. In addition, the target must make a Wisdom saving throw. On a failed save, the creature is left open for an attack, and you can immediately make 1 weapon or spell attack against them using a spell of 1st level or lower. The attack is at an advantage, and if it is a ranged spell attack it does not suffer from being within melee range."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Boon of the Soul",
+                        "entries": [
+                            "Beginning at 17th level, you have become one with your mind and soul. You can spend 4 fate dice to cast the Astral Projection spell without material components, but only targeting yourself. Once you do so you cannot cast the spell in this way again until you complete a long rest. In addition, your silvery cord is indestructible and cannot be cut, even by creatures who would normally be able to unless they are of a CR greater than your Fate Weaver level."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Aspect of Fate Feature",
+                        "entries": [
+                            "At 18th level, you gain a feature from your chosen Aspect of Fate"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Boon of the Weave",
+                        "entries": [
+                            "At 20th level, you have become the right hand of the Goddess of Magic. Your ability to manipulate the weave and call upon it is unrivaled.",
+                            "Once per long rest, when you roll initiative you can restore an amount of fate dice equal to your Charisma Modifier.",
+                            "In addition, you can regain all of your 1st, 2nd, and 3rd level spell slots after a short rest.",
+                            "You have also mastered certain low level spells that you have favored over others. Choose three 1st level spells and one 2nd level spell that you can prepare. You can cast these spells at their lowest levels without expending a spell slot. These spells are always prepared and they do not count against your prepared spells."
+                        ]
+                    }
+                ]
+            ],
+            "subclassTitle": "Aspects of Fate",
+            "subclasses": [
+                {
+                    "name": "Aspect of the Sun",
+                    "entries": [
+                        "The Aspect of the Sun is normally bright and cheerful. You are a beacon of inspiration to your allies, and a friend to most. You choose not to harm those who do you no wrong and wish to empower your allies with the riches of the Sun. Your favorite fortunes are those of love and compassion, a bright future and a better tomorrow. You praise the Sun for all the nourishment it provides, and bless it for the light it donates. Only you can rival the shining Sun."
+                    ],
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Aspect of the Sun Spells",
+                                "entries": [
+                                    "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Aspect of the Sun",
+                                        "colLabels": [
+                                            "Fate Weaver Level",
+                                            "Spells"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "1st",
+                                                "Bless, Heroism"
+                                            ],
+                                            [
+                                                "3rd",
+                                                "Aid, Branding Smite"
+                                            ],
+                                            [
+                                                "5th",
+                                                "Blinding Smite, Daylight"
+                                            ],
+                                            [
+                                                "7th",
+                                                "Aura of Life, Aura of Purity"
+                                            ],
+                                            [
+                                                "9th",
+                                                "Dawn, Holy Weapon"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Shining Energy",
+                                "entries": [
+                                    "At 1st level, an action on your turn you can begin to emit a bright aura of light for 1 minute. Your aura sheds a bright light for 30 ft. and dim light for an additional 30 ft. In addition, each friendly creature within the bright light of the aura adds a +1 bonus to their AC and saving throws. In addition a creature with a Fate Die can choose to roll it and add the result to any one damage roll for a weapon attack they make. Once they do so, they lose the Fate Die. The damage dealt by the Fate Die is radiant damage. When your Shining Energy ends you cannot use the benefits of it again until you finish a long rest. You can however continue to shine brightly."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Empowering Sun",
+                                "entries": [
+                                    "Starting at 6th level, as an action on your turn you can target a number of creatures within 60 ft of you equal to your Charisma Modifier and empower them with your presence. They each have advantage on ability checks using one ability score of their choosing for the next hour. Once you give the benefits of this feature you cannot do so again until you finish a long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Beacon of Heroism",
+                                "entries": [
+                                    "Starting at 10th level, you become a beacon of power to your allies. You and each friendly creature within 30 ft of you is immune to being frightened and has advantage on saving throws against being charmed. In addition while they are conscious they gain temporary hit points equal to your Charisma Modifier at the start of each of their turns while you are conscious."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Boon of the Sun",
+                                "entries": [
+                                    "Starting at 14th level, no darkness can impede you or your allies’ vision. As an action you can emit a bright light from your hands, granting you bright light in a 60 ft radius sphere. This light can penetrate regular darkness as well as magical darkness. Alternatively you can spend an action to dispel magical darkness as if you were casting the spell Dispel Magic. If the source of the magical darkness is of a spell of 4th level or higher, you make an ability check using your Spellcasting Ability as normal."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Weaver of the Sun",
+                                "entries": [
+                                    "At 18th level, your devotion to the Sun has paid off and you have become a shining example of a Sun Weaver. When you and each friendly creature within 30 ft of you roll for damage, you add an additional amount of radiant damage equal to your Charisma Modifier. In addition, you can create a one-handed melee weapon made of pure light energy. This weapon deals 2d10 radiant damage and can use your Charisma Modifier for the attack and damage rolls. You are proficient with this weapon and it has a magic bonus of 1. Alternatively you can transform a melee weapon that you are proficient with into a “Weapon of the Sun” which changes the damage type from slashing, piercing, or bludgeoning to radiant and it gains a +1 magic bonus if it did not already have one."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "FW",
+                    "shortName": "Aspect of the Sun"
+                },
+                {
+                    "name": "Aspect of the Moon",
+                    "entries": [
+                        "You are normally calm and serene. You chose to walk down the path not of violence, not of bloodshed, but of healing. You are the calming sound of the ocean tides, you are the moonlight that heals wounds as weakened ones rest. People look up to you as your presence is soft and calming."
+                    ],
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Healing Light",
+                                "entries": [
+                                    "Starting at 1st level, whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to your charisma modifier + half the spell's level (rounded down to a minimum of 1).",
+                                    "Also at 1st level you can touch a creature and spend a Fate Die to cure that creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, stunned, or poisoned."
+                                ]
+                            },
+                            {
+                                "name": "Aspect of the Moon Spells",
+                                "entries": [
+                                    "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Aspect of the Moon",
+                                        "colLabels": [
+                                            "Fate Weaver Level",
+                                            "Spells"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "1st",
+                                                "Healing Word, Shield of Faith"
+                                            ],
+                                            [
+                                                "3rd",
+                                                "Healing Spirit, Moonbeam"
+                                            ],
+                                            [
+                                                "5th",
+                                                "Beacon of Hope, Mass Healing Word"
+                                            ],
+                                            [
+                                                "7th",
+                                                "Control Water, Death Ward"
+                                            ],
+                                            [
+                                                "9th",
+                                                "Greater Restoration, Mass Cure Wounds"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Barrier of Moonlight",
+                                "entries": [
+                                    "Starting at 6th level, by spending a 10 minute ritual you can cast the spell Tiny Hut as a ritual spell. When you do so, creatures that take a rest inside the dome restore twice as many hit points on a short rest and restore 2 levels of exhaustion rather than 1 after a long rest. In addition, creatures who take a long rest replenish all of their hit dice instead of half. You can only cast Tiny Hut in this way if you are outside and the moon is out."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Nourishment of the Night",
+                                "entries": [
+                                    "Starting at 10th level, while it is night and the moon is out you can perform a 10 minute ritual to ritual cast the spells Goodberry and Create or Destroy Water but can only create water. Once you have done so you cannot do so again until you complete a long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Boon of the Moon",
+                                "entries": [
+                                    "Starting at 14th level, when you or an ally within 30 ft of you is targeted from a weapon attack you can spend your reaction to heal that creature for an amount of hit points equal to your Fate Weaver level. Then, the source of the attack takes an amount of radiant damage equal to your Fate Weaver level and must pass a Constitution saving throw against your spell save DC or be blinded. Once a creature has benefited from this boon they cannot benefit from it again until they complete a short or long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Weaver of the Moon",
+                                "entries": [
+                                    "Starting at 18th level, you have mastered the art of healing, so much so that it is second nature to you. You can cast Healing Word and Cure Wounds at its lowest level without spending a spell slot. Once you do so you cannot do so again until you finish a short or long rest. In addition, once per round when you would cast a Fate Weaver spell of 1st level or higher that would heal a target, instead of rolling you can restore the maximum possible hit points from the spell. Once you do so a number of times equal to your Charisma Modifier you cannot do so again until you finish a long rest."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "FW",
+                    "shortName": "Aspect of the Moon"
+                },
+                {
+                    "name": "Aspect of Twilight",
+                    "entries": [
+                        "Good fortunes, bad fortunes, it’s all the same to you. Light and darkness is meant to be in perfect balance, and you are that balance. Good, Evil, Chaotic, Lawful, such ideas are merely that, ideas. You are the true order of things, you are the true balance of nature. There are those who wish to tip the scales of that balance. You exist to correct it, by any means necessary."
+                    ],
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Bonus Proficiencies",
+                                "entries": [
+                                    "Starting at 1st level, you gain proficiency in simple weapons, martial weapons, light armor, medium armor, and shields."
+                                ]
+                            },
+                            {
+                                "name": "Dead by Night, Rise by Dawn",
+                                "entries": [
+                                    "Starting at 1st level, when you kill a creature you alter the fate of its soul. After you have completed a long rest and the corpse remains within 30 ft of you, it rises as an undead and follows your every command. It has no memory of its past life, with the exception of the languages it knew in life. The creature remains an undead for an amount of days equal to your Charisma modifier. After which it drops to the ground, a lifeless corpse once again. It uses the stat block of the zombie but retains its original strength, dexterity, and constitution scores as well as its size category. It rolls its own initiative, but you command it. You can only have 1 undead creature following you at any given time in this manner."
+                                ]
+                            },
+                            {
+                                "name": "Withering Smite",
+                                "entries": [
+                                    "Also starting at 1st level, by spending a fate die you can enchant your weapon with it. You can tear into their souls and change their fate by the tip of your blade, arrow, or other weapon in preference. Your weapon attacks gain a bonus to the damage roll equal to your fate die. The bonus damage dealt by this feature is necrotic damage. On a successful hit, the target must pass a Constitution saving throw against your Spell Save DC. On a failed save, the creature cannot receive the benefits of healing until the start of your next turn. Once the target takes necrotic damage by this effect you lose the fate die and the weapon returns to normal."
+                                ]
+                            },
+                            {
+                                "name": "Aspect of Twilight Spells",
+                                "entries": [
+                                    "At each indicated Fate Weaver level, add the listed spells to your spells prepared. They do not count towards your limit.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Aspect of the Moon",
+                                        "colLabels": [
+                                            "Fate Weaver Level",
+                                            "Spells"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "1st",
+                                                "Hex, Inflict Wounds"
+                                            ],
+                                            [
+                                                "3rd",
+                                                "Blindness/Deafness, Shadow Blade"
+                                            ],
+                                            [
+                                                "5th",
+                                                "Animate Dead, Speak with Dead"
+                                            ],
+                                            [
+                                                "7th",
+                                                "Blight, Shadow of Moil"
+                                            ],
+                                            [
+                                                "9th",
+                                                "Hallow, Negative Energy Flood"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Shatter Fate",
+                                "entries": [
+                                    "Starting at 6th level when a creature would hit you with a weapon attack, by spending a fate die you can spend your reaction to make the attack potentially miss instead. You reduce the attack roll by an amount equal to what you roll on the fate die. If the attack misses, the attacker feels a deep pain in their chest as necrotic energy fills their body. The target must make a Wisdom saving throw against your Spell Save DC. On a failed save, the creature is stunned until the end of your next turn. Once a creature is stunned in this way, they cannot be stunned in that way again until they complete a short or long rest"
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Shroud into Twilight",
+                                "entries": [
+                                    "Starting at 10th level you can emerge yourself into a constant state of light and darkness. You can cast the Darkness and Daylight spells a number of times equal to your Charisma modifier without having to expend a spell slot or provide material components, provided you already had the spells prepared. In addition, you can choose any number of creatures to be immune to both of the spells’ effects."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Boon of Twilight",
+                                "entries": [
+                                    "Starting at 14th level you can imbue your weapon with even greater power than before. When you use Withering Smite you can spend an amount of fate dice to add to the damage roll up to your proficiency bonus. In addition, you have resistance to necrotic damage."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Weaver of Twilight",
+                                "entries": [
+                                    "At 18th level, you have done your duty as a protector of balance. To survive this long is both a blessing, and a curse. Afterall, all things must be balanced. You no longer suffer the effects of old age and you cannot be aged magically. You can still die of old age, however your lifespan has been expanded. For each year you had left, and each year you had lived, you now gain 10 years of life. In addition, as a bonus action by spending a Fate Die you can inflict a curse to a creature that you can see within 60 ft of you. That creature receives a penalty to their AC equal to what you roll. This curse remains until the creature dies. A remove curse spell of 5th level or higher, or a Greater Restoration spell can remove its effects."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "FW",
+                    "shortName": "Aspect of Twilight"
+                }
+            ],
+            "Fluff": [
+                {
+                    "entries": [
+                        "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 9 or lower automatically fails, and the card you draw is blank. A roll of 10 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
+                        "A divination deck is usually pawned off as a cheap toy in shops, being worth only 1 sp. Most shopkeepers will not purchase one from a player as it is of little interest. Finding one should not be difficult however."
+                    ],
+                    "name": "FateWeaver",
+                    "type": "section"
+                }
+            ],
+            "classSpells": [
+                "Blade Ward",
+                "Control Flames",
+                "Create Bonfire",
+                "Dancing Lights",
+                "Encode Thoughts",
+                "Druidcraft",
+                "Friends",
+                "Guidance",
+                "Light",
+                "Magic Stone",
+                "Mending",
+                "Message",
+                {
+                    "name": "Mind Sliver",
+                    "source": "UA"
+                },
+                "Minor Illusion",
+                "Prestidigitation",
+                "Produce Flame",
+                "Resistance",
+                "Sacred Flame",
+                "Shape Water",
+                "Spare the Dying",
+                "Thaumaturgy",
+                "Thunderclap",
+                "True Strike",
+                {
+                    "name": "Virtue",
+                    "source": "UA"
+                },
+                "Word of Radiance",
+                "Absorb Elements",
+                {
+                    "name": "Arcane Weapon",
+                    "source": "UA"
+                },
+                "Bane",
+                "Beast Bond",
+                "Bless",
+                "Cause Fear",
+                "Ceremony",
+                "Charm Person",
+                "Chromatic Orb",
+                "Color Spray",
+                "Command",
+                "Comprehend Languages",
+                "Create or Destroy Water",
+                "Cure Wounds",
+                "Detect Evil and Good",
+                "Detect Magic",
+                "Detect Poison and Disease",
+                "Dissonant Whispers",
+                "Distort Value",
+                "Divine Favor",
+                "Expeditions Retreat",
+                "False Life",
+                "Feather Fall",
+                "Find Familiar",
+                "Guiding Bolt",
+                {
+                    "name": "Guiding Hand",
+                    "source": "UA"
+                },
+                {
+                    "name": "Healing Elixir",
+                    "source": "UA"
+                },
+                "Healing Word",
+                "Hex",
+                "Hunter's Mark",
+                "Identify",
+                "Illusory Script",
+                "Jump",
+                "Longstrider",
+                "Mage Armor",
+                "Protection from Evil and Good",
+                "Sanctuary",
+                "Shield",
+                "Shield of Faith",
+                "Silent Image",
+                "Sleep",
+                "Speak with Animals",
+                {
+                    "name": "Sudden Awakening",
+                    "source": "UA"
+                },
+                "Tenser's Floating Disk",
+                {
+                    "name": "Unearthly Chorus",
+                    "source": "UA"
+                },
+                "Unseen Servant",
+                {
+                    "name": "Wild Cunning",
+                    "source": "UA"
+                },
+                "Aid",
+                "Animal Messenger",
+                "Augury",
+                "Beast Sense",
+                "Blindness/Deafness",
+                "Blur",
+                "Calm Emotions",
+                "Continual Flame",
+                "Darkness",
+                "Darkvision",
+                "Detect Thoughts",
+                "Enhance Ability",
+                "Find Steed",
+                "Find Traps",
+                {
+                    "name": "Find Vehicle",
+                    "source": "UA"
+                },
+                "Gentle Repose",
+                "Healing Spirit",
+                "Hold Person",
+                "Invisibility",
+                "Knock",
+                "Lesser Restoration",
+                "Levitate",
+                "Locate Animals or Plants",
+                "Locate Object",
+                "Magic Weapon",
+                "Mind Spike",
+                "Mirror Image",
+                "Misty Step",
+                "Nystul's Magic Aura",
+                "Pass without Trace",
+                "Phantasmal Force",
+                "Prayer of Healing",
+                "Pyrotechnics",
+                "See Invisibility",
+                "Silence",
+                "Skywrite",
+                "Spiritual Weapon",
+                "Suggestion",
+                "Warding Bond",
+                "Warding Wind",
+                "Zone of Truth",
+                "Beacon of Hope",
+                "Blink",
+                "Catnap",
+                "Clairvoyance",
+                "Counterspell",
+                "Create Food and Water",
+                "Dispel Magic",
+                "Elemental Weapon",
+                "Fast Friends",
+                "Fear",
+                "Feign Death",
+                "Fly",
+                "Galder's Tower",
+                "Glyph of Warding",
+                "Haste",
+                "Hypnotic Pattern",
+                "Incite Greed",
+                "Magic Circle",
+                "Major Image",
+                "Mass Healing Word",
+                "Motivational Speech",
+                "Nondetection",
+                "Phantom Steed",
+                "Protection from Energy",
+                "Remove Curse",
+                "Revivify",
+                "Sending",
+                "Slow",
+                "Spirit Guardians",
+                "Tiny Servant",
+                "Tongues",
+                "Water Breathing",
+                "Water Walking",
+                "Arcane Eye",
+                "Banishment",
+                "Confusion",
+                "Death Ward",
+                "Dimension Door",
+                "Divination",
+                "Elemental Bane",
+                "Find Greater Steed",
+                "Freedom of Movement",
+                "Greater Invisibility",
+                "Guardian of Faith",
+                "Locate Creature",
+                "Otiluke's Resilient Sphere",
+                "Sickening Radiance",
+                "Stone SHape",
+                "Antilife Shell",
+                "Circle of Power",
+                "Commune",
+                "Commune with Nature",
+                "Contact other Plane",
+                "Control Winds",
+                "Creation",
+                "Dawn",
+                "Dispel Evil and Good",
+                "Far Step",
+                "Greater Restoration",
+                "Hallow",
+                "Greater Restoration",
+                "Hallow",
+                "Hold Monster",
+                "Legend Lore",
+                "Mass Cure Wounds",
+                "Mislead",
+                "Modify Memory",
+                "Passwall",
+                "Planar Binding",
+                "Raise Dead",
+                "Reincarnate",
+                "Scrying",
+                "Seeming",
+                "Skill Empowerment",
+                "Telekinesis",
+                "Teleportation Circle",
+                "Wall of Force",
+                "Wall of Light",
+                "Arcane Gate",
+                "Blade Barrier",
+                "Find the Path",
+                "Forbiddance",
+                "Globe of Invulnerability",
+                "Heal",
+                "Heroes' Feast",
+                "Investiture of WInd",
+                "Magic Jar",
+                "Move Earth",
+                "Planar Ally",
+                "Sunbeam",
+                "Tenser's Transformation",
+                "True Seeing",
+                "Word of Recall",
+                "Conjure Celestial",
+                "Divine Word",
+                "Etherealness",
+                "Mordenkainen's Magnificent Mansion",
+                "Plane Shift",
+                "Prismatic Spray",
+                "Project Image",
+                "Regenerate",
+                "Resurrection",
+                "Reverse Gravity",
+                "Sequester",
+                "Teleport",
+                "Whirlwind",
+                "Control Weather",
+                "Demiplane",
+                "Glibness",
+                "Holy Aura",
+                "Mind Blank",
+                "Power Word Stun",
+                "Sunburst",
+                "Telepathy",
+                "Astral Projection",
+                "Foresight",
+                "Gate",
+                "Imprisonment",
+                "Invulnerability",
+                "Mass Heal",
+                "Power Word Heal",
+                "Prismatic Wall"
+            ]
+        }
+    ]
+}
