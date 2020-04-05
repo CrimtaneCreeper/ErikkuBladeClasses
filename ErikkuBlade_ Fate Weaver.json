@@ -2,7 +2,7 @@
     "_meta": {
         "sources": [
             {
-                "json": "fateweaver",
+                "json": "FW",
                 "abbreviation": "FW",
                 "full": "Fate Weaver",
                 "authors": [
@@ -20,7 +20,7 @@
     "class": [
         {
             "name": "Fate Weaver",
-            "Source": "fw",
+            "Source": "FW",
             "hd": {
                 "number": 1,
                 "faces": 6
@@ -749,7 +749,7 @@
                             }
                         ]
                     ],
-                    "source": "fw",
+                    "source": "FW",
                     "shortName": "Aspect of the Sun"
                 },
                 {
@@ -836,7 +836,7 @@
                             }
                         ]
                     ],
-                    "source": "fw",
+                    "source": "FW",
                     "shortName": "Aspect of the Moon"
                 },
                 {
@@ -934,7 +934,7 @@
                             }
                         ]
                     ],
-                    "source": "fw",
+                    "source": "FW",
                     "shortName": "Aspect of Twilight"
                 }
             ],
