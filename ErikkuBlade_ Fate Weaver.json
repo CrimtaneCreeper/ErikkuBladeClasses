@@ -20,7 +20,7 @@
     "class": [
         {
             "name": "Fate Weaver",
-            "Source": "FW",
+            "source": "FW",
             "hd": {
                 "number": 1,
                 "faces": 6
