@@ -20,7 +20,7 @@
     "class": [
         {
             "name": "Fate Weaver",
-            "Source": "FW",
+            "Source": "fw",
             "hd": {
                 "number": 1,
                 "faces": 6
@@ -749,7 +749,7 @@
                             }
                         ]
                     ],
-                    "source": "FW",
+                    "source": "fw",
                     "shortName": "Aspect of the Sun"
                 },
                 {
@@ -836,7 +836,7 @@
                             }
                         ]
                     ],
-                    "source": "FW",
+                    "source": "fw",
                     "shortName": "Aspect of the Moon"
                 },
                 {
@@ -934,7 +934,7 @@
                             }
                         ]
                     ],
-                    "source": "FW",
+                    "source": "fw",
                     "shortName": "Aspect of Twilight"
                 }
             ],
