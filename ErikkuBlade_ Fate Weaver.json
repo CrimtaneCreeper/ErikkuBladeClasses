@@ -409,13 +409,6 @@
             "classFeatures": [
                 [
                     {
-                        "name": "Divination Deck",
-                        "entries": [
-                            "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 9 or lower automatically fails, and the card you draw is blank. A roll of 10 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
-                            "A divination deck is usually pawned off as a cheap toy in shops, being worth only 1 sp. Most shopkeepers will not purchase one from a player as it is of little interest. Finding one should not be difficult however."
-                        ]
-                    },
-                    {
                         "name": "Spellcasting",
                         "entries": [
                             "Born with an innate ability to manipulate the weave and the magic that follows, you can cast spells and bend fate to your whim. See chapter 10 of the Player’s Handbook for the general rules of spellcasting",
@@ -938,7 +931,7 @@
                     "shortName": "Aspect of Twilight"
                 }
             ],
-            "Fluff": [
+            "fluff": [
                 {
                     "entries": [
                         "A divination deck consists of 24 blank cards. A divination deck can be used during times of respite. (Outside of combat; during a short or long rest. This action counts as light activity.) Using a divination deck you perform a 10 minute ritual and call upon the voices of fate to guide you. When using a Divination Deck, ask a question. You can predict very vague messages through the divination deck, these messages can be forewarnings of upcoming events. These messages can be as vague as the DM desires. After the question is asked, roll the Divination Deck tool using Charisma. A roll of 9 or lower automatically fails, and the card you draw is blank. A roll of 10 or higher the roll is successful and you receive a vague answer to the question. The message appears on the blank card in a language of your choosing that you can read. The message can only be 50 words or less. The message remains visible on the card for up to 10 minutes, or until you dispel it. If you want a more specific answer to the question, ask the question again and roll once more. The DC is determined by the DM, however some questions cannot be answered by the deck, DM’s discretion.",
