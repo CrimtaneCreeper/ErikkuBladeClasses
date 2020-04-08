@@ -1,0 +1,856 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "HM",
+                "abbreviation": "HM",
+                "full": "Hemomancer",
+                "authors": [
+                    "Erikku Blade"
+                ],
+                "convertedBy": [
+                    "CrimtaneCreeper"
+                ],
+                "version": "1.0",
+                "url": "",
+                "targetSchema": "1.0.0"
+            }
+        ]
+    },
+    "class": [
+        {
+            "name": "Hemomancer",
+            "source": "HM",
+            "hd": {
+                "number": 1,
+                "faces": 10
+            },
+            "proficiency": [
+                "wis",
+                "con"
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Blood Pool",
+                        "Blood Disciplines"
+                    ],
+                    "rows": [
+                        [
+                            5,
+                            "-"
+                        ],
+                        [
+                            10,
+                            2
+                        ],
+                        [
+                            15,
+                            2
+                        ],
+                        [
+                            20,
+                            2
+                        ],
+                        [
+                            25,
+                            3
+                        ],
+                        [
+                            30,
+                            3
+                        ],
+                        [
+                            35,
+                            3
+                        ],
+                        [
+                            40,
+                            4
+                        ],
+                        [
+                            45,
+                            4
+                        ],
+                        [
+                            50,
+                            4
+                        ],
+                        [
+                            55,
+                            5
+                        ],
+                        [
+                            60,
+                            5
+                        ],
+                        [
+                            65,
+                            5
+                        ],
+                        [
+                            70,
+                            6
+                        ],
+                        [
+                            75,
+                            6
+                        ],
+                        [
+                            80,
+                            6
+                        ],
+                        [
+                            85,
+                            7
+                        ],
+                        [
+                            90,
+                            7
+                        ],
+                        [
+                            95,
+                            7
+                        ],
+                        [
+                            100,
+                            8
+                        ]
+                    ]
+                }
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium"
+                ],
+                "weapons": [
+                    "simple",
+                    "longswords",
+                    "rapiers"
+                ],
+                "tools": [
+                    "Alchemist Supplies"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "Athletics",
+                                "Acrobatics",
+                                "Arcana",
+                                "Deception",
+                                "Insight",
+                                "Investigation",
+                                "Intimidation",
+                                "Medicine"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) 1 simple weapon or (b) 1 longsword/rapier",
+                    "(a) alchemist Supplies or (b) healer's kit",
+                    "(a) leather armor or (b) scale armor",
+                    "(a) scholar's pack or (b) dungeoneer's pack",
+                    "(a) 10 empty vials and 1 syringe"
+                ],
+                "goldAlternative": "5d4x10"
+            },
+            "multiclassing": {
+                "requirements": {
+                    "wis": 13
+                },
+                "proficienciesGained": {}
+            },
+            "classFeatures": [
+                [
+                    {
+                        "name": "Blood Pool",
+                        "entries": [
+                            "Starting at 1st level, you have a pool of blood that you can use as a buffer when you use your blood manipulation. You can have a maximum of 5 Blood Points in your Blood Pool at a time, this increases as you gain levels in this class. Your pool starts at 0 when you finish a long rest (or complete 4 short rests), this is because in order for the blood to be used it must be “Fresh Blood”, blood from a living creature or a corpse that has been dead for no longer than 4 hours, otherwise the blood dries or becomes impure. Whenever you use a Hemomancer feature that forces you to lose hit points, you can instead draw from this Blood Pool instead. Each blood point counts as 1 hit point. 1 ounce of blood is enough to fill 1 Blood Point into the Blood Pool. This blood must be “Fresh Blood” as described earlier. Alternatively, as an action you can take 1d4 + your Hemomancer level damage to fill your blood pool by an amount equal to half the amount of damage dealt (rounded down, minimum of 1).  As a bonus action on your turn, you can take blood from a vial, or other form of containment, and fill your blood pool by an amount as described above, emptying the vial or other form of containment. (Note a typical vial contains up to 4 ounces of liquid.) Once your blood pool is filled completely using one of the following methods, you cannot fill it again until you complete a short or long rest. When you drop a creature to 0 hit points, you gain an amount of Blood Points into your Blood Pool equal to their CR level. If their CR is anything below 1 but greater than 0, you gain 1 point. This feature does not apply to a creature that does not possess blood."
+                        ]
+                    },
+                    {
+                        "name": "Blood Manipulation",
+                        "entries": [
+                            "Also starting at 1st level, you have a certain control over the blood inside of you. You have access to the following abilities starting at 1st level :",
+                            "Blood Forge. Whenever you roll initiative (or as a bonus action on your turn) you can spend a hit die and deal 1d4, 1d6, 1d8, or 1d10 damage to yourself. By doing so, you can create a single-handed simple weapon with a reach of 5ft if it’s a melee weapon, or a range of 80/240 if it’s a ranged weapon. The weapon has the finesse property, in addition you can alternatively use Wisdom for the attack and damage rolls for the weapon instead of Strength or Dexterity. The damage dealt by your blood weapons is necrotic damage. The damage die of the weapon is equal to the die you used to take damage. The weapons can last for up to 4 hours or until you stop holding/drop the weapon. They also require focus to use, as if you were concentrating on a spell. You can reforge your weapon, even if you have lost concentration on it, on your turn as a Bonus Action. Doing so will reroll the damage die you spent earlier and you take damage equal to the amount rolled. After 4 hours, you cannot reforge your weapon and must spend another hit die to forge a Blood Weapon.",
+                            "Bloody Tendrils. As a bonus action you can create a number of tendrils of blood up to a maximum of your Wisdom Modifier. Doing so spends 1 hit die, but deals an amount of damage to yourself equal to 1d10 per tendril created. Each tendril has a number of hit points equal to your Hemomancer level. Whenever you would take damage, as a reaction one of your tendrils can become a target for the attack, taking the damage for itself. When a tendril drops to 0 hit points it is destroyed. Each of these tendrils deals 1d10 necrotic damage and has a reach of 10 ft. When you take the attack action, you can forgo your weapon attack to instead attack with your Tendrils, making 1 attack for each tendril you have when you take the attack action. Your Bloody Tendrils count as simple weapons and use your wisdom modifier to hit but does not add it to damage rolls. On a successful hit the target is grappled, Escape DC equals 8 + Your Proficiency Bonus + your Wisdom Modifier. Once you have summoned your Bloody Tendrils you cannot do so again until you complete a short or long rest.",
+                            "Blood Barrier. As a reaction on your turn, you can spend 5 blood points to add your Wisdom Modifier to your AC and take no damage from the Magic Missile spell. This benefit lasts until the start of your next turn."
+                        ]
+                    },
+                    {
+                        "name": "Bloody Archetype Feature",
+                        "entries": [
+                            "At 1st level, you gain a feature from your chosen Bloody Archetype"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Blood Disciplines",
+                        "entries": [
+                            "Blood Disciplines are additional extensions of your blood manipulation’s capabilities. These disciplines make every Hemomancer unique from the other, as some will master arts that others would not. You have 2 Blood Disciplines starting at 2nd level and gain more upon leveling up as shown in the Hemomancer Table"
+                        ]
+                    },
+                    {
+                        "name": "Bloody Restoration",
+                        "entries": [
+                            "Starting at 2nd level, you gain the uncanny ability to heal after short instances of time. You restore half of your hit point maximum after a short rest, in addition when you spend a hit die to restore hit points you double the result. When you regain hit points, you can add half of the hit points restored to your Blood Pool - once you do so you cannot do so again until you finish a short or long rest."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Blood Bath",
+                        "entries": [
+                            "At 3rd level, As a bonus action on your turn you can enter a Blood Bath. While your Blood Bath is active you take 2 points of damage at the start of each of your turns. In addition you gain the following benefits :",
+                            "You have resistance to slashing, bludgeoning, and piercing damage. \nWhen you make an attack roll that uses Strength or Wisdom you gain a +2 bonus to the damage roll. This bonus increases by 1 at 5th, 11th, and 17th levels. \nYou have advantage on Wisdom and Constitution Saving Throws.\nOnce per round when you would take damage from a Hemomancer feature (except for this feature.), you can choose to not take damage. Doing so gives you vulnerability to the next damage roll you would suffer.\nWhen you deal damage to a creature using a Blood Weapon or a Bloody Tendril you gain 2 Blood Points into your Blood Pool.",
+                            "Your Blood Bath remains active so long as you take damage, make an attack roll, or prolong it as a Bonus Action. If by the start of your turn you do not do any of the following, your Blood Bath ends. Once your Blood Bath ends you cannot enter a Blood Bath again until you have finished a short or long rest. You gain an additional use of your Blood Bath at 9th and 15th levels."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Blood Manipulation Improvement",
+                        "entries": [
+                            "Starting at 5th level you gain the following Blood Manipulation abilities :",
+                            "Blood Transmutation. As an action by taking 1d10 damage, you can transmute up to 4 ounces of blood, or 4 Blood Points, into 4 ounces of any of the following liquids : Water, Oil, Ale, Beer, Vinegar, Wine, Basic poison, Acid, Honey, Mayonnaise. You can transmute it into other basic liquids under the GM’s discretion.",
+                            "Blood Rush. As a bonus action you can spend a hit die and take damage equal to the result. You can take the dash or disengage actions as a bonus action for as many rounds equal to what you rolled on the hit die, excluding your constitution modifier."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Bloody Archetype Feature",
+                        "entries": [
+                            "At 6th level, you gain a feature from your chosen Bloody Archetype"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Magic Infused Blood",
+                        "entries": [
+                            "Starting at 7th level, your Blood Weapons and Bloody Tendrils count as magical for the purposes of overcoming magical resistances."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [],
+                [
+                    {
+                        "name": "Blood Magic",
+                        "entries": [
+                            "Starting at 10th level you gain the capabilities to cast magic through your control over blood. Pick three cantrips from the Wizard’s Spell list, you can now cast those cantrips using Wisdom as your Spellcasting Ability. Pick two 1st, 2nd, and 3rd level spells each from the Wizard’s Spell List. You can cast each of these spells, using Wisdom as your Spellcasting Ability, by taking damage equal to 1d10 x the spell’s level. Once you have cast a spell using this feature you cannot cast that spell again until you have finished a short or long rest. You pick 2 additional spells of 1st, 2nd, 3rd, or 4th levels at 16th level."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Blood Manipulation Improvement",
+                        "entries": [
+                            "Starting at 11th level, you gain the following Blood Manipulation Abilities :",
+                            "Bloody Vitality. By spending a hit die you or an ally within 30ft of you can gain an amount of temporary hit points equal to the result. If you give it to an ally you can roll an additional hit die, doing so deals damage to you equal to what the second result was.",
+                            "Bloody Mary. You can release outward  a burst of blood. Each creature, including yourself, within 30ft of you must make a Dexterity Saving Throw. You automatically fail this saving throw. On a failed save, the creature takes necrotic damage equal to twice your Hemomancer level and their speed is reduced to 0. On a success they take damage equal to your Hemomancer level and their speed is not reduced."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Iron Blood",
+                        "entries": [
+                            "Starting at 13th level, you have resistance to poison damage and advantage on saving throws against being poisoned. In addition you are immune to disease."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Bloody Archetype feature",
+                        "entries": [
+                            "At 14th level, you gain a feature from your chosen Bloody Archetyoe"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Strong Blooded",
+                        "entries": [
+                            "At 15th level choose Strength or Dexterity, you add half your Proficiency Bonus to Ability Checks and Saving Throws using the chosen ability score. In addition, you have advantage on Death Saves."
+                        ]
+                    }
+                ],
+                [],
+                [
+                    {
+                        "name": "Blood Manipulation Improvement",
+                        "entries": [
+                            "Starting at 17th level you gain the following Blood Manipulation Abilities :",
+                            "Bloody Curse. As a bonus action choose 1 creature within 60 ft. That creature takes additional necrotic damage equal to your proficiency bonus when you hit them with a Blood Weapon or a Bloody Tendril. In addition, when you reduce that creature to 0 hit points you restore 1 hit die. Also when the cursed creature falls to 0 hit points, as bonus action you can move the curse to another target within 60 ft.",
+                            "Bloody Demise. As an action you can absorb blood from a corpse that has been dead for no longer than 4 hours within 10 ft of you. You gain an amount of Blood Points into your Blood Pool equal to twice their CR."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Bloody Archetype feature",
+                        "entries": [
+                            "At 18th level, you gain a feature from your chosen Bloody Archetype"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Blood Control",
+                        "entries": [
+                            "At 20th level, you have attained the ultimate control over your Blood Manipulation. When you would take damage from a Hemomancer feature, you can choose to take no damage instead. You can do this a number of times equal to your Wisdom Modifier. In addition, when you roll initiative you regain an amount of hit dice equal to your Wisdom Modifier. You can use your Blood Bath an unlimited amount of times. Choose 1 of your Blood Magic spells. You can cast that spell at its lowest level at will an unlimited amount of times."
+                        ]
+                    }
+                ]
+            ],
+            "subclassTitle": "Bloody Archetype",
+            "subclasses": [
+                {
+                    "name": "Blood Bender",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Blood Bender",
+                                "entries": [
+                                    "The powers to bend and control blood, most would consider this act evil and chaotic, some would argue that it depends on the user and how they choose to use their power. As a Blood Bender you will have the powers to bend and weave the blood around you to your whim. Starting at 1st level when you choose this archetype you learn the “Shape Water” cantrip, but instead of being able to shape water, you instead shape blood. At 4th level you learn the Hold Person spell, at 7th level you learn the Hold Monster Spell, and at 9th level you learn the Dominate Person Spell. Each of these spells uses your Wisdom Modifier. Each spell of 1st level or higher using this feature can only be used once per short or long rest and cost an amount of hit points equal to twice the spell’s level to use. Each spell must be cast at their lowest level."
+                                ]
+                            },
+                            {
+                                "name": "Additional Blood Manipulation Abilities",
+                                "entries": [
+                                    "Starting at 1st level, these abilities are added into your “Blood Manipulation” Feature.",
+                                    "Blood Transfusion. By spending a hit die you can restore an amount of hit points to 1 ally, not including yourself, that you can see within 10 ft of you equal to the amount rolled by the die. You then take damage equal to the amount they restored. This healing has no effect on undead or constructs. At 5th level the amount healed increases by 1d10, it does so again at 11th level, and once more at 17th level.",
+                                    "Blood Absorption. Once per round, whenever an ally or enemy within 5 ft of you takes 5 or more slashing, piercing, or necrotic damage you gain 5 temporary hit points. The amount of times per round this can be used increases by 1 at 5th level, 1 more at 11th level, and finally once again at 17th level. This effect can stack up to a maximum of 20 temp hp."
+                                ]
+                            },
+                            {
+                                "name": "Enhanced Blood Pool",
+                                "entries": [
+                                    "Also starting at 1st level, your blood pool maximum is doubled. In addition you regain half of your hit dice (rounded up) after a short rest, and all of them after a long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Blood Bolstering",
+                                "entries": [
+                                    "Starting at 6th level you can target a number of allies within 60 ft of you (not including yourself) equal to your Wisdom Modifier. You can expend 1 hit die to grant them temporary hit points equal to the amount you rolled. In addition they gain advantage on their next saving throw. This feature is added to your “Blood Manipulation” feature."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Adrenaline Rush",
+                                "entries": [
+                                    "Starting at 14th level, you and a number of allies within 60 ft of you equal to your Wisdom Modifier gain advantage on their next ability check, attack rolls, and saving throw and gains a number of temporary hit points equal to your Hemomancer level. In addition your movement speeds are increased by 10 ft and you can take the dash action as a bonus action. You each gain an additional action that you can only use to make 1 weapon attack, disengage, dodge, or use an object. These benefits last for 1 minute, afterwards everyone who benefited from this ability suffers 1 level of exhaustion. In addition, you take an amount of damage equal to twice your Hemomancer level. Once you use this feature you cannot do so again until you finish a short or long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Overflowing Blood",
+                                "entries": [
+                                    "Starting at 18th level, whenever you enter your Blood Bath you lose 2 additional hit points at the start of each of your turns, but you restore conscious allies within 30 ft of you 4 hit points. In addition, whenever you deal damage using a Blood Manipulation feature you deal an additional 2 damage. Also during your Blood Bath, you have the power to bend the blood inside of your enemies to your whim. You can cast the “Dominate Monster” spell at will, using Wisdom as your spellcasting ability. Once you do so you cannot do so again until you finish a long rest."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "HM",
+                    "shortName": "Blood Bender"
+                },
+                {
+                    "name": "Blood Invoker",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Blood Invoker",
+                                "entries": [
+                                    "Why bother trying to improve your feeble body with “Physical Labor” when you can do it when it matters and only when it matters. You fight for yourself, to keep yourself alive. If others get hurt, who cares? At least you’ll survive. That’s all that matters. Starting at 1st level when you take this archetype you can cast the Blade Ward cantrip as a bonus action. At 4th level you can cast the Enhance Ability spell but only on yourself. At 7th level you can cast the Death Ward spell but only on yourself, and at 9th level you can cast the Negative Energy Flood spell. Each of these spells uses your Wisdom Modifier. Each spell of 1st level or higher using this feature can only be used once per short rest or long rest and cost an amount of hit points equal to twice the spell’s level. Each spell must be cast at their lowest level."
+                                ]
+                            },
+                            {
+                                "name": "Additional Blood Manipulation Abilities",
+                                "entries": [
+                                    "Starting at 1st level, these abilities are added into your “Blood Manipulation” Feature.",
+                                    "Blood Enhancement. As a bonus action by spending a hit die and taking damage equal to what you roll you can make your Strength and Dexterity scores equal to your Wisdom Score. If they are equal to or greater than your Wisdom Score this feature provides no benefit. This benefit lasts for a number of rounds equal to your Wisdom Modifier. Once this effect ends you receive 1 level of exhaustion and expend 1 additional hit die, taking an amount of damage equal to what you roll.",
+                                    "Blood Rite. As a bonus action on your turn by spending 1 hit die you can call upon the powers of the elements. Roll the hit die and take an amount of damage equal to the result. Choose fire, cold, lightning, radiant, or necrotic damage. Your blood weapons deal an additional 1d10 points of damage equal to the chosen type for up to 1 minute. The effect ends early if you lose concentration on the effect, as if you were concentrating on a spell, or if you end it early as a bonus action. Alternatively, you can apply this benefit to one weapon of your choosing that you are wielding, the effects ends early if you drop the weapon, are knocked unconscious, or killed. You can boost the power of this rite by spending an additional hit die (taking damage accordingly) to gain an additional 1d10 damage of the chosen type. Once you boost the power of this rite, you cannot do so again until you finish a short or long rest."
+                                ]
+                            },
+                            {
+                                "name": "Enhanced Vitality",
+                                "entries": [
+                                    "Also starting at 1st level you gain 1 additional hit point and 1 more each time you gain a Hemomancer level. In addition, anytime you restore hit points using potions or other magical means, you regain additional hit points equal to your Hemomancer level. In addition, you have a seperate pool of hit dice that can only be used for your Hemomancer features. You have a number of hit dice in this pool equal to your constitution modifier. This is known as your “Blood Reserve”. Your Blood Reserve is regained after a long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Bloody Reflexes",
+                                "entries": [
+                                    "At 6th level you have advantage on (Dexterity) Initiative Checks. In addition, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Improved Blood Arts",
+                                "entries": [
+                                    "At 14th level your Blood Weapons and Bloody Tendrils become faster and deadlier. Whenever you take the attack action you can make up to two attacks with your blood weapons instead of once. In addition, your blood weapons and bloody tendrils scores a critical hit on a 19 or 20."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Blood Rage",
+                                "entries": [
+                                    "Starting at 18th level when you activate your Blood Bath you gain an amount of temporary hit points equal to twice your Hemomancer level. While the temporary hit points are active you can choose up to three of the following prerequisites to initiate. If you lose all of the temporary hit points or fall unconscious before you complete the prerequisites, you fail to initiate your Blood Rage, and you won’t be able to enter blood rage again until after you initiate your Blood Bath again. When all of the chosen prerequisites are met, you lose the temporary hit points and enter your “Blood Rage”. Your Blood Rage lasts a number of rounds equal to half your Wisdom Modifier (rounded down) + the number of prerequisites chosen. When your Blood Rage ends you cannot enter it again until you finish a long rest and you gain 1 level of exhaustion for each prerequisite you initiated.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Blood Rage",
+                                        "colLabels": [
+                                            "Prerequisite",
+                                            "Benefit on Success"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "Deal at least 40 points of damage to one creature.",
+                                                "Your Blood Weapons gains a +10 to damage rolls."
+                                            ],
+                                            [
+                                                "Successfully grapple a creature for at least 3 rounds.",
+                                                "You gain the benefits of the spell “Freedom of Movement”."
+                                            ],
+                                            [
+                                                "Successfully avoid taking damage for at least 3 rounds.",
+                                                "You gain the benefits from the Spell “Haste”."
+                                            ],
+                                            [
+                                                "Drop a creature to 0 hit points.",
+                                                "You are immune to bludgeoning, piercing, and slashing damage from non-magical attacks."
+                                            ],
+                                            [
+                                                "Move at least 120 ft.",
+                                                "You gain an additional 30 ft of movement speed."
+                                            ],
+                                            [
+                                                "Successfully disarm a creature.",
+                                                "Melee attacks made against you have disadvantage."
+                                            ],
+                                            [
+                                                "Make at least 10 melee attacks.",
+                                                "You gain 1 additional weapon attack."
+                                            ],
+                                            [
+                                                "Make at least 10 ranged attacks.",
+                                                "You gain 1 additional weapon attack."
+                                            ],
+                                            [
+                                                "Reduce your Current and Maximum Hit Points to 1. (When Blood Rage fails or successfully initiates your maximum hit points returns to normal)",
+                                                "Once per round if you were to take damage you can choose to take none instead. You do not take damage from your Hemomancer features."
+                                            ],
+                                            [
+                                                "Restore at least 30 hit points.",
+                                                "You regain 5 hit points at the start of each of your turns."
+                                            ],
+                                            [
+                                                "Succeed on at least 5 concentration checks.",
+                                                "You cannot lose concentration on spells and other magical effects."
+                                            ],
+                                            [
+                                                "Successfully damage at least 5 different creatures.",
+                                                "Extend the duration of Blood Rage by 5 rounds."
+                                            ]
+                                        ]
+                                    },
+                                    "In addition to the benefits provided above, while Blood Rage is active you have resistance to all damage except damage taken from your Hemomancer features. In addition you gain 1 additional action you can use to make 1 weapon attack, take the dash or disengage action, or take the dodge action. You have advantage on all attack rolls and saving throws."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "HM",
+                    "shortName": "Blood Invoker"
+                },
+                {
+                    "name": "Lycanthropy",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Lycanthropy",
+                                "entries": [
+                                    "Humanity is a small price to pay for power, let the madness overcome you so that your true power can flourish. Release the inner beast within you, unshackle the monster and let loose. Your enemies are your target, your allies an obstacle. Let no one get in your way, destroy anything that does. Lycanthropy comes in many forms. Each version of the curse is bound to a specific beast: wolf, bear, tiger, boar, and rat are a few of the more well-known variations."
+                                ]
+                            },
+                            {
+                                "name": "Curse of the Lycan",
+                                "entries": [
+                                    "Beginning at 1st level, choose Wolf, Bear, Tiger, Boar, or Rat. You gain a hybrid transformation that varies based on what you choose. As an action for up to 10 minutes on your turn you can transform into your Lycan form, doing so will grant you effects depending on what beast you chose. Once your transformation ends you cannot transform again until you finish a short or long rest.(Recommended to remove the creatures you didn't choose)",
+                                    "Any. You gain Bite and Claw attacks. They both use strength and deal 1d8 piercing or slashing damage of your choice. You gain vulnerability to damage from silvered weapons. You have advantage on Wisdom (Perception) checks that rely on sight and smell. You gain a darkvision for up to 60ft. You cannot discern color in this darkness, only shades of gray.",
+                                    "Wolf. You have advantage on Wisdom (Survival) checks. You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.",
+                                    "Bear. Your creature size increases by 1 stage. In addition when you take damage you can reduce that damage by 1d4. You can only reduce damage in this way once per round. This damage reduction increases by 1d4 when you reach 5th, 11th, and 17th levels.",
+                                    "Tiger. Your movement speed increases by 10 ft. Your jump distance is doubled. If you move at least 20 ft. straight toward a creature and then hit it with a claw attack on the same turn, that target must succeed on a Strength saving throw (DC: 8 + Proficiency + Strength) or be knocked prone. If the target is prone, you can make one bite attack against it as a bonus action.\n",
+                                    "Boar. You gain a tusk attack. (Uses the bite and claws stats) If you move at least 15 feet straight toward a target and then hit it with your tusks on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw (DC: 8 + Proficiency + Strength) or be knocked prone. Once per round if you would take damage equal to your Hemomancer level or less that would reduce you to 0 hit points, you instead remain at 1 hit point.",
+                                    "Rat. You have advantage on Dexterity (Stealth) checks. You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Lycan Madness",
+                                "entries": [
+                                    "Starting at 6th level, when you enter your Blood Bath you can immediately enter your Lycan form. When you enter your Lycan form while under the effects of Blood Bath you gain temporary hit points equal to your Wisdom Modifier at the start of each of your turns unless you are hit by a silvered weapon. In addition your Lycan weapons (claws, bite, etc.) deal necrotic damage equal to your Wisdom Modifier and count as Blood Weapons. Whenever you take damage from an ally, whether it be from a spell - misfire - etc., make a Wisdom Saving Throw against your Hemomancer Save DC. On a failed save you go into a frenzy, and you are under the effects of the Enemies Abound spell. The spell ends when your Blood Bath ends."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Dark Howl",
+                                "entries": [
+                                    "Starting at 14th level, as an action while in your Lycan form you can let out a howling roar. Each creature that can hear you must make a Constitution Saving Throw against your Hemomancer Save DC. On a failed save they take 4d10 thunder damage and are stunned for 1d4 rounds. On a successful save they take half as much damage and is not stunned. You gain 1 blood point for each creature that took damage from this effect."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Mastered Lycan",
+                                "entries": [
+                                    "Starting at 18th level, you are always under the effects of your Lycan form, but can retain your regular appearance. In addition as an action by spending a hit die and taking damage equal to the roll you can transform into the true form of the beast you chose. When you transform you retain your class features, statistics, and skill proficiencies. You can transform into the following beasts depending on what you chose for your Curse of Lycan.",
+                                    "Wolf. Dire Wolf, Wolf, Winter Wolf",
+                                    "Bear. Brown Bear, Black Bear, Cave Bear, Polar Bear, Huge Polar Bear",
+                                    "Tiger. Tiger, Sabertooth Tiger",
+                                    "Boar. Boar, Giant Boar",
+                                    "Rat. Rat, Giant Rat"
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "HM",
+                    "shortName": "Lycanthropy"
+                }
+            ],
+            "fluff": [
+                {
+                    "entries": [
+                        "As a Hemomancer, there are 3 different paths you can choose to walk. You can use your abilities to manipulate blood to heal your allies and enhance their abilities, you can alter your own blood and make yourself more powerful, or perhaps you gained your powers after committing yourself to take on the Lycanthropy curse and in doing so you’ve torn away your humanity to become something far greater."
+                    ],
+                    "name": "Hemomancer",
+                    "type": "section"
+                }
+            ]
+        }
+    ],
+    "optionalfeature": [
+        {
+            "source": "HM",
+            "name": "Blood Armor",
+            "entries": [
+                "While not wearing armor or wielding a shield your armor class equals 13 + Your Wisdom Modifier."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Death Grip",
+            "entries": [
+                "Whenever you land an attack using your Bloody Tendrils, the target becomes grappled. While grappled in this way instead of making an attack roll, once per round (except the turn it was grappled) your attack automatically hits the target when using a Bloody Tendril."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Masking Blood",
+            "entries": [
+                "You can manifest clothing using blood magic, you can cast the Disguise Self spell at will using Wisdom as the spellcasting ability. Each time you cast the spell in this way you take 1d10 damage."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Bloody Form",
+            "entries": [
+                "As an action on your turn you gain the ability to shapechange into an ooze type creature. While in your Bloody Form you have the Amorphous feature. (You can move through a space as narrow as 1 inch wide without squeezing.) While in this form you have resistance to slashing, piercing, and bludgeoning damage from non-magical attacks. In addition, you are immune to being prone and blinded. While in this form you have disadvantage on charisma checks against creatures whom you are not familiar with, or they are not familiar with you. In addition you cannot use your normal senses, instead you have a blindsight for up to 60 ft, and you are blind beyond that point. You cannot take the attack action or cast spells while in your Bloody Form. While in this form you can understand the languages you know, but you can’t read or speak. It is an action to shapechange back into normal form."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood Companion",
+            "entries": [
+                "You can cast the Find Familiar spell at will without material components using Wisdom as the spellcasting ability. This Familiar gains an attack that it can use during combat, Blood Shot, but it can only attack using this trait. Blood Shot. Ranged Weapon Attack, Proficiency + DEX to hit, range 60 ft, one creature. Hit: 1d4 necrotic damage. As an action the familiar can shapechange into an ooze type creature, when it does it loses its Blood Shot attack and gains the Amorphous feature. (You can move through a space as narrow as 1 inch wide without squeezing.) While in this form it has resistance to slashing, piercing, and bludgeoning damage from non-magical attacks. In addition, it is immune to being prone and blinded. In addition it cannot use its normal senses, instead it has a blindsight for up to 60 ft, and it is blind beyond that point. It is an action to shapechange back into normal form."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood Beam",
+            "entries": [
+                "You gain the Eldritch Blast cantrip using Wisdom as the spellcasting ability, but it deals necrotic damage instead. You can increase the damage by 1d10 for each ray by taking 1d10 damage to yourself for each ray you boost."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood Senses",
+            "entries": [
+                "You gain 10 ft of blindsight. In addition you know the general location of exposed blood within 120 ft of you. (i.e if a person is bleeding out within 120 ft of you, you know where they generally are.)\n"
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood Affinity",
+            "entries": [
+                "You have advantage on Wisdom (Medicine) checks. In addition when you successfully clean a wound that involved bleeding you can gain 1 blood point into your blood pool. In addition, you do not have to make a saving throw in reaction to seeing an abnormal amount of blood, evisceration of a creature, etc."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "False Death (Prerequisite 5th level)",
+            "entries": [
+                "You can cast the Feign Death spell at will without material components using Wisdom as the spellcasting ability, but only on yourself.  You can end the spell as a bonus action on your turn."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Eviscerate (prerequisite 5th level)",
+            "entries": [
+                "When you make the attack action using your Bloody Tendrils, they deal an additional 1d10 slashing damage."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Bleeding Rays (prerequisite 5th level)",
+            "entries": [
+                "You can cast the Scorching Ray spell at its lowest level at will using Wisdom as your spellcasting ability. Instead of dealing fire damage it deals necrotic damage. Each time you cast this spell you take 1d10 damage for each ray fired."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Scorching Blood (prerequisite 5th level)",
+            "entries": [
+                "When you are hit by a creature within 5ft of you by a melee attack that deals slashing, piercing, or necrotic damage, the attacker takes acid damage equal to your Wisdom Modifier (minimum of 1).\n"
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Great Weapon Forging (prerequisite 5th level)",
+            "entries": [
+                "When you use your Blood Forge feature you can make martial weapons and two-handed blood weapons. In order to forge a two-handed blood weapon, when you spend the hit die you take 1d12 damage instead of 1d4, 1d6, 1d8, or 1d10 damage. The damage die for the weapon is 1d12. Alternatively, whenever you forge a weapon using a 1d6 or 1d8 for the damage die, you can make the weapon a versatile weapon."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Chilling Blood (prerequisite 8th level)",
+            "entries": [
+                "You can cast the Armor of Agathys spell at will at 3rd level without material components using Wisdom as your spellcasting ability. Once you use this trait you cannot do so again until you finish a short or long rest."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Spiteful Blood (prerequisite 8th level)",
+            "entries": [
+                "You can cast the Bane spell at will at 3rd level without material components using Wisdom as your spellcasting ability. When you do so you take 1d10 damage for each creature you target with the spell. Once you use this trait you cannot do so again until you finish a short or long rest."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Toxic Blood (prerequisite 8th level)",
+            "entries": [
+                "Whenever you hit a creature using a blood weapon or your bloody tendrils the creature must make a Constitution Saving Throw, DC equal to 8 + Proficiency + Wisdom. On a failed save, the creature is poisoned until the start of your next turn. On a success the target is immune to the effects of this feature until the start of your next turn."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Unstable Blood Magic (prerequisite 8th level)",
+            "entries": [
+                "Whenever you cast a spell using your Hemomancer features roll a d10. On a 3 or lower your blood magic goes wild. Roll from the Wild Magic chart provided by the Wild Magic Sorcerer. When your blood magic goes wild you gain 10 points into your Blood Pool."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Impatient Adrenaline (prerequisite 11th level)",
+            "entries": [
+                "When you take the dash action you can take 1d10 damage to double your movement speed. You can use this feature a number of times equal to your Constitution Modifier. You regain all expended uses of this feature when you finish a long rest."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Fluidity of Blood (prerequisite 11th level)",
+            "entries": [
+                "You gain a swimming speed equal to twice your walking speed. In addition you can breathe water as if you could breathe air."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Destructive Blood (prerequisite 11th level)",
+            "entries": [
+                "When you hit with a weapon attack using your blood weapons or bloody tendrils, you can deal an additional 2d10 force damage by taking 2d10 damage to yourself. In addition, your blood weapons and bloody tendrils deal double damage to structures and objects."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Bloody Ambush (prerequisite 11th level)",
+            "entries": [
+                "When you have advantage to hit on a creature, or you attack a creature that is suprised, the target takes an additional 5d6 damage and is stunned until the end of their next turn. You can only gain the benefits of this feature once per round."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Vampiric Weapons (prerequisite 14th level)",
+            "entries": [
+                "When you successfully hit a creature with your Blood Weapons you gain an amount of Blood Points into your Blood Pool equal to half your Wisdom Modifier (rounded down)."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Improved Vitality (prerequisite 14th level)",
+            "entries": [
+                "While you are conscious you regain an amount of hit points at the start of your turn equal to half your proficiency bonus (rounded down). If you take any form of fire or cold damage you do not gain this benefit. In addition, the first time you would be knocked unconscious as a result of falling to zero hit points, you can spend your reaction remain at 1 instead. Once you fall unconscious you cannot gain the benefits from this feature again until you finish a long rest."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Chilling Blood (prerequisite 14th level)",
+            "entries": [
+                "While your blood bath is active, when you successfully hit a creature with a blood weapon or your bloody tendrils they suffer a -2 penalty to their AC until the start of your next turn. A creature can only suffer the penalties of this feature once per round."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Reduced Agony (prerequisite 14th level)",
+            "entries": [
+                "Whenever you take damage, as a reaction you can reduce the amount of damage you would take by 1d10 + your Wisdom Modifier. If you reduce the damage to 0, immediately you can make a single weapon attack using a blood weapon or a bloody tendril. Doing so will deal damage 1d10 damage to yourself."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Improved Blood Weapons (prerequisite 17th level)",
+            "entries": [
+                "Your Blood Weapons and Bloody Tendrils now gain a +3 bonus to attack and damage rolls. In addition, whenever you make a weapon attack using a Blood Weapon or Bloody Tendril, as a bonus action by spending a hit die and taking damage equal to what you roll, you can gain advantage on one attack you make with that chosen weapon."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Permanent Blood Weapon (prerequisite 17th level)",
+            "entries": [
+                "If you spend a 1 hour ritual concentrating on your Blood Weapon, you can have the weapon forged for an indefinite amount of time, no longer requiring concentration on the weapon. In addition, the weapon cannot be destroyed by non-magical means. You can only have 1 Permanent Blood Weapon at a time."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood Vortex (prerequisite 17th level)",
+            "entries": [
+                "By taking 6d10 damage, you create a 5ft tall and 30 ft radius swirling vortex of blood centered on yourself for 1 minute. The area within the vortex counts as difficult terrain. The vortex moves with you as you move. Each creature, except yourself, within range must make a Strength Saving Throw DC equal to 8 + Proficiency + Wisdom. The vortex deals 6d10 necrotic damage on a failed save and is dragged 10ft closer to the center. On a successful save they take half as much damage is not dragged."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Everlasting Horror (prerequisite 17th level)",
+            "entries": [
+                "While you are conscious, every hostile creature that can see you must make a wisdom saving throw, DC 8 + Proficiency + Wisdom. On a failed save they are frightened. While frightened by you in this way, they go into a panic and can only make the attack action on you, otherwise they must use their action to hide, disengage, or dash. A creature who passes the saving throw is not frightened and immune to this feature for 1 hour. A creature can repeat the saving throw at the end of their turn, but not if they have used the attack action."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood for the Blood God (prerequisite 20th level)",
+            "entries": [
+                "When you kill a creature using a Blood Weapon or a Bloody Tendril, as a reaction you can shout “Blood for the Blood God!”. Your Blood Pool is instantly filled and you gain an amount of temporary hit points equal to the creature’s CR."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Ultimate Vitality (prerequisite 20th level)",
+            "entries": [
+                "Once while you are conscious, you can restore up to half of your maximum hit points and you gain 25 Blood Points to your Blood Pool. Once you use this feature you cannot do so again until you finish a long rest."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Sacrificial Clone (prerequisite 20th level)",
+            "entries": [
+                "You know the clone spell and can cast it once per year without requiring material components. Once while you are unconscious if you were to die and you do not have an active clone, instead all of the blood remaining in your body, as well as your required organs, rises out and you enter your Bloody Form. When you do, you are at 1 hit point and have 3 levels of exhaustion. Your body perishes and requires a new one for the Bloody Form to enter. If you cannot find a body within an amount of days equal to your constitution modifier, you perish. Entering a new body is difficult, and requires an intense amount of willpower. As an action, make an opposing Wisdom Check against the creature whose body you are entering. The target cannot take actions or reactions until the either creature succeeds. On a success the target takes 1 death fail, on a failure you take 1 death fail. When the target has 3 death fails, the soul is forced out, and your soul takes its place, with you making their body your own. You gain their statistics, but not their class features. You do gain their innate abilities, innate spellcasting, and racial traits. You do however replace their Intelligence, Wisdom, and Charisma scores with your own."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Lethal Strike (prerequisite 20th level and Improved Blood Weapons)",
+            "entries": [
+                "When you score a critical hit with a Blood Weapon or a Bloody Tendril, by spending half of your hit dice and taking the damage accordingly you can instantly drop the creature to 0 hit points, doing so does not outright kill them. You can use this feature once per long rest. This feature has no effect on creatures with Legendary Resistance."
+            ],
+            "featureType": "BloodDisciplines"
+        }
+    ]
+}
