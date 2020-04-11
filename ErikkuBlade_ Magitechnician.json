@@ -1,0 +1,910 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "MT",
+                "abbreviation": "MT",
+                "full": "Magitechnician",
+                "authors": [
+                    "Erikku Blade"
+                ],
+                "convertedBy": [
+                    "CrimtaneCreeper"
+                ],
+                "version": "2.0",
+                "url": "",
+                "targetSchema": "1.0.0"
+            }
+        ]
+    },
+    "class": [
+        {
+            "name": "Magitechnician",
+            "source": "MT",
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                "int",
+                "con"
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Magitech Research",
+                        "Magitech Energy"
+                    ],
+                    "rows": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0,
+                            15
+                        ],
+                        [
+                            3,
+                            20
+                        ],
+                        [
+                            3,
+                            25
+                        ],
+                        [
+                            3,
+                            30
+                        ],
+                        [
+                            4,
+                            35
+                        ],
+                        [
+                            4,
+                            40
+                        ],
+                        [
+                            4,
+                            45
+                        ],
+                        [
+                            5,
+                            50
+                        ],
+                        [
+                            5,
+                            60
+                        ],
+                        [
+                            5,
+                            60
+                        ],
+                        [
+                            6,
+                            65
+                        ],
+                        [
+                            6,
+                            70
+                        ],
+                        [
+                            6,
+                            75
+                        ],
+                        [
+                            7,
+                            80
+                        ],
+                        [
+                            7,
+                            85
+                        ],
+                        [
+                            7,
+                            90
+                        ],
+                        [
+                            8,
+                            95
+                        ],
+                        [
+                            8,
+                            100
+                        ],
+                        [
+                            8,
+                            200
+                        ]
+                    ]
+                }
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium"
+                ],
+                "weapons": [
+                    "simple"
+                ],
+                "tools": [
+                    "tinker's tools",
+                    "smith's tools"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "Investigation",
+                                "Arcana",
+                                "History",
+                                "Nature",
+                                "Perception",
+                                "Insight",
+                                "Medicine"
+                            ],
+                            "count": 3
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) 1 simple weapon and leather armor or (b) 1 medium armor",
+                    "(a) explorer's pack or (b) scholar's pack",
+                    "(a) simple ranged weapon or (b) 1 simple melee weapon",
+                    "(a) tinker's tools, crowbar, set of magitech tools worth 50 gp",
+                    "(a) 8d4x10 gold"
+                ]
+            },
+            "multiclassing": {
+                "requirements": {
+                    "int": 13
+                },
+                "proficienciesGained": {
+                    "tools": [
+                        "tinker's tools"
+                    ]
+                }
+            },
+            "classFeatures": [
+                [
+                    {
+                        "name": "Tinker's Tools Improvement",
+                        "entries": [
+                            "Starting at 1st level you become very proficient with your tinkers tools gaining expertise in them, adding a +1 to your Tinkers Tools. You gain this benefit again at later levels as shown in the chart above. Furthermore, you can use your Tinkers Tools to make any repairs on your Magitech so long as you have the sufficient GP and time."
+                        ]
+                    },
+                    {
+                        "name": "Magitech Specialization Feature",
+                        "entries": [
+                            "At 1st level, you gain a feature from your chosen Magitech Specialization"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Gear",
+                        "entries": [
+                            "Starting at 2nd level your expertise in inventing has allowed you to create your very own set of Magitech Gear. Magitech Gear is essentially both your armor, and your workstation. By using lightweight but sturdy materials you have managed to create a two-in-one deal! The armor itself has a lot of compartments that store your various items and tools. The armor can don and off as a bonus action. While donned off, your armor can transform into a workstation that you can use to craft your various different magitech devices, although a lab would still be nicer to have. This armor makes your AC 11 + your Intelligence Modifier and counts as light armor by using very lightweight metals for the armor itself. The armor can also use magitech to retain the appearance of any articles of clothing you desire. As a bonus action you can spend 2 Magitech Energy to do one of the following : ",
+                            "Use the Dodge Action",
+                            "Stabilize a dying ally",
+                            "Make a single weapon attack using a Magitech Weapon"
+                        ]
+                    },
+                    {
+                        "name": "Magitech Weapons",
+                        "entries": [
+                            "Starting at 2nd Level your creativeness and knowledge of mechanics allows you to create two weapons, 1 ranged and 1 melee weapon. You can use your Intelligence for the attack and damage rolls. These weapons by default do 1d8 damage. (Damage varies on the type of magitech weapon.) As a bonus action on your turn you can spend 5 Magitech Energy to exert more damage output, dealing an additional 1d10 Force Damage. "
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Research",
+                        "entries": [
+                            "As a Magitechnician you are capable of doing many things. From crafting complex constructs to making mundane gadgets. Your limit is your imagination, however you must also do the necessary research to accomplish what you wish. ",
+                            "Beginning at 3rd level, you start with 3 Magitech Research options found here. You gain additional Magitech Research options when you gain levels in this class as shown in the Magitechnician Table. Some Magitech Research options will have prerequisites that must be met before taking them.\n"
+                        ]
+                    },
+                    {
+                        "name": "Magitech Specialization Feature",
+                        "entries": [
+                            "At 3rd level, you gain a feature from your chosen Magitech Specialization"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Weapon Improvement",
+                        "entries": [
+                            "At 5th level your weapon deals 1d6 extra damage of the weapon’s type. Additionally, you can change the weapon’s damage to be slashing, bludgeoning, piercing, or force damage. At 10th level the extra damage die becomes a d8 and at 15th level it becomes a d10. ",
+                            "Also at 5th level your magitech weapons become magical for the purposes of overcoming magical resistance and receive a +1 bonus to attack and damage rolls. At 10th level the bonus becomes +2 and at 15th level the bonus becomes +3."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Gear Improvement",
+                        "entries": [
+                            "Upon reaching 6th Level, you have improved your armor with your constant tinkering. The armor class becomes 12 + Intelligence Modifier and wearing the improved armor stimulates your body, granting you a slight boost to your movement speed. You gain an additional 5ft to your movement speed. In addition, the armor counts as magical and while wearing the armor you have resistance to bludgeoning, piercing, and slashing damage from non-magical attacks.",
+                            "At 11th level the armor class becomes 13 + Intelligence Modifier and at 16th level it becomes 14 + Intelligence Modifier.",
+                            "Also at 11th level while wearing your Magitech Gear you add your proficiency bonus to Dexterity Saving Throws and at 16th Level you add your proficiency bonus to Strength Saving Throws while wearing the armor."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Invention Improvement",
+                        "entries": [
+                            "By far one of the most versatile features, starting at 7th level your invention can be improved upon even further, the limits to what you can do is ultimately up to the GM, however sky's the limit so long as the sky is an option. Your invention can do an assortment of things and as mentioned back at level 1, work with your GM on the energy cost of the many things your invention will be able to do. Right off the bat however, one guaranteed feature your new invention will receive is durability against magical and non magical damage, gaining resistance to all damage. The HP of your invention also increases by 50. You gain this feature again at 13th level, and once more 19th level."
+                        ]
+                    },
+                    {
+                        "name": "Magitech Specialization Feature",
+                        "entries": [
+                            "At 7th level, you gain a feature from your chosen Magitech Specialization"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Tinker's Tools Improvement",
+                        "entries": [
+                            "See 1st level Tinker's Tools Improvement Feature"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Weapon Improvement",
+                        "entries": [
+                            "See 5th level Magitech Weapon Improvement Feature"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Gear Improvement",
+                        "entries": [
+                            "See 6th level Magitech Gear Improvement Feature"
+                        ]
+                    },
+                    {
+                        "name": "Magitech Specialization Feature",
+                        "entries": [
+                            "At 11th level, you gain a feature from your chosen Magitech Specialization"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Invention Improvement",
+                        "entries": [
+                            "See 7th level Magitech Invention Improvement"
+                        ]
+                    },
+                    {
+                        "name": "Tinker's Tool Improvement",
+                        "entries": [
+                            "See 1st level Tinker's Tool Improvement Feature"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Specialization Feature",
+                        "entries": [
+                            "At 14th level, you gain a feature from your chosen Magitech Specialization"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Weapon Improvement",
+                        "entries": [
+                            "See 5th level Magitech Weapon Improvement"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    },
+                    {
+                        "name": "Magitech Gear Improvement",
+                        "entries": [
+                            "See 6th level Magitech Gear Improvement"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Tinker's Tool Improvement",
+                        "entries": [
+                            "See 1st level Tinker's Tool Improvement"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Specialization Feature",
+                        "entries": [
+                            "At 18th level, you gain a feature from your chosen Magitech Specialization"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Magitech Invention Improvement",
+                        "entries": [
+                            "See 7th level Magitech Invention Improvement Feature"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ultima Magitech",
+                        "entries": [
+                            "Through all your research of Magitech, none has been more powerful and efficient than Ultima Magic. At 20th Level your energy capacity is now 200. Each ability that uses your Magitech Energy now costs half as much energy points rounded down to a minimum of 1. Also, whenever you roll initiative while having no Magitech Energy, you can regain 3d10 + your Intelligence Modifier Magitech Energy. Your Magitech Invention also becomes indestructible, however it can still be damaged to the point of being unable to function, which will require a DC 15 check to repair."
+                        ]
+                    },
+                    {
+                        "name": "Magitech Weapon Mastery",
+                        "entries": [
+                            "By using Ultima Magic, you have combined that with your weapons, making all the necessary upgrades. Your weapons become indestructible and now a 19 or 20 on the d20 counts as a critical. By spending 20 Magitech Energy (does not get halved by your Ultima Magitech feature.) you can emit your sword in an aura of Ultima Magic. You add an additional 4d10 Force damage and your weapon now ignores damage resistances and immunities, then pick a setting: Stun - Non-Lethal - Kill. The following will happen depending on the setting:",
+                            "Stun : A creature hit by this attack makes a Constitution Saving Throw DC 8 + Proficiency + Intelligence. On a failed save, the creature is stunned for 1 minute. The creature can repeat it’s save at the end of your turns, ending the effect on a success. On a critical hit the target makes no saving throw and is stunned for up to 1 hour. (6d10 minutes)",
+                            "Severe : When you land a hit using the weapon, choose a part of the body other than the head. Roll 1d6, on a 5 or a 6 the limb is severed from the body as long as the creature is your size or smaller. If a creature is larger the limb goes numb and will require another successful hit and d6 roll to successfully remove the limb. If the creature is 2 sizes larger than you or more, this has no effect.",
+                            "Instant - Kill : Roll a d10, on a 9-10 the attack will instantly knock the target to 0 HP.  They have disadvantage on Death Saves for the next minute. On a crit and a 9-10 this effect instead instantly kills the target. This has no effect if the target is an aberration, fiend, or celestial. (Takes 20 additional Magitech Energy to use this setting. )"
+                        ]
+                    },
+                    {
+                        "name": "Magitech Gear Mastery",
+                        "entries": [
+                            "By using Ultima Magic, you have allowed your Magitech Gear to go far beyond the normal limitations. Your gear becomes indestructible, only the means of the wish spell destroy your armor. ",
+                            "In addition you can now, as a reaction, spend 20 Magitech Energy Points (Does not get reduced by your Ultima Magic Feature) in order to emmitt an invisible barrier around you called “Ultima Shield”. The Ultima Shield grants you a +10 to AC (You do not gain the benefits of the shield of faith, shield, or any bonus to ac given by any kind of shield while this is active, you do however still gain the benefits of haste and similar effects.)",
+                            "Also when the Ultima Shield is activated, you gain an amount of Temporary HP equal to 1d100 + 50. When this temporary HP is depleted the shield is depleted. The Ultima Shield cannot be activated again until after you finish a long rest. The Ultima Shield also counts as a “Shield Spell '' for the purposes of blocking the Magic Missile spell and other similar spells. While the Ultima Shield is active you cannot attack with melee weapons, you can however attack with ranged weapons but only with Magitech Weapons."
+                        ]
+                    }
+                ]
+            ],
+            "subclassTitle": "Bloody Archetype",
+            "subclasses": [
+                {
+                    "name": "Blood Bender",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Blood Bender",
+                                "entries": [
+                                    "The powers to bend and control blood, most would consider this act evil and chaotic, some would argue that it depends on the user and how they choose to use their power. As a Blood Bender you will have the powers to bend and weave the blood around you to your whim. Starting at 1st level when you choose this archetype you learn the “Shape Water” cantrip, but instead of being able to shape water, you instead shape blood. At 4th level you learn the Hold Person spell, at 7th level you learn the Hold Monster Spell, and at 9th level you learn the Dominate Person Spell. Each of these spells uses your Wisdom Modifier. Each spell of 1st level or higher using this feature can only be used once per short or long rest and cost an amount of hit points equal to twice the spell’s level to use. Each spell must be cast at their lowest level."
+                                ]
+                            },
+                            {
+                                "name": "Additional Blood Manipulation Abilities",
+                                "entries": [
+                                    "Starting at 1st level, these abilities are added into your “Blood Manipulation” Feature.",
+                                    "Blood Transfusion. By spending a hit die you can restore an amount of hit points to 1 ally, not including yourself, that you can see within 10 ft of you equal to the amount rolled by the die. You then take damage equal to the amount they restored. This healing has no effect on undead or constructs. At 5th level the amount healed increases by 1d10, it does so again at 11th level, and once more at 17th level.",
+                                    "Blood Absorption. Once per round, whenever an ally or enemy within 5 ft of you takes 5 or more slashing, piercing, or necrotic damage you gain 5 temporary hit points. The amount of times per round this can be used increases by 1 at 5th level, 1 more at 11th level, and finally once again at 17th level. This effect can stack up to a maximum of 20 temp hp."
+                                ]
+                            },
+                            {
+                                "name": "Enhanced Blood Pool",
+                                "entries": [
+                                    "Also starting at 1st level, your blood pool maximum is doubled. In addition you regain half of your hit dice (rounded up) after a short rest, and all of them after a long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Blood Bolstering",
+                                "entries": [
+                                    "Starting at 6th level you can target a number of allies within 60 ft of you (not including yourself) equal to your Wisdom Modifier. You can expend 1 hit die to grant them temporary hit points equal to the amount you rolled. In addition they gain advantage on their next saving throw. This feature is added to your “Blood Manipulation” feature."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Adrenaline Rush",
+                                "entries": [
+                                    "Starting at 14th level, you and a number of allies within 60 ft of you equal to your Wisdom Modifier gain advantage on their next ability check, attack rolls, and saving throw and gains a number of temporary hit points equal to your Hemomancer level. In addition your movement speeds are increased by 10 ft and you can take the dash action as a bonus action. You each gain an additional action that you can only use to make 1 weapon attack, disengage, dodge, or use an object. These benefits last for 1 minute, afterwards everyone who benefited from this ability suffers 1 level of exhaustion. In addition, you take an amount of damage equal to twice your Hemomancer level. Once you use this feature you cannot do so again until you finish a short or long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Overflowing Blood",
+                                "entries": [
+                                    "Starting at 18th level, whenever you enter your Blood Bath you lose 2 additional hit points at the start of each of your turns, but you restore conscious allies within 30 ft of you 4 hit points. In addition, whenever you deal damage using a Blood Manipulation feature you deal an additional 2 damage. Also during your Blood Bath, you have the power to bend the blood inside of your enemies to your whim. You can cast the “Dominate Monster” spell at will, using Wisdom as your spellcasting ability. Once you do so you cannot do so again until you finish a long rest."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "HM",
+                    "shortName": "Blood Bender"
+                },
+                {
+                    "name": "Blood Invoker",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Blood Invoker",
+                                "entries": [
+                                    "Why bother trying to improve your feeble body with “Physical Labor” when you can do it when it matters and only when it matters. You fight for yourself, to keep yourself alive. If others get hurt, who cares? At least you’ll survive. That’s all that matters. Starting at 1st level when you take this archetype you can cast the Blade Ward cantrip as a bonus action. At 4th level you can cast the Enhance Ability spell but only on yourself. At 7th level you can cast the Death Ward spell but only on yourself, and at 9th level you can cast the Negative Energy Flood spell. Each of these spells uses your Wisdom Modifier. Each spell of 1st level or higher using this feature can only be used once per short rest or long rest and cost an amount of hit points equal to twice the spell’s level. Each spell must be cast at their lowest level."
+                                ]
+                            },
+                            {
+                                "name": "Additional Blood Manipulation Abilities",
+                                "entries": [
+                                    "Starting at 1st level, these abilities are added into your “Blood Manipulation” Feature.",
+                                    "Blood Enhancement. As a bonus action by spending a hit die and taking damage equal to what you roll you can make your Strength and Dexterity scores equal to your Wisdom Score. If they are equal to or greater than your Wisdom Score this feature provides no benefit. This benefit lasts for a number of rounds equal to your Wisdom Modifier. Once this effect ends you receive 1 level of exhaustion and expend 1 additional hit die, taking an amount of damage equal to what you roll.",
+                                    "Blood Rite. As a bonus action on your turn by spending 1 hit die you can call upon the powers of the elements. Roll the hit die and take an amount of damage equal to the result. Choose fire, cold, lightning, radiant, or necrotic damage. Your blood weapons deal an additional 1d10 points of damage equal to the chosen type for up to 1 minute. The effect ends early if you lose concentration on the effect, as if you were concentrating on a spell, or if you end it early as a bonus action. Alternatively, you can apply this benefit to one weapon of your choosing that you are wielding, the effects ends early if you drop the weapon, are knocked unconscious, or killed. You can boost the power of this rite by spending an additional hit die (taking damage accordingly) to gain an additional 1d10 damage of the chosen type. Once you boost the power of this rite, you cannot do so again until you finish a short or long rest."
+                                ]
+                            },
+                            {
+                                "name": "Enhanced Vitality",
+                                "entries": [
+                                    "Also starting at 1st level you gain 1 additional hit point and 1 more each time you gain a Hemomancer level. In addition, anytime you restore hit points using potions or other magical means, you regain additional hit points equal to your Hemomancer level. In addition, you have a seperate pool of hit dice that can only be used for your Hemomancer features. You have a number of hit dice in this pool equal to your constitution modifier. This is known as your “Blood Reserve”. Your Blood Reserve is regained after a long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Bloody Reflexes",
+                                "entries": [
+                                    "At 6th level you have advantage on (Dexterity) Initiative Checks. In addition, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Improved Blood Arts",
+                                "entries": [
+                                    "At 14th level your Blood Weapons and Bloody Tendrils become faster and deadlier. Whenever you take the attack action you can make up to two attacks with your blood weapons instead of once. In addition, your blood weapons and bloody tendrils scores a critical hit on a 19 or 20."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Blood Rage",
+                                "entries": [
+                                    "Starting at 18th level when you activate your Blood Bath you gain an amount of temporary hit points equal to twice your Hemomancer level. While the temporary hit points are active you can choose up to three of the following prerequisites to initiate. If you lose all of the temporary hit points or fall unconscious before you complete the prerequisites, you fail to initiate your Blood Rage, and you won’t be able to enter blood rage again until after you initiate your Blood Bath again. When all of the chosen prerequisites are met, you lose the temporary hit points and enter your “Blood Rage”. Your Blood Rage lasts a number of rounds equal to half your Wisdom Modifier (rounded down) + the number of prerequisites chosen. When your Blood Rage ends you cannot enter it again until you finish a long rest and you gain 1 level of exhaustion for each prerequisite you initiated.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Blood Rage",
+                                        "colLabels": [
+                                            "Prerequisite",
+                                            "Benefit on Success"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "Deal at least 40 points of damage to one creature.",
+                                                "Your Blood Weapons gains a +10 to damage rolls."
+                                            ],
+                                            [
+                                                "Successfully grapple a creature for at least 3 rounds.",
+                                                "You gain the benefits of the spell “Freedom of Movement”."
+                                            ],
+                                            [
+                                                "Successfully avoid taking damage for at least 3 rounds.",
+                                                "You gain the benefits from the Spell “Haste”."
+                                            ],
+                                            [
+                                                "Drop a creature to 0 hit points.",
+                                                "You are immune to bludgeoning, piercing, and slashing damage from non-magical attacks."
+                                            ],
+                                            [
+                                                "Move at least 120 ft.",
+                                                "You gain an additional 30 ft of movement speed."
+                                            ],
+                                            [
+                                                "Successfully disarm a creature.",
+                                                "Melee attacks made against you have disadvantage."
+                                            ],
+                                            [
+                                                "Make at least 10 melee attacks.",
+                                                "You gain 1 additional weapon attack."
+                                            ],
+                                            [
+                                                "Make at least 10 ranged attacks.",
+                                                "You gain 1 additional weapon attack."
+                                            ],
+                                            [
+                                                "Reduce your Current and Maximum Hit Points to 1. (When Blood Rage fails or successfully initiates your maximum hit points returns to normal)",
+                                                "Once per round if you were to take damage you can choose to take none instead. You do not take damage from your Hemomancer features."
+                                            ],
+                                            [
+                                                "Restore at least 30 hit points.",
+                                                "You regain 5 hit points at the start of each of your turns."
+                                            ],
+                                            [
+                                                "Succeed on at least 5 concentration checks.",
+                                                "You cannot lose concentration on spells and other magical effects."
+                                            ],
+                                            [
+                                                "Successfully damage at least 5 different creatures.",
+                                                "Extend the duration of Blood Rage by 5 rounds."
+                                            ]
+                                        ]
+                                    },
+                                    "In addition to the benefits provided above, while Blood Rage is active you have resistance to all damage except damage taken from your Hemomancer features. In addition you gain 1 additional action you can use to make 1 weapon attack, take the dash or disengage action, or take the dodge action. You have advantage on all attack rolls and saving throws."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "HM",
+                    "shortName": "Blood Invoker"
+                },
+                {
+                    "name": "Lycanthropy",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Lycanthropy",
+                                "entries": [
+                                    "Humanity is a small price to pay for power, let the madness overcome you so that your true power can flourish. Release the inner beast within you, unshackle the monster and let loose. Your enemies are your target, your allies an obstacle. Let no one get in your way, destroy anything that does. Lycanthropy comes in many forms. Each version of the curse is bound to a specific beast: wolf, bear, tiger, boar, and rat are a few of the more well-known variations."
+                                ]
+                            },
+                            {
+                                "name": "Curse of the Lycan",
+                                "entries": [
+                                    "Beginning at 1st level, choose Wolf, Bear, Tiger, Boar, or Rat. You gain a hybrid transformation that varies based on what you choose. As an action for up to 10 minutes on your turn you can transform into your Lycan form, doing so will grant you effects depending on what beast you chose. Once your transformation ends you cannot transform again until you finish a short or long rest.(Recommended to remove the creatures you didn't choose)",
+                                    "Any. You gain Bite and Claw attacks. They both use strength and deal 1d8 piercing or slashing damage of your choice. You gain vulnerability to damage from silvered weapons. You have advantage on Wisdom (Perception) checks that rely on sight and smell. You gain a darkvision for up to 60ft. You cannot discern color in this darkness, only shades of gray.",
+                                    "Wolf. You have advantage on Wisdom (Survival) checks. You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.",
+                                    "Bear. Your creature size increases by 1 stage. In addition when you take damage you can reduce that damage by 1d4. You can only reduce damage in this way once per round. This damage reduction increases by 1d4 when you reach 5th, 11th, and 17th levels.",
+                                    "Tiger. Your movement speed increases by 10 ft. Your jump distance is doubled. If you move at least 20 ft. straight toward a creature and then hit it with a claw attack on the same turn, that target must succeed on a Strength saving throw (DC: 8 + Proficiency + Strength) or be knocked prone. If the target is prone, you can make one bite attack against it as a bonus action.\n",
+                                    "Boar. You gain a tusk attack. (Uses the bite and claws stats) If you move at least 15 feet straight toward a target and then hit it with your tusks on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw (DC: 8 + Proficiency + Strength) or be knocked prone. Once per round if you would take damage equal to your Hemomancer level or less that would reduce you to 0 hit points, you instead remain at 1 hit point.",
+                                    "Rat. You have advantage on Dexterity (Stealth) checks. You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Lycan Madness",
+                                "entries": [
+                                    "Starting at 6th level, when you enter your Blood Bath you can immediately enter your Lycan form. When you enter your Lycan form while under the effects of Blood Bath you gain temporary hit points equal to your Wisdom Modifier at the start of each of your turns unless you are hit by a silvered weapon. In addition your Lycan weapons (claws, bite, etc.) deal necrotic damage equal to your Wisdom Modifier and count as Blood Weapons. Whenever you take damage from an ally, whether it be from a spell - misfire - etc., make a Wisdom Saving Throw against your Hemomancer Save DC. On a failed save you go into a frenzy, and you are under the effects of the Enemies Abound spell. The spell ends when your Blood Bath ends."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Dark Howl",
+                                "entries": [
+                                    "Starting at 14th level, as an action while in your Lycan form you can let out a howling roar. Each creature that can hear you must make a Constitution Saving Throw against your Hemomancer Save DC. On a failed save they take 4d10 thunder damage and are stunned for 1d4 rounds. On a successful save they take half as much damage and is not stunned. You gain 1 blood point for each creature that took damage from this effect."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Mastered Lycan",
+                                "entries": [
+                                    "Starting at 18th level, you are always under the effects of your Lycan form, but can retain your regular appearance. In addition as an action by spending a hit die and taking damage equal to the roll you can transform into the true form of the beast you chose. When you transform you retain your class features, statistics, and skill proficiencies. You can transform into the following beasts depending on what you chose for your Curse of Lycan.",
+                                    "Wolf. Dire Wolf, Wolf, Winter Wolf",
+                                    "Bear. Brown Bear, Black Bear, Cave Bear, Polar Bear, Huge Polar Bear",
+                                    "Tiger. Tiger, Sabertooth Tiger",
+                                    "Boar. Boar, Giant Boar",
+                                    "Rat. Rat, Giant Rat"
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "HM",
+                    "shortName": "Lycanthropy"
+                }
+            ],
+            "fluff": [
+                {
+                    "entries": [
+                        "Through your studies of magic, technology, and tinkering; you have spent years of your life creating an invention. The invention itself can do an assortment of things, and is really up to you to decide. Work with your GM on this invention in both functionality and mechanical use. Also work with them on the energy cost of the invention and how it will operate. As a general rule the invention will take an action to use however if the task is rudimentary enough, such as opening a door, it can be used as a bonus action. For the purposes of damaging the invention, it has an HP of 100. If the invention drops to 0 HP then it is destroyed and must be repaired with a DC 20 Tinkers Tools check and 50 GP worth of materials."
+                    ],
+                    "name": "Magitechnician",
+                    "type": "section"
+                }
+            ]
+        }
+    ],
+    "optionalfeature": [
+        {
+            "source": "HM",
+            "name": "Blood Armor",
+            "entries": [
+                "While not wearing armor or wielding a shield your armor class equals 13 + Your Wisdom Modifier."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Death Grip",
+            "entries": [
+                "Whenever you land an attack using your Bloody Tendrils, the target becomes grappled. While grappled in this way instead of making an attack roll, once per round (except the turn it was grappled) your attack automatically hits the target when using a Bloody Tendril."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Masking Blood",
+            "entries": [
+                "You can manifest clothing using blood magic, you can cast the Disguise Self spell at will using Wisdom as the spellcasting ability. Each time you cast the spell in this way you take 1d10 damage."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Bloody Form",
+            "entries": [
+                "As an action on your turn you gain the ability to shapechange into an ooze type creature. While in your Bloody Form you have the Amorphous feature. (You can move through a space as narrow as 1 inch wide without squeezing.) While in this form you have resistance to slashing, piercing, and bludgeoning damage from non-magical attacks. In addition, you are immune to being prone and blinded. While in this form you have disadvantage on charisma checks against creatures whom you are not familiar with, or they are not familiar with you. In addition you cannot use your normal senses, instead you have a blindsight for up to 60 ft, and you are blind beyond that point. You cannot take the attack action or cast spells while in your Bloody Form. While in this form you can understand the languages you know, but you can’t read or speak. It is an action to shapechange back into normal form."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood Companion",
+            "entries": [
+                "You can cast the Find Familiar spell at will without material components using Wisdom as the spellcasting ability. This Familiar gains an attack that it can use during combat, Blood Shot, but it can only attack using this trait. Blood Shot. Ranged Weapon Attack, Proficiency + DEX to hit, range 60 ft, one creature. Hit: 1d4 necrotic damage. As an action the familiar can shapechange into an ooze type creature, when it does it loses its Blood Shot attack and gains the Amorphous feature. (You can move through a space as narrow as 1 inch wide without squeezing.) While in this form it has resistance to slashing, piercing, and bludgeoning damage from non-magical attacks. In addition, it is immune to being prone and blinded. In addition it cannot use its normal senses, instead it has a blindsight for up to 60 ft, and it is blind beyond that point. It is an action to shapechange back into normal form."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood Beam",
+            "entries": [
+                "You gain the Eldritch Blast cantrip using Wisdom as the spellcasting ability, but it deals necrotic damage instead. You can increase the damage by 1d10 for each ray by taking 1d10 damage to yourself for each ray you boost."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood Senses",
+            "entries": [
+                "You gain 10 ft of blindsight. In addition you know the general location of exposed blood within 120 ft of you. (i.e if a person is bleeding out within 120 ft of you, you know where they generally are.)\n"
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood Affinity",
+            "entries": [
+                "You have advantage on Wisdom (Medicine) checks. In addition when you successfully clean a wound that involved bleeding you can gain 1 blood point into your blood pool. In addition, you do not have to make a saving throw in reaction to seeing an abnormal amount of blood, evisceration of a creature, etc."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "False Death (Prerequisite 5th level)",
+            "entries": [
+                "You can cast the Feign Death spell at will without material components using Wisdom as the spellcasting ability, but only on yourself.  You can end the spell as a bonus action on your turn."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Eviscerate (prerequisite 5th level)",
+            "entries": [
+                "When you make the attack action using your Bloody Tendrils, they deal an additional 1d10 slashing damage."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Bleeding Rays (prerequisite 5th level)",
+            "entries": [
+                "You can cast the Scorching Ray spell at its lowest level at will using Wisdom as your spellcasting ability. Instead of dealing fire damage it deals necrotic damage. Each time you cast this spell you take 1d10 damage for each ray fired."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Scorching Blood (prerequisite 5th level)",
+            "entries": [
+                "When you are hit by a creature within 5ft of you by a melee attack that deals slashing, piercing, or necrotic damage, the attacker takes acid damage equal to your Wisdom Modifier (minimum of 1).\n"
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Great Weapon Forging (prerequisite 5th level)",
+            "entries": [
+                "When you use your Blood Forge feature you can make martial weapons and two-handed blood weapons. In order to forge a two-handed blood weapon, when you spend the hit die you take 1d12 damage instead of 1d4, 1d6, 1d8, or 1d10 damage. The damage die for the weapon is 1d12. Alternatively, whenever you forge a weapon using a 1d6 or 1d8 for the damage die, you can make the weapon a versatile weapon."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Chilling Blood (prerequisite 8th level)",
+            "entries": [
+                "You can cast the Armor of Agathys spell at will at 3rd level without material components using Wisdom as your spellcasting ability. Once you use this trait you cannot do so again until you finish a short or long rest."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Spiteful Blood (prerequisite 8th level)",
+            "entries": [
+                "You can cast the Bane spell at will at 3rd level without material components using Wisdom as your spellcasting ability. When you do so you take 1d10 damage for each creature you target with the spell. Once you use this trait you cannot do so again until you finish a short or long rest."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Toxic Blood (prerequisite 8th level)",
+            "entries": [
+                "Whenever you hit a creature using a blood weapon or your bloody tendrils the creature must make a Constitution Saving Throw, DC equal to 8 + Proficiency + Wisdom. On a failed save, the creature is poisoned until the start of your next turn. On a success the target is immune to the effects of this feature until the start of your next turn."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Unstable Blood Magic (prerequisite 8th level)",
+            "entries": [
+                "Whenever you cast a spell using your Hemomancer features roll a d10. On a 3 or lower your blood magic goes wild. Roll from the Wild Magic chart provided by the Wild Magic Sorcerer. When your blood magic goes wild you gain 10 points into your Blood Pool."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Impatient Adrenaline (prerequisite 11th level)",
+            "entries": [
+                "When you take the dash action you can take 1d10 damage to double your movement speed. You can use this feature a number of times equal to your Constitution Modifier. You regain all expended uses of this feature when you finish a long rest."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Fluidity of Blood (prerequisite 11th level)",
+            "entries": [
+                "You gain a swimming speed equal to twice your walking speed. In addition you can breathe water as if you could breathe air."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Destructive Blood (prerequisite 11th level)",
+            "entries": [
+                "When you hit with a weapon attack using your blood weapons or bloody tendrils, you can deal an additional 2d10 force damage by taking 2d10 damage to yourself. In addition, your blood weapons and bloody tendrils deal double damage to structures and objects."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Bloody Ambush (prerequisite 11th level)",
+            "entries": [
+                "When you have advantage to hit on a creature, or you attack a creature that is suprised, the target takes an additional 5d6 damage and is stunned until the end of their next turn. You can only gain the benefits of this feature once per round."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Vampiric Weapons (prerequisite 14th level)",
+            "entries": [
+                "When you successfully hit a creature with your Blood Weapons you gain an amount of Blood Points into your Blood Pool equal to half your Wisdom Modifier (rounded down)."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Improved Vitality (prerequisite 14th level)",
+            "entries": [
+                "While you are conscious you regain an amount of hit points at the start of your turn equal to half your proficiency bonus (rounded down). If you take any form of fire or cold damage you do not gain this benefit. In addition, the first time you would be knocked unconscious as a result of falling to zero hit points, you can spend your reaction remain at 1 instead. Once you fall unconscious you cannot gain the benefits from this feature again until you finish a long rest."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Chilling Blood (prerequisite 14th level)",
+            "entries": [
+                "While your blood bath is active, when you successfully hit a creature with a blood weapon or your bloody tendrils they suffer a -2 penalty to their AC until the start of your next turn. A creature can only suffer the penalties of this feature once per round."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Reduced Agony (prerequisite 14th level)",
+            "entries": [
+                "Whenever you take damage, as a reaction you can reduce the amount of damage you would take by 1d10 + your Wisdom Modifier. If you reduce the damage to 0, immediately you can make a single weapon attack using a blood weapon or a bloody tendril. Doing so will deal damage 1d10 damage to yourself."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Improved Blood Weapons (prerequisite 17th level)",
+            "entries": [
+                "Your Blood Weapons and Bloody Tendrils now gain a +3 bonus to attack and damage rolls. In addition, whenever you make a weapon attack using a Blood Weapon or Bloody Tendril, as a bonus action by spending a hit die and taking damage equal to what you roll, you can gain advantage on one attack you make with that chosen weapon."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Permanent Blood Weapon (prerequisite 17th level)",
+            "entries": [
+                "If you spend a 1 hour ritual concentrating on your Blood Weapon, you can have the weapon forged for an indefinite amount of time, no longer requiring concentration on the weapon. In addition, the weapon cannot be destroyed by non-magical means. You can only have 1 Permanent Blood Weapon at a time."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood Vortex (prerequisite 17th level)",
+            "entries": [
+                "By taking 6d10 damage, you create a 5ft tall and 30 ft radius swirling vortex of blood centered on yourself for 1 minute. The area within the vortex counts as difficult terrain. The vortex moves with you as you move. Each creature, except yourself, within range must make a Strength Saving Throw DC equal to 8 + Proficiency + Wisdom. The vortex deals 6d10 necrotic damage on a failed save and is dragged 10ft closer to the center. On a successful save they take half as much damage is not dragged."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Everlasting Horror (prerequisite 17th level)",
+            "entries": [
+                "While you are conscious, every hostile creature that can see you must make a wisdom saving throw, DC 8 + Proficiency + Wisdom. On a failed save they are frightened. While frightened by you in this way, they go into a panic and can only make the attack action on you, otherwise they must use their action to hide, disengage, or dash. A creature who passes the saving throw is not frightened and immune to this feature for 1 hour. A creature can repeat the saving throw at the end of their turn, but not if they have used the attack action."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Blood for the Blood God (prerequisite 20th level)",
+            "entries": [
+                "When you kill a creature using a Blood Weapon or a Bloody Tendril, as a reaction you can shout “Blood for the Blood God!”. Your Blood Pool is instantly filled and you gain an amount of temporary hit points equal to the creature’s CR."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Ultimate Vitality (prerequisite 20th level)",
+            "entries": [
+                "Once while you are conscious, you can restore up to half of your maximum hit points and you gain 25 Blood Points to your Blood Pool. Once you use this feature you cannot do so again until you finish a long rest."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Sacrificial Clone (prerequisite 20th level)",
+            "entries": [
+                "You know the clone spell and can cast it once per year without requiring material components. Once while you are unconscious if you were to die and you do not have an active clone, instead all of the blood remaining in your body, as well as your required organs, rises out and you enter your Bloody Form. When you do, you are at 1 hit point and have 3 levels of exhaustion. Your body perishes and requires a new one for the Bloody Form to enter. If you cannot find a body within an amount of days equal to your constitution modifier, you perish. Entering a new body is difficult, and requires an intense amount of willpower. As an action, make an opposing Wisdom Check against the creature whose body you are entering. The target cannot take actions or reactions until the either creature succeeds. On a success the target takes 1 death fail, on a failure you take 1 death fail. When the target has 3 death fails, the soul is forced out, and your soul takes its place, with you making their body your own. You gain their statistics, but not their class features. You do gain their innate abilities, innate spellcasting, and racial traits. You do however replace their Intelligence, Wisdom, and Charisma scores with your own."
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Lethal Strike (prerequisite 20th level and Improved Blood Weapons)",
+            "entries": [
+                "When you score a critical hit with a Blood Weapon or a Bloody Tendril, by spending half of your hit dice and taking the damage accordingly you can instantly drop the creature to 0 hit points, doing so does not outright kill them. You can use this feature once per long rest. This feature has no effect on creatures with Legendary Resistance."
+            ],
+            "featureType": "BloodDisciplines"
+        }
+    ]
+}
