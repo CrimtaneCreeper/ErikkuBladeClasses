@@ -154,9 +154,9 @@
                     "(a) 1 simple weapon and leather armor or (b) 1 medium armor",
                     "(a) explorer's pack or (b) scholar's pack",
                     "(a) simple ranged weapon or (b) 1 simple melee weapon",
-                    "(a) tinker's tools, crowbar, set of magitech tools worth 50 gp",
-                    "(a) 8d4x10 gold"
-                ]
+                    "(a) tinker's tools, crowbar, set of magitech tools worth 50 gp"
+                ],
+                "goldAlternative": "8d4x10"
             },
             "multiclassing": {
                 "requirements": {
@@ -377,6 +377,13 @@
                         "name": "Magitech Invention Improvement",
                         "entries": [
                             "See 7th level Magitech Invention Improvement Feature"
+                        ]
+                    },
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
                         ]
                     }
                 ],

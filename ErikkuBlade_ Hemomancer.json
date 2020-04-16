@@ -654,201 +654,454 @@
         },
         {
             "source": "HM",
-            "name": "False Death (Prerequisite 5th level)",
+            "name": "False Death",
             "entries": [
                 "You can cast the Feign Death spell at will without material components using Wisdom as the spellcasting ability, but only on yourself.  You can end the spell as a bonus action on your turn."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Eviscerate (prerequisite 5th level)",
+            "name": "Eviscerate",
             "entries": [
                 "When you make the attack action using your Bloody Tendrils, they deal an additional 1d10 slashing damage."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Bleeding Rays (prerequisite 5th level)",
+            "name": "Bleeding Rays",
             "entries": [
                 "You can cast the Scorching Ray spell at its lowest level at will using Wisdom as your spellcasting ability. Instead of dealing fire damage it deals necrotic damage. Each time you cast this spell you take 1d10 damage for each ray fired."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Scorching Blood (prerequisite 5th level)",
+            "name": "Scorching Blood",
             "entries": [
                 "When you are hit by a creature within 5ft of you by a melee attack that deals slashing, piercing, or necrotic damage, the attacker takes acid damage equal to your Wisdom Modifier (minimum of 1).\n"
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Great Weapon Forging (prerequisite 5th level)",
+            "name": "Great Weapon Forging",
             "entries": [
                 "When you use your Blood Forge feature you can make martial weapons and two-handed blood weapons. In order to forge a two-handed blood weapon, when you spend the hit die you take 1d12 damage instead of 1d4, 1d6, 1d8, or 1d10 damage. The damage die for the weapon is 1d12. Alternatively, whenever you forge a weapon using a 1d6 or 1d8 for the damage die, you can make the weapon a versatile weapon."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Chilling Blood (prerequisite 8th level)",
+            "name": "Chilling Blood",
             "entries": [
                 "You can cast the Armor of Agathys spell at will at 3rd level without material components using Wisdom as your spellcasting ability. Once you use this trait you cannot do so again until you finish a short or long rest."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Spiteful Blood (prerequisite 8th level)",
+            "name": "Spiteful Blood",
             "entries": [
                 "You can cast the Bane spell at will at 3rd level without material components using Wisdom as your spellcasting ability. When you do so you take 1d10 damage for each creature you target with the spell. Once you use this trait you cannot do so again until you finish a short or long rest."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Toxic Blood (prerequisite 8th level)",
+            "name": "Toxic Blood",
             "entries": [
                 "Whenever you hit a creature using a blood weapon or your bloody tendrils the creature must make a Constitution Saving Throw, DC equal to 8 + Proficiency + Wisdom. On a failed save, the creature is poisoned until the start of your next turn. On a success the target is immune to the effects of this feature until the start of your next turn."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Unstable Blood Magic (prerequisite 8th level)",
+            "name": "Unstable Blood Magic",
             "entries": [
                 "Whenever you cast a spell using your Hemomancer features roll a d10. On a 3 or lower your blood magic goes wild. Roll from the Wild Magic chart provided by the Wild Magic Sorcerer. When your blood magic goes wild you gain 10 points into your Blood Pool."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Impatient Adrenaline (prerequisite 11th level)",
+            "name": "Impatient Adrenaline",
             "entries": [
                 "When you take the dash action you can take 1d10 damage to double your movement speed. You can use this feature a number of times equal to your Constitution Modifier. You regain all expended uses of this feature when you finish a long rest."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 11,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Fluidity of Blood (prerequisite 11th level)",
+            "name": "Fluidity of Blood",
             "entries": [
                 "You gain a swimming speed equal to twice your walking speed. In addition you can breathe water as if you could breathe air."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 11,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Destructive Blood (prerequisite 11th level)",
+            "name": "Destructive Blood",
             "entries": [
                 "When you hit with a weapon attack using your blood weapons or bloody tendrils, you can deal an additional 2d10 force damage by taking 2d10 damage to yourself. In addition, your blood weapons and bloody tendrils deal double damage to structures and objects."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 11,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Bloody Ambush (prerequisite 11th level)",
+            "name": "Bloody Ambush",
             "entries": [
                 "When you have advantage to hit on a creature, or you attack a creature that is suprised, the target takes an additional 5d6 damage and is stunned until the end of their next turn. You can only gain the benefits of this feature once per round."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 11,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Vampiric Weapons (prerequisite 14th level)",
+            "name": "Vampiric Weapons",
             "entries": [
                 "When you successfully hit a creature with your Blood Weapons you gain an amount of Blood Points into your Blood Pool equal to half your Wisdom Modifier (rounded down)."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 14,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Improved Vitality (prerequisite 14th level)",
+            "name": "Improved Vitality",
             "entries": [
                 "While you are conscious you regain an amount of hit points at the start of your turn equal to half your proficiency bonus (rounded down). If you take any form of fire or cold damage you do not gain this benefit. In addition, the first time you would be knocked unconscious as a result of falling to zero hit points, you can spend your reaction remain at 1 instead. Once you fall unconscious you cannot gain the benefits from this feature again until you finish a long rest."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 14,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Chilling Blood (prerequisite 14th level)",
+            "name": "Chilling Blood",
             "entries": [
                 "While your blood bath is active, when you successfully hit a creature with a blood weapon or your bloody tendrils they suffer a -2 penalty to their AC until the start of your next turn. A creature can only suffer the penalties of this feature once per round."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 14,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Reduced Agony (prerequisite 14th level)",
+            "name": "Reduced Agony",
             "entries": [
                 "Whenever you take damage, as a reaction you can reduce the amount of damage you would take by 1d10 + your Wisdom Modifier. If you reduce the damage to 0, immediately you can make a single weapon attack using a blood weapon or a bloody tendril. Doing so will deal damage 1d10 damage to yourself."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 14,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Improved Blood Weapons (prerequisite 17th level)",
+            "name": "Improved Blood Weapons",
             "entries": [
                 "Your Blood Weapons and Bloody Tendrils now gain a +3 bonus to attack and damage rolls. In addition, whenever you make a weapon attack using a Blood Weapon or Bloody Tendril, as a bonus action by spending a hit die and taking damage equal to what you roll, you can gain advantage on one attack you make with that chosen weapon."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 17,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Permanent Blood Weapon (prerequisite 17th level)",
+            "name": "Permanent Blood Weapon",
             "entries": [
                 "If you spend a 1 hour ritual concentrating on your Blood Weapon, you can have the weapon forged for an indefinite amount of time, no longer requiring concentration on the weapon. In addition, the weapon cannot be destroyed by non-magical means. You can only have 1 Permanent Blood Weapon at a time."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 17,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Blood Vortex (prerequisite 17th level)",
+            "name": "Blood Vortex",
             "entries": [
                 "By taking 6d10 damage, you create a 5ft tall and 30 ft radius swirling vortex of blood centered on yourself for 1 minute. The area within the vortex counts as difficult terrain. The vortex moves with you as you move. Each creature, except yourself, within range must make a Strength Saving Throw DC equal to 8 + Proficiency + Wisdom. The vortex deals 6d10 necrotic damage on a failed save and is dragged 10ft closer to the center. On a successful save they take half as much damage is not dragged."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 17,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Everlasting Horror (prerequisite 17th level)",
+            "name": "Everlasting Horror",
             "entries": [
                 "While you are conscious, every hostile creature that can see you must make a wisdom saving throw, DC 8 + Proficiency + Wisdom. On a failed save they are frightened. While frightened by you in this way, they go into a panic and can only make the attack action on you, otherwise they must use their action to hide, disengage, or dash. A creature who passes the saving throw is not frightened and immune to this feature for 1 hour. A creature can repeat the saving throw at the end of their turn, but not if they have used the attack action."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 17,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Blood for the Blood God (prerequisite 20th level)",
+            "name": "Blood for the Blood God",
             "entries": [
                 "When you kill a creature using a Blood Weapon or a Bloody Tendril, as a reaction you can shout “Blood for the Blood God!”. Your Blood Pool is instantly filled and you gain an amount of temporary hit points equal to the creature’s CR."
             ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 20,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Ultimate Vitality (prerequisite 20th level)",
+            "name": "Ultimate Vitality",
             "entries": [
                 "Once while you are conscious, you can restore up to half of your maximum hit points and you gain 25 Blood Points to your Blood Pool. Once you use this feature you cannot do so again until you finish a long rest."
             ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Sacrificial Clone (prerequisite 20th level)",
-            "entries": [
-                "You know the clone spell and can cast it once per year without requiring material components. Once while you are unconscious if you were to die and you do not have an active clone, instead all of the blood remaining in your body, as well as your required organs, rises out and you enter your Bloody Form. When you do, you are at 1 hit point and have 3 levels of exhaustion. Your body perishes and requires a new one for the Bloody Form to enter. If you cannot find a body within an amount of days equal to your constitution modifier, you perish. Entering a new body is difficult, and requires an intense amount of willpower. As an action, make an opposing Wisdom Check against the creature whose body you are entering. The target cannot take actions or reactions until the either creature succeeds. On a success the target takes 1 death fail, on a failure you take 1 death fail. When the target has 3 death fails, the soul is forced out, and your soul takes its place, with you making their body your own. You gain their statistics, but not their class features. You do gain their innate abilities, innate spellcasting, and racial traits. You do however replace their Intelligence, Wisdom, and Charisma scores with your own."
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 20,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
             ],
             "featureType": "BloodDisciplines"
         },
         {
             "source": "HM",
-            "name": "Lethal Strike (prerequisite 20th level and Improved Blood Weapons)",
+            "name": "Sacrificial Clone",
+            "entries": [
+                "You know the clone spell and can cast it once per year without requiring material components. Once while you are unconscious if you were to die and you do not have an active clone, instead all of the blood remaining in your body, as well as your required organs, rises out and you enter your Bloody Form. When you do, you are at 1 hit point and have 3 levels of exhaustion. Your body perishes and requires a new one for the Bloody Form to enter. If you cannot find a body within an amount of days equal to your constitution modifier, you perish. Entering a new body is difficult, and requires an intense amount of willpower. As an action, make an opposing Wisdom Check against the creature whose body you are entering. The target cannot take actions or reactions until the either creature succeeds. On a success the target takes 1 death fail, on a failure you take 1 death fail. When the target has 3 death fails, the soul is forced out, and your soul takes its place, with you making their body your own. You gain their statistics, but not their class features. You do gain their innate abilities, innate spellcasting, and racial traits. You do however replace their Intelligence, Wisdom, and Charisma scores with your own."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 20,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    }
+                }
+            ],
+            "featureType": "BloodDisciplines"
+        },
+        {
+            "source": "HM",
+            "name": "Lethal Strike",
             "entries": [
                 "When you score a critical hit with a Blood Weapon or a Bloody Tendril, by spending half of your hit dice and taking the damage accordingly you can instantly drop the creature to 0 hit points, doing so does not outright kill them. You can use this feature once per long rest. This feature has no effect on creatures with Legendary Resistance."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 20,
+                        "class": {
+                            "name": "Hemomancer"
+                        }
+                    },
+                    "feature": [
+                        "Improved Blood Weapons"
+                    ]
+                }
             ],
             "featureType": "BloodDisciplines"
         }
