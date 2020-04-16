@@ -406,228 +406,221 @@
                     }
                 ]
             ],
-            "subclassTitle": "Bloody Archetype",
+            "subclassTitle": "Magitech Specializations",
             "subclasses": [
                 {
-                    "name": "Blood Bender",
+                    "name": "Combat Specialization",
                     "subclassFeatures": [
                         [
                             {
-                                "name": "Blood Bender",
+                                "name": "Combat Specialization",
                                 "entries": [
-                                    "The powers to bend and control blood, most would consider this act evil and chaotic, some would argue that it depends on the user and how they choose to use their power. As a Blood Bender you will have the powers to bend and weave the blood around you to your whim. Starting at 1st level when you choose this archetype you learn the “Shape Water” cantrip, but instead of being able to shape water, you instead shape blood. At 4th level you learn the Hold Person spell, at 7th level you learn the Hold Monster Spell, and at 9th level you learn the Dominate Person Spell. Each of these spells uses your Wisdom Modifier. Each spell of 1st level or higher using this feature can only be used once per short or long rest and cost an amount of hit points equal to twice the spell’s level to use. Each spell must be cast at their lowest level."
+                                    "A combat specialist has focused entirely on the combat implications of magitech, solely creating magitech for combat purposes. It allows you to further improve your magitech weapons beyond their intended purposes and your gear can gain augmentations beyond what was initially imaginable. While every specialist has the capabilities for combat, none will be as prominent as this one."
                                 ]
                             },
                             {
-                                "name": "Additional Blood Manipulation Abilities",
+                                "name": "Battle Mechanics",
                                 "entries": [
-                                    "Starting at 1st level, these abilities are added into your “Blood Manipulation” Feature.",
-                                    "Blood Transfusion. By spending a hit die you can restore an amount of hit points to 1 ally, not including yourself, that you can see within 10 ft of you equal to the amount rolled by the die. You then take damage equal to the amount they restored. This healing has no effect on undead or constructs. At 5th level the amount healed increases by 1d10, it does so again at 11th level, and once more at 17th level.",
-                                    "Blood Absorption. Once per round, whenever an ally or enemy within 5 ft of you takes 5 or more slashing, piercing, or necrotic damage you gain 5 temporary hit points. The amount of times per round this can be used increases by 1 at 5th level, 1 more at 11th level, and finally once again at 17th level. This effect can stack up to a maximum of 20 temp hp."
-                                ]
-                            },
-                            {
-                                "name": "Enhanced Blood Pool",
-                                "entries": [
-                                    "Also starting at 1st level, your blood pool maximum is doubled. In addition you regain half of your hit dice (rounded up) after a short rest, and all of them after a long rest."
+                                    "Starting at 1st level, you gain proficiency with martial weapons, heavy armor, and shields. Also whenever you make an attack roll, you can spend 5 Magitech Energy and your reaction to make an additional attack. Also whenever an attack is made on you, you can spend 5 Magitech Energy and a reaction to add a +2 to your AC and take the dodge action, imposing disadvantage on the triggering attack."
                                 ]
                             }
                         ],
                         [
                             {
-                                "name": "Blood Bolstering",
+                                "name": "Physical Augmentation",
                                 "entries": [
-                                    "Starting at 6th level you can target a number of allies within 60 ft of you (not including yourself) equal to your Wisdom Modifier. You can expend 1 hit die to grant them temporary hit points equal to the amount you rolled. In addition they gain advantage on their next saving throw. This feature is added to your “Blood Manipulation” feature."
+                                    "Starting at 3rd level you can begin to make “Ability Boosters” which allows you to temporarily grant you bonuses to your physical ability scores (Strength, Dexterity, Constitution). These can be described as steroids, stim packs, or actual attachments to your limbs. Either way works as long as the GM allows it. At this level you can create and carry up to 5 of these Physical Augmentors per long rest and they can each grant you a +2 to an ability score to a maximum of +6. You cannot augment an ability beyond 24. After using an Augmentor you gain 1 level of exhaustion that can be restored over a short rest. Multiple usages of Augmentors will give multiple levels of exhaustion. Using an Augmentor is a bonus action, however multiple can be used at once. Each augmentation lasts for 10 minutes. You can inject augmentors into other allies within 5ft of you as an action."
                                 ]
                             }
                         ],
                         [
                             {
-                                "name": "Adrenaline Rush",
+                                "name": "Energizing Shield",
                                 "entries": [
-                                    "Starting at 14th level, you and a number of allies within 60 ft of you equal to your Wisdom Modifier gain advantage on their next ability check, attack rolls, and saving throw and gains a number of temporary hit points equal to your Hemomancer level. In addition your movement speeds are increased by 10 ft and you can take the dash action as a bonus action. You each gain an additional action that you can only use to make 1 weapon attack, disengage, dodge, or use an object. These benefits last for 1 minute, afterwards everyone who benefited from this ability suffers 1 level of exhaustion. In addition, you take an amount of damage equal to twice your Hemomancer level. Once you use this feature you cannot do so again until you finish a short or long rest."
+                                    "Starting at 7th level you can spend an action to emit a veil of magitech energy around you. Spend up to half your hit dice to gain Temporary HP. While you have this temporary HP you regenerate 5 Magitech Energy at the start of each of your turns. You also gain resistance to all damage while you have this temporary HP. Once you lose this temporary HP you lose all the benefits from this ability and cannot use it again until you finish a long rest."
                                 ]
                             }
                         ],
                         [
                             {
-                                "name": "Overflowing Blood",
+                                "name": "Weapon Transformations",
                                 "entries": [
-                                    "Starting at 18th level, whenever you enter your Blood Bath you lose 2 additional hit points at the start of each of your turns, but you restore conscious allies within 30 ft of you 4 hit points. In addition, whenever you deal damage using a Blood Manipulation feature you deal an additional 2 damage. Also during your Blood Bath, you have the power to bend the blood inside of your enemies to your whim. You can cast the “Dominate Monster” spell at will, using Wisdom as your spellcasting ability. Once you do so you cannot do so again until you finish a long rest."
+                                    "At 11th Level you have further learned how to improve your weapons. Now you can have a “Two-in-One” Weapon. You take two magitech weapons and use a 100 GP worth of magitech materials to merge them together to form a Two-Handed weapon. Additionally you can add a shield module for an extra 50 GP worth of magitech materials. You do not gain the benefits of the  shield unless it is in Shield Mode. By using a bonus action you can transform your weapon from Melee Mode to Ranged Mode and vice versa. When you are targeted by an attack roll by spending a reaction you can quickly switch your weapon to Shield Mode, potentially causing the triggering attack to miss. You use the statistics of the shield that you used to create the shield module for AC calculation. After using this reaction your shield returns back to the weapon form you were in previously. Alternatively you can remain in shield mode until the start of your next turn, afterwhich it returns to its previous mode no action required. You cannot attack with your weapon while it is in Shield Mode, unless otherwise using it as an improvised weapon. If used in this way, it uses a 1d6 damage die and deals bludgeoning damage.\n"
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Battle Scanner",
+                                "entries": [
+                                    "At 14th level you have learned how to create a headgear device that can detect combat capabilities of some creatures. As a bonus action you can determine if the creature has any weaknesses, resistances, or immunities to certain damage types. Alternatively by spending 5 magitech energy, you can read one of the ability scores possessed by the creature using the same action. Either way, after reading the creature at least once, you gain a +2 bonus to attack rolls and saving throws against that creature’s attacks, spells, and magical effects, and they have a -2 penalty to hit you. (This does not stack.)",
+                                    "Also, as a bonus action, you can learn 1 random property that you have not already learned or known about that creature. Example being if it has regeneration, spellcasting, etc."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Battle Mastery",
+                                "entries": [
+                                    "At 18th level you have become a master of combat with your technology. Changing weapon forms no longer requires an action. In addition, it costs half as much gp to repair any damaged weapons or craft new ones. In addition, you gain a +1 bonus to attack and damage rolls using Magitech Weapons. You can also make an additional weapon attack during your Attack Action."
                                 ]
                             }
                         ]
                     ],
-                    "source": "HM",
-                    "shortName": "Blood Bender"
+                    "source": "MT",
+                    "shortName": "Combat Specialization"
                 },
                 {
-                    "name": "Blood Invoker",
+                    "name": "Mage Specialization",
                     "subclassFeatures": [
                         [
                             {
-                                "name": "Blood Invoker",
+                                "name": "Mage Specialization",
                                 "entries": [
-                                    "Why bother trying to improve your feeble body with “Physical Labor” when you can do it when it matters and only when it matters. You fight for yourself, to keep yourself alive. If others get hurt, who cares? At least you’ll survive. That’s all that matters. Starting at 1st level when you take this archetype you can cast the Blade Ward cantrip as a bonus action. At 4th level you can cast the Enhance Ability spell but only on yourself. At 7th level you can cast the Death Ward spell but only on yourself, and at 9th level you can cast the Negative Energy Flood spell. Each of these spells uses your Wisdom Modifier. Each spell of 1st level or higher using this feature can only be used once per short rest or long rest and cost an amount of hit points equal to twice the spell’s level. Each spell must be cast at their lowest level."
+                                    "Being a Mage Specialist, you have focused on becoming a spellcaster through technological means rather than unnatural means - much like the wizard who takes the studious direction when it comes to learning magic."
                                 ]
                             },
                             {
-                                "name": "Additional Blood Manipulation Abilities",
+                                "name": "Magitech Focus",
                                 "entries": [
-                                    "Starting at 1st level, these abilities are added into your “Blood Manipulation” Feature.",
-                                    "Blood Enhancement. As a bonus action by spending a hit die and taking damage equal to what you roll you can make your Strength and Dexterity scores equal to your Wisdom Score. If they are equal to or greater than your Wisdom Score this feature provides no benefit. This benefit lasts for a number of rounds equal to your Wisdom Modifier. Once this effect ends you receive 1 level of exhaustion and expend 1 additional hit die, taking an amount of damage equal to what you roll.",
-                                    "Blood Rite. As a bonus action on your turn by spending 1 hit die you can call upon the powers of the elements. Roll the hit die and take an amount of damage equal to the result. Choose fire, cold, lightning, radiant, or necrotic damage. Your blood weapons deal an additional 1d10 points of damage equal to the chosen type for up to 1 minute. The effect ends early if you lose concentration on the effect, as if you were concentrating on a spell, or if you end it early as a bonus action. Alternatively, you can apply this benefit to one weapon of your choosing that you are wielding, the effects ends early if you drop the weapon, are knocked unconscious, or killed. You can boost the power of this rite by spending an additional hit die (taking damage accordingly) to gain an additional 1d10 damage of the chosen type. Once you boost the power of this rite, you cannot do so again until you finish a short or long rest."
-                                ]
-                            },
-                            {
-                                "name": "Enhanced Vitality",
-                                "entries": [
-                                    "Also starting at 1st level you gain 1 additional hit point and 1 more each time you gain a Hemomancer level. In addition, anytime you restore hit points using potions or other magical means, you regain additional hit points equal to your Hemomancer level. In addition, you have a seperate pool of hit dice that can only be used for your Hemomancer features. You have a number of hit dice in this pool equal to your constitution modifier. This is known as your “Blood Reserve”. Your Blood Reserve is regained after a long rest."
+                                    "Starting at 1st level you pick one of the following classes: Wizard, Sorcerer, Artificer. You gain the Spellcasting Feature from that class following their spell slots and regaining expended spell slots after a long rest, however the way you prepare spells and cantrips is different. Regardless of the class you always start with 2 cantrips and can prepare an amount of spells equal to your Magitechnician level + your Intelligence Modifier. Your spellcasting ability is always Intelligence regardless of the class you chose. You gain an additional cantrip at 5th, 11th, and 17th levels. Your spell casting relies solely on a “Magitech Focus”, a device that can emulate the means of spellcasting of the class you chose. If the spell requires verbal or somatic components, faint whispers can be heard from the device that emulate the words spoken and small electrical sparks will emulate the motions required for the spell. In order to cast a spell that requires a consumed material component, you can either have the material on hand or spend Magitech Energy equal to 5 per 10gp worth of the consumed item. If the required material component is worth less than 10 gp, it costs just 1 Magitech Energy. If your Magitech Focus is ever destroyed it costs 50 gp to craft a new one."
                                 ]
                             }
                         ],
                         [
                             {
-                                "name": "Bloody Reflexes",
+                                "name": "Technomage Apprentice",
                                 "entries": [
-                                    "At 6th level you have advantage on (Dexterity) Initiative Checks. In addition, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+                                    "Starting at 3rd level you begin to learn the various different kinds of magic and how they work, and how to incorporate them into your various devices. You can create a new device similar to your Magitech Focus, a “Techno Focus”, the difference here is that it is dedicated to casting 1 spell in your possession. You can spend some time during a short or long rest repreparing that spell into this device. While the spell is prepared in this device, you do not have to have the spell prepared in order to cast it. The spell level must be equal to your proficiency bonus in order to prepare for your Techno Focus.  If the spell is a cantrip, then no Magitech Energy is required to cast it, otherwise it costs an amount of Magitech Energy equal to 5 x the spell’s level. The spell must be prepared in this way at its lowest level in order to cast it using your Techno Focus. You can only have 1 spell prepared by your Techno Focus and you can only have 1 Techno Focus in your possession at a time. If your Techno Focus is ever destroyed, it costs 200 gp to craft a new one."
                                 ]
                             }
                         ],
                         [
                             {
-                                "name": "Improved Blood Arts",
+                                "name": "Empowered Magitech",
                                 "entries": [
-                                    "At 14th level your Blood Weapons and Bloody Tendrils become faster and deadlier. Whenever you take the attack action you can make up to two attacks with your blood weapons instead of once. In addition, your blood weapons and bloody tendrils scores a critical hit on a 19 or 20."
+                                    "Starting at 7th level whenever you roll damage for a magitechnician spell, you add your Intelligence Modifier to the damage. Also, whenever you roll a 1 on a damage die you can reroll it but must use the new result even if it is a 1. "
                                 ]
                             }
                         ],
                         [
                             {
-                                "name": "Blood Rage",
+                                "name": "Magic Overload",
                                 "entries": [
-                                    "Starting at 18th level when you activate your Blood Bath you gain an amount of temporary hit points equal to twice your Hemomancer level. While the temporary hit points are active you can choose up to three of the following prerequisites to initiate. If you lose all of the temporary hit points or fall unconscious before you complete the prerequisites, you fail to initiate your Blood Rage, and you won’t be able to enter blood rage again until after you initiate your Blood Bath again. When all of the chosen prerequisites are met, you lose the temporary hit points and enter your “Blood Rage”. Your Blood Rage lasts a number of rounds equal to half your Wisdom Modifier (rounded down) + the number of prerequisites chosen. When your Blood Rage ends you cannot enter it again until you finish a long rest and you gain 1 level of exhaustion for each prerequisite you initiated.",
-                                    {
-                                        "type": "table",
-                                        "caption": "Blood Rage",
-                                        "colLabels": [
-                                            "Prerequisite",
-                                            "Benefit on Success"
-                                        ],
-                                        "rows": [
-                                            [
-                                                "Deal at least 40 points of damage to one creature.",
-                                                "Your Blood Weapons gains a +10 to damage rolls."
-                                            ],
-                                            [
-                                                "Successfully grapple a creature for at least 3 rounds.",
-                                                "You gain the benefits of the spell “Freedom of Movement”."
-                                            ],
-                                            [
-                                                "Successfully avoid taking damage for at least 3 rounds.",
-                                                "You gain the benefits from the Spell “Haste”."
-                                            ],
-                                            [
-                                                "Drop a creature to 0 hit points.",
-                                                "You are immune to bludgeoning, piercing, and slashing damage from non-magical attacks."
-                                            ],
-                                            [
-                                                "Move at least 120 ft.",
-                                                "You gain an additional 30 ft of movement speed."
-                                            ],
-                                            [
-                                                "Successfully disarm a creature.",
-                                                "Melee attacks made against you have disadvantage."
-                                            ],
-                                            [
-                                                "Make at least 10 melee attacks.",
-                                                "You gain 1 additional weapon attack."
-                                            ],
-                                            [
-                                                "Make at least 10 ranged attacks.",
-                                                "You gain 1 additional weapon attack."
-                                            ],
-                                            [
-                                                "Reduce your Current and Maximum Hit Points to 1. (When Blood Rage fails or successfully initiates your maximum hit points returns to normal)",
-                                                "Once per round if you were to take damage you can choose to take none instead. You do not take damage from your Hemomancer features."
-                                            ],
-                                            [
-                                                "Restore at least 30 hit points.",
-                                                "You regain 5 hit points at the start of each of your turns."
-                                            ],
-                                            [
-                                                "Succeed on at least 5 concentration checks.",
-                                                "You cannot lose concentration on spells and other magical effects."
-                                            ],
-                                            [
-                                                "Successfully damage at least 5 different creatures.",
-                                                "Extend the duration of Blood Rage by 5 rounds."
-                                            ]
-                                        ]
-                                    },
-                                    "In addition to the benefits provided above, while Blood Rage is active you have resistance to all damage except damage taken from your Hemomancer features. In addition you gain 1 additional action you can use to make 1 weapon attack, take the dash or disengage action, or take the dodge action. You have advantage on all attack rolls and saving throws."
+                                    "Once per long rest, starting at 11th level you can cast 2 spells at the same time, either combining their effects or separately casting both. Doing so however has a 50% chance to damage your Magitech Focus which will require a DC 20 Tinkers Tools check to repair. "
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Advanced Technomage",
+                                "entries": [
+                                    "Starting at 14th level you can now create 2 additional Techno Focuses to prepare spells into. In addition, you can craft 1 additional Techno Focus that can be used for an ally. If you attempt to use it yourself, after the spell is cast the Techno Focus breaks, requiring a DC 20 Tinkers Tools check to repair it. While broken, there is a 50% chance for the magic inside the Techno Focus to go wild each time you cast the spell. If it goes wild, roll on the Wild Magic chart provided by the Wild Magic Sorcerer."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Technomagic Mastery",
+                                "entries": [
+                                    "Starting 18th level, you have mastered the art of crafting magical devices. You can create additional Techno Focuses equal to your Intelligence Modifier. You cannot use these Techno Focuses, but you can sell them (or gift them) to other creatures capable of spellcasting. A creature can only carry one of these Techno Focuses at a time, but can cast them normally by spending Magitech Energy, or cast them normally if it stores a cantrip."
                                 ]
                             }
                         ]
                     ],
-                    "source": "HM",
-                    "shortName": "Blood Invoker"
+                    "source": "MT",
+                    "shortName": "Mage Specialization"
                 },
                 {
-                    "name": "Lycanthropy",
+                    "name": "Inventor Specialization",
                     "subclassFeatures": [
                         [
                             {
-                                "name": "Lycanthropy",
+                                "name": "Inventor Specialization",
                                 "entries": [
-                                    "Humanity is a small price to pay for power, let the madness overcome you so that your true power can flourish. Release the inner beast within you, unshackle the monster and let loose. Your enemies are your target, your allies an obstacle. Let no one get in your way, destroy anything that does. Lycanthropy comes in many forms. Each version of the curse is bound to a specific beast: wolf, bear, tiger, boar, and rat are a few of the more well-known variations."
+                                    "Whether you chose to never stop tinkering, or you wanted to really push how far you can go with magitech, the Inventor is by far the most experimental type of Magitechnician. You delve into things that shouldn’t ever work, your inventions go haywire at times which can either make or break a situation. You rely on your wit and dumb luck, sometimes that causes a breakthrough, but sometimes this may explode in your face. “Go big or go home” as you might say."
                                 ]
                             },
                             {
-                                "name": "Curse of the Lycan",
+                                "name": "Mind of Creativity",
                                 "entries": [
-                                    "Beginning at 1st level, choose Wolf, Bear, Tiger, Boar, or Rat. You gain a hybrid transformation that varies based on what you choose. As an action for up to 10 minutes on your turn you can transform into your Lycan form, doing so will grant you effects depending on what beast you chose. Once your transformation ends you cannot transform again until you finish a short or long rest.(Recommended to remove the creatures you didn't choose)",
-                                    "Any. You gain Bite and Claw attacks. They both use strength and deal 1d8 piercing or slashing damage of your choice. You gain vulnerability to damage from silvered weapons. You have advantage on Wisdom (Perception) checks that rely on sight and smell. You gain a darkvision for up to 60ft. You cannot discern color in this darkness, only shades of gray.",
-                                    "Wolf. You have advantage on Wisdom (Survival) checks. You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.",
-                                    "Bear. Your creature size increases by 1 stage. In addition when you take damage you can reduce that damage by 1d4. You can only reduce damage in this way once per round. This damage reduction increases by 1d4 when you reach 5th, 11th, and 17th levels.",
-                                    "Tiger. Your movement speed increases by 10 ft. Your jump distance is doubled. If you move at least 20 ft. straight toward a creature and then hit it with a claw attack on the same turn, that target must succeed on a Strength saving throw (DC: 8 + Proficiency + Strength) or be knocked prone. If the target is prone, you can make one bite attack against it as a bonus action.\n",
-                                    "Boar. You gain a tusk attack. (Uses the bite and claws stats) If you move at least 15 feet straight toward a target and then hit it with your tusks on the same turn, the target takes an extra 1d6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw (DC: 8 + Proficiency + Strength) or be knocked prone. Once per round if you would take damage equal to your Hemomancer level or less that would reduce you to 0 hit points, you instead remain at 1 hit point.",
-                                    "Rat. You have advantage on Dexterity (Stealth) checks. You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+                                    "As your methods rely mostly on creating something new out of a theory, you have a masterfully creative mind. While not particularly good at one specific thing, you have managed to obtain a masterful mind when it comes to recalling knowledge. ",
+                                    "Starting at 1st level, you can add half your proficiency bonus to Intelligence checks that do not already add your proficiency bonus to the roll. In addition you gain expertise in any 2 skills or tools that you are proficient with. "
+                                ]
+                            },
+                            {
+                                "name": "Tools of the Inventor",
+                                "entries": [
+                                    "Also at 1st level, you gain proficiency with two tools of your choice."
                                 ]
                             }
                         ],
                         [
                             {
-                                "name": "Lycan Madness",
+                                "name": "Additional Magitech Research",
                                 "entries": [
-                                    "Starting at 6th level, when you enter your Blood Bath you can immediately enter your Lycan form. When you enter your Lycan form while under the effects of Blood Bath you gain temporary hit points equal to your Wisdom Modifier at the start of each of your turns unless you are hit by a silvered weapon. In addition your Lycan weapons (claws, bite, etc.) deal necrotic damage equal to your Wisdom Modifier and count as Blood Weapons. Whenever you take damage from an ally, whether it be from a spell - misfire - etc., make a Wisdom Saving Throw against your Hemomancer Save DC. On a failed save you go into a frenzy, and you are under the effects of the Enemies Abound spell. The spell ends when your Blood Bath ends."
+                                    "As an Inventor, your level of study is unmatched by other Magitechnicians. While you do not master one particular field of study, you have the uncanny ability to learn multiple fields at once.",
+                                    "At 3rd level, you gain 2 additional Magitech Research options. You also gain an additional Magitech Research Option at 9th and 15th levels."
                                 ]
                             }
                         ],
                         [
                             {
-                                "name": "Dark Howl",
+                                "name": "Chaotic Theory",
                                 "entries": [
-                                    "Starting at 14th level, as an action while in your Lycan form you can let out a howling roar. Each creature that can hear you must make a Constitution Saving Throw against your Hemomancer Save DC. On a failed save they take 4d10 thunder damage and are stunned for 1d4 rounds. On a successful save they take half as much damage and is not stunned. You gain 1 blood point for each creature that took damage from this effect."
+                                    "Your creative mind leads you to ask questions no one else would think about. You ask the “What if?” kind of questions. As such, you’ve been able to adjust various things with your magitech.",
+                                    "Starting at 7th level, you gain the ability to alter the properties of your magitech devices. When you impose a saving throw using a Magitechnician spell or a Magitech Device, you can change the saving throw from one ability score to another. You can do so a number of times equal to your Intelligence Modifier.",
+                                    "In addition, when you acid, cold, fire, force, lightning, necrotic, radiant, or thunder damage using a Magitechnician spell or Magitech Device, you can substitute that damage type with one other type from that list (you can change only one damage type per casting of a spell or use of a Magitech Device). You replace one energy type for another by altering the spell's formula as you cast it or by substituting materials or energy outputs to the device.",
+                                    "While the Chaotic Theory feature offers increased versatility, at the table its effects can be difficult to spot by the other players. Take a moment to describe how you alter your spells magitech devices. Think of a signature change your character is particularly proud of. Be inventive, and make the game more fun for everyone by playing up the sudden, unexpected tricks your character can employ. For example, a fireball transformed to require a Strength save might become a sphere of burning rock that shatters and slams into its target. A charm person that requires a Constitution save might take the form of a vaporous narcotic that alters the target's mood."
                                 ]
                             }
                         ],
                         [
                             {
-                                "name": "Mastered Lycan",
+                                "name": "Dedicated Ally",
                                 "entries": [
-                                    "Starting at 18th level, you are always under the effects of your Lycan form, but can retain your regular appearance. In addition as an action by spending a hit die and taking damage equal to the roll you can transform into the true form of the beast you chose. When you transform you retain your class features, statistics, and skill proficiencies. You can transform into the following beasts depending on what you chose for your Curse of Lycan.",
-                                    "Wolf. Dire Wolf, Wolf, Winter Wolf",
-                                    "Bear. Brown Bear, Black Bear, Cave Bear, Polar Bear, Huge Polar Bear",
-                                    "Tiger. Tiger, Sabertooth Tiger",
-                                    "Boar. Boar, Giant Boar",
-                                    "Rat. Rat, Giant Rat"
+                                    "As an Inventor you value what you have created, but it all goes back to your first ever creation. Your Magitech Invention. You’ve had it since the beginning of your travels, and it has stuck by your side since then. Perhaps it’s time to repay the favor.",
+                                    "Starting at 11th level you can give sentience to your Magitech Invention, allowing it to move around on its own. It can also speak, read, and write the languages of its creator. \nCreate a stat block for your Magitech Invention with your DM. Its base stats are 10 in every ability score, but work with the DM on how you want to incorporate the new construct’s abilities.\n",
+                                    "Regardless, the construct has blindsight for up to 30 ft (blind past this point) and it can read by scanning the text. It can only read at a slow pace, but can potentially be modified as time goes on. It is also immune to being blinded, charmed, deafened, exhausted, frightened, paralyzed, petrified, and poisoned.\n",
+                                    "The construct follows your commands and acts after your turn has passed. You can command it as a bonus action on your turn to have it act early, but it loses its turn if you do so. Otherwise, commanding it is a free action, but it completes the action on its turn to the best of its ability. ",
+                                    "Whenever you gain an ability score improvement, the construct gains it as well, and follows the same rules accordingly."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Experimental Procedure",
+                                "entries": [
+                                    "You’ve always tinkered with things, but now you want to see how far you can really push it.",
+                                    "Starting at 14th level you can add “Experimental Features” to your magitech devices. A couple of examples will be provided, but work with the DM on creating your own features. A magitech device can only have 1 Experimental Feature at a time, any attempts to add another will automatically fail or cause irreparable damage to the device. An Experimental Feature has a success procedure and a failure procedure. When attempting to use an Experimental Feature roll an Intelligence Saving Throw against your Magitech Save DC. On a success the feature activates as normal. On a failure, you use the failure procedure instead. Multiple usages of the Experimental Feature causes the Save DC to be increased by 2 for each successful use and resets when you complete a long rest.",
+                                    "Some Examples are provided on the page below.",
+                                    "Energetic Discharge. ",
+                                    "Success Procedure: A wave of energy is dispersed, causing nearby creatures to be blown back. Creatures within 10 ft of the Magitech Device, or within 10ft of the target of a spell attack or magical effect originating from a Magitech Device, make a Strength Saving throw against your Magitech Save DC or be pushed back 20 ft. Regardless of the save, each creature affected takes 4d10 force damage.",
+                                    "Failure Procedure: The magitech device overheats and explodes, causing shrapnell to blow outward. Each creature within 60 ft of the Magitech Device must make a Dexterity Saving Throw against your Magitech Save DC or take 2d10 piercing damage and 2d10 fire damage on a failure, or half as much on a successful save. A creature holding the device has disadvantage on the save.",
+                                    "Energy Drain",
+                                    "Success Procedure: The Magitech Device absorbs energy from a creature affected by it. Whenever you hit with a Magitechnician Spell or Magitech Device, or a creature fails a saving throw imposed by a Magitechnician Spell or Magitech Device that deals damage, you regain Magitech Energy equal to half the damage dealt.",
+                                    "Failure Procedure: The Magitech Device drains Magitech Energy equal to twice the damage dealt. If you do not have enough magitech energy to drain, you cannot obtain Magitech Energy by any means until you complete a short or long rest.",
+                                    "Improved Restoration.",
+                                    "Success Procedure: When the Magitech Device or Magitechnician gives a creature(s) healing, that creature(s) can also remove one of the following conditions: blinded, deafened, paralyzed, or poisoned.",
+                                    "Failure Procedure: The creature(s) being healed by the Magitech Device or Magitechnician spell has to make a Constitution Saving throw against your Magitech Save DC or is poisoned for 1 hour.",
+                                    "As mentioned previously, you are more than welcome to create your own Experimental Features, so long as you make a Success and Failure Procedure for it, and the effect is moderately balanced out for a “high risk, high reward” mentality. Again, approval by the DM is most important."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Inventor's Prowess",
+                                "entries": [
+                                    "As you have made it this far, whether by sheer luck or big brain moments, you have mastered the art of invention to its highest degree.",
+                                    "Starting at 18th level, you gain a +5 bonus to ability checks made with your Tinkers Tools. ",
+                                    "In addition, when you use your Experimental Procedure if you fail the saving throw, you can choose to succeed instead. Once you have done so, you cannot do so again until you have completed a  short or long rest.",
+                                    "In addition, it now costs half as much gp to craft and repair your Magitech Devices."
                                 ]
                             }
                         ]
                     ],
-                    "source": "HM",
-                    "shortName": "Lycanthropy"
+                    "source": "MT",
+                    "shortName": "Inventor Specialization"
                 }
             ],
             "fluff": [
@@ -643,268 +636,373 @@
     ],
     "optionalfeature": [
         {
-            "source": "HM",
-            "name": "Blood Armor",
+            "source": "MT",
+            "name": "Gadget Crafting",
             "entries": [
-                "While not wearing armor or wielding a shield your armor class equals 13 + Your Wisdom Modifier."
+                "By undertaking this Magitech Research you can begin making more complex gadgets and gizmos. When making a Gadget consider what task you want it to complete. Examples include a Flash Grenade that is intended to blind creatures. So the idea is to give it a range of how far you can throw it, making it involve a saving throw, etc. Here are some examples of Gadgets, but work with your DM to craft your Gadgets. You have a number of known Gadgets equal to your Intelligence Modifier.",
+                "Grappling Hook! (50 GP) : This device contains a 50ft long hook and rope that shoots outward, connecting to any wooden or rough surface climbing gear would. (This is a bonus action in combat) Then you can either launch yourself forward with the Grappling Hook, or you can aim it at a creature and attempt to grapple them. They make an opposing athletics or acrobatics check against your Magitech Save DC. You can then spend an action to retract the Grappling Hook to knock the enemy prone and reduce their movement to zero until the start of your next turn. No save required if the target was already grappled on a previous turn.",
+                "Smoke Bomb! (50 GP) : A small ball filled to the brim with smoke, as a bonus action you throw it down you can do one of two things : set it to explode at a specific time OR have it explode on impact. Upon explosion a large amount of gas expands outward in a 20ft radius sphere. You have advantage on stealth checks to leave the sphere and creatures inside the sphere have disadvantage on perception checks.",
+                "Flash Grenade! (50 GP) : FLASH! Throw a grenade that explodes mid air as a bonus action, you create a flash of light outward for a 20ft radius sphere. Any creature within the radius of the flash grenade must pass a Constitution Saving Throw against your Magitech Save DC. On a failed save the target is blinded for 1d4 rounds.",
+                "There are various different kinds of gadgets you can make, but most of these gadgets should be mundane in usage and don’t have any real magical properties to them, other than making the gadgets possible to function in general."
             ],
-            "featureType": "BloodDisciplines"
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Death Grip",
+            "source": "MT",
+            "name": "Minor Vehicle Construction",
             "entries": [
-                "Whenever you land an attack using your Bloody Tendrils, the target becomes grappled. While grappled in this way instead of making an attack roll, once per round (except the turn it was grappled) your attack automatically hits the target when using a Bloody Tendril."
+                "By undertaking this Magitech Research you can make small land vehicles to help you and your group travel to places more quickly. Certain vehicles can make traveling in certain areas much less of a hassle. These vehicles can be used to possibly ignore difficult terrain and may come equipped with a set of navigation tools. Though you may have to supply some magitech energy to power them and they may not last long. Crafting one will generally cost around 100gp - 500gp.",
+                "These vehicles can take the appearance of whatever you wish so long that it is of medium or large size. (A medium sized vehicle can be something like a hoverboard, or a scooter even.) 5 Magitech Energy can power these vehicles for 1 hour, after which they need to be recharged by either spending 5 additional Magitech Energy or using a Magitech Energy Pack to keep it charged until the Energy Pack runs out of Energy.",
+                "The vehicles will have a stat block, but only the Strength, Dexterity, and Constitution Scores will be used. Work with the DM on how your specific vehicles may be statted. Its armor class will equal its Strength Score, its Speed will equal 5 x its Dexterity Score, and its hit points will be 10 x its Constitution Score. Some Example stat blocks will be at the bottom of this document. Regardless, its mental ability scores should all equal 1 and they are immune to all conditions."
             ],
-            "featureType": "BloodDisciplines"
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Masking Blood",
+            "source": "MT",
+            "name": "Basic Runic Studies",
             "entries": [
-                "You can manifest clothing using blood magic, you can cast the Disguise Self spell at will using Wisdom as the spellcasting ability. Each time you cast the spell in this way you take 1d10 damage."
+                "By learning the various different kinds of magic, you have stumbled across a peculiar type of magic used by giants. You can incorporate this runic magic to your Magitech Gear and Weapons. Each Rune costs 50 gp to craft. (You can also apply the Runes to other Magitech Devices, but make sure to OK with your DM first.) Activating a Rune costs 10 Magitech Energy and lasts for 1 hour. Once a rune is used they lose their magical properties and regain them at the end of a long rest.",
+                "Rune of Strength: While you have the Rune Active, your Strength Score increases by 2 and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. In addition you have advantage on Strength Checks.",
+                "Rune of Enlargement: While you have the Rune Active, your Constitution Score increases by 2 and you are put under the effects of the Enlarge effect of the Enlarge/Reduce Spell.",
+                "Rune of the Raven Eyes: While you have the Rune Active, your Wisdom Score Increases by 2 and you have advantage on Wisdom (Perception) and Wisdom (Insight) checks. "
             ],
-            "featureType": "BloodDisciplines"
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Bloody Form",
+            "source": "MT",
+            "name": "Basic Construction",
             "entries": [
-                "As an action on your turn you gain the ability to shapechange into an ooze type creature. While in your Bloody Form you have the Amorphous feature. (You can move through a space as narrow as 1 inch wide without squeezing.) While in this form you have resistance to slashing, piercing, and bludgeoning damage from non-magical attacks. In addition, you are immune to being prone and blinded. While in this form you have disadvantage on charisma checks against creatures whom you are not familiar with, or they are not familiar with you. In addition you cannot use your normal senses, instead you have a blindsight for up to 60 ft, and you are blind beyond that point. You cannot take the attack action or cast spells while in your Bloody Form. While in this form you can understand the languages you know, but you can’t read or speak. It is an action to shapechange back into normal form."
+                "Creating constructs has been a favored pastime for all kinds of inventors, from the mountain driven dwarves to the forest homed gnomes, tiny constructs have always held a special place in a tinkerer’s heart. Now you too can join in on the fun. By imbuing magic into a tiny humanoid looking statue made of wood, clay, or even metal; you can create a tiny construct that can move around and do mundane tasks. ",
+                "As a 10 minute ritual, you can cast the Tiny Servant spell using Intelligence as your spellcasting ability at will. The duration lasts until the creature falls to 0 hit points, at which point the spell ends. Otherwise, the spell lasts until dispelled.",
+                "Rather than casting a spell, you can flavor this as tinkering around with an object until it resembles more of a humanoid like object, adding gears and tiny components that would allow it to move around and open doors, pick locks, etc."
             ],
-            "featureType": "BloodDisciplines"
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Blood Companion",
+            "source": "MT",
+            "name": "Magitech Attachments",
             "entries": [
-                "You can cast the Find Familiar spell at will without material components using Wisdom as the spellcasting ability. This Familiar gains an attack that it can use during combat, Blood Shot, but it can only attack using this trait. Blood Shot. Ranged Weapon Attack, Proficiency + DEX to hit, range 60 ft, one creature. Hit: 1d4 necrotic damage. As an action the familiar can shapechange into an ooze type creature, when it does it loses its Blood Shot attack and gains the Amorphous feature. (You can move through a space as narrow as 1 inch wide without squeezing.) While in this form it has resistance to slashing, piercing, and bludgeoning damage from non-magical attacks. In addition, it is immune to being prone and blinded. In addition it cannot use its normal senses, instead it has a blindsight for up to 60 ft, and it is blind beyond that point. It is an action to shapechange back into normal form."
+                "You took a look at your weapon and thought “You know… why not add more?”",
+                "You have a number of known Magitech Attachments equal to your Intelligence Modifier. You can craft Magitech Attachments at a base cost of 50 gp. Work with your DM on how your attachments function and the usages of them. Do they add a modifier to hit? To damage? Do they make weapons fly back into your hand? It’s up to you, but at the end of the day it’s up to you and the DM to determine that. Here are some example attachments to get you started:",
+                "Scope (50 GP): You gain advantage to hit a creature within base range of a shot with a ranged weapon this attachment is on and you gain a normal roll with the disadvantage range of a ranged weapon with this attachment on.\n",
+                "Serrated Blade (50 GP): A melee weapon with this attachment gains an additional 1d6 Slashing damage.",
+                "Energy Amplifier (75 GP): A magitech ranged weapon that is energy based adds an additional damage die of the type of damage it deals, but at the cost of 5 Magitech Energy.",
+                "Detachable Battery (100 GP): A magitech Energy Pack that you can attach directly to your weapons or devices. This battery can contain up to 5 x Your Intelligence Modifier in Magitech Energy and regains all expended Magitech Energy at the end of a long rest. Detaching and Attaching the battery onto a Magitech Device costs a Bonus Action in combat."
             ],
-            "featureType": "BloodDisciplines"
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Blood Beam",
+            "source": "MT",
+            "name": "Chemical Construction",
             "entries": [
-                "You gain the Eldritch Blast cantrip using Wisdom as the spellcasting ability, but it deals necrotic damage instead. You can increase the damage by 1d10 for each ray by taking 1d10 damage to yourself for each ray you boost."
+                "You’ve studied the art of technology and magic, but what if you added chemistry into the mix? Now you’re asking for a good time. Through your genius and research you’ve discovered a way to create a sentient ooze. ",
+                "As a 1 hour ritual you can artificially create an ooze of a CR up to half your Magitechnician level (rounded down). The ooze has an Intelligence Score of 10 unless it was already higher than 10. It follows your initiative and acts on its own. You can mentally command it however by spending a bonus action. You can only have 1 ooze at a time when you use this feature."
             ],
-            "featureType": "BloodDisciplines"
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Blood Senses",
+            "source": "MT",
+            "name": "Ionic Research",
             "entries": [
-                "You gain 10 ft of blindsight. In addition you know the general location of exposed blood within 120 ft of you. (i.e if a person is bleeding out within 120 ft of you, you know where they generally are.)\n"
+                "You’ve learned how to create energy based weapons through the means science and magic. You can replace the damage type of your Magitech Weapons with radiant damage. In addition, your Magitech Weapons deals an additional amount of radiant damage on hit equal to your intelligence modifier."
             ],
-            "featureType": "BloodDisciplines"
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Blood Affinity",
+            "source": "MT",
+            "name": "Aberrant Technology",
             "entries": [
-                "You have advantage on Wisdom (Medicine) checks. In addition when you successfully clean a wound that involved bleeding you can gain 1 blood point into your blood pool. In addition, you do not have to make a saving throw in reaction to seeing an abnormal amount of blood, evisceration of a creature, etc."
+                "You have been contacted by, or discovered, an eldritch aberration from the Far Realm and have been given information about their strange anatomy and the science behind it. Being the inventor you are, you have made it your goal to incorporate this information into your technology. ",
+                "You are given a single Warlock Spell Slot, see the Warlock’s “Pact Magic” feature PHB pg 107. Choose from two Eldritch Invocations (you must meet the prerequisites) and create a Magitech Device that incorporates those invocations. You also gain the Eldritch Blast cantrip and 2 spells from the Warlock Spellcasting List. These spells must be of a level of which you’d be able to cast as a 3rd level Warlock. You cast these spells through odd Magitech Devices that are thematically designed to fit the spell. Eldritch Blast can be cast through your ranged Magitech Weapon."
             ],
-            "featureType": "BloodDisciplines"
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "False Death (Prerequisite 5th level)",
+            "source": "MT",
+            "name": "Botanist Researcher",
             "entries": [
-                "You can cast the Feign Death spell at will without material components using Wisdom as the spellcasting ability, but only on yourself.  You can end the spell as a bonus action on your turn."
+                "You’ve decided to delve into researching nature and have discovered that many herbs can be used in ways you’ve never even imagined. Never underestimate the power of nature. You gain proficiency in Nature, if you already have proficiency you add double your proficiency bonus instead. You also gain proficiency in an Herbalism Kit and you add your Improved Tinkers Tools bonus to ability checks made with your Herbalism Kit.",
+                "Additionally, when you make potions using your Herbalism Kit, you gain the following options using similar materials used to make Potions of Healing, costing the same amount:",
+                "Potion of Fertility: This greenish liquid allows soil to become instantly fertile, and capable of growing plant life even in arid or otherwise uninhabitable environments. ",
+                "Potion of Growth (look at DMG p187)",
+                "Philter of Love (look at DMG p184)"
             ],
-            "featureType": "BloodDisciplines"
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Eviscerate (prerequisite 5th level)",
+            "source": "MT",
+            "name": "Nanotechnology",
             "entries": [
-                "When you make the attack action using your Bloody Tendrils, they deal an additional 1d10 slashing damage."
+                "Your research in robotics has led to this very moment, you have learned how to create very tiny, microscopic sized robots that basically act as a literal tiny army. It costs roughly 200 GP worth of Magitech materials in order to create an efficient batch of nanotech. This nanotechnology can perform mundane tasks as well as be used to further enhance other works of Magitech. \n",
+                "Your nanites, as they will be called for simplicity’s sake, have some basic commands that you can give them. Upon doing so they will be given a task based on that command. To use a command takes a bonus action. You can add more commands to the Nanites in time, but their basic commands go as such: ",
+                "Assist : provides the help action.",
+                "Repair : Heals a construct for 1d6 + Your Intelligence Modifier. ",
+                "Enhance : Your nanites enter inside of your weapons and gear enhancing them. You can now add a 1d6 to any attack roll, saving throw, or ability check. This can be used 3 times until the command ends. (This command can be used for yourself or any ally with the correct magitech gear, i.e if they only have a weapon they only get the bonus for attack rolls.)"
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6
+                    },
+                    "feature": [
+                        "Basic Construction"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Bleeding Rays (prerequisite 5th level)",
+            "source": "MT",
+            "name": "Magical Gadgets",
             "entries": [
-                "You can cast the Scorching Ray spell at its lowest level at will using Wisdom as your spellcasting ability. Instead of dealing fire damage it deals necrotic damage. Each time you cast this spell you take 1d10 damage for each ray fired."
+                "You have furthered your research into your Gadget Crafting and incorporated magic into the mix. You can craft gadgets that can magically cause a creature to become poisoned, paralyzed, slowed, etc. This option is an enhancement to the Gadget Crafting and replaces it when you gain this option. You can recreate your already existing gadgets to become magical gadgets. Some examples of magical gadgets are :",
+                "Shock Grenade : (150 GP) As a bonus action you can throw a small object that explodes mid air, releasing a large discharge of electricity. Each creature within 20 ft of the Shock Grenade makes a Dexterity saving throw against your Magitech Save DC, taking 2d10 lightning damage and is paralyzed on a failed save, or half as much on a success and is not paralyzed.",
+                "Noxious Spray : (100 GP) As an action you can pull out a spray canister that contains a noxious gas. You spray out a 15 ft cone of this gas, each creature within range makes a Constitution saving throw against your Magitech Save DC or is poisoned for the next minute. While poisoned in this way, instead of being able to see clearly or hear, it hallucinates and is considered blinded and deafened. A creature can repeat its save at the end of each of its turns, ending the effect on a success.",
+                "Charming Bowtie : (100 GP) As an action you can tighten a special bowtie to give off a very stunning appearance to those around you. Each creature that can see you makes a Charisma saving throw against your Magitech Save DC, or be charmed by you for the next hour. If the creature takes damage by you or your companions, this effect ends. If they pass the saving throw, they do not know you were attempting to charm them. While charmed in this way, they see you as a close friend and are more willing to share sensitive information with you."
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Gadget Crafting"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Scorching Blood (prerequisite 5th level)",
+            "source": "MT",
+            "name": "Advanced Vehicle Construction",
             "entries": [
-                "When you are hit by a creature within 5ft of you by a melee attack that deals slashing, piercing, or necrotic damage, the attacker takes acid damage equal to your Wisdom Modifier (minimum of 1).\n"
+                "As you delve more into your research into constructing vehicles, you can now make much larger vehicles, allowing more than one person to enter a vehicle. You can craft a huge Vehicle which can carry up to two people at a time. A larger Vehicle can potentially move slower, but have a higher hit point pool. This option is an enhancement to the Minor Vehicle Construction option and replaces it when you gain this option. Some examples of Huge Vehicle stat blocks will be shown at the bottom of this document alongside the smaller ones.",
+                "In addition, your Advanced Vehicles come equipped with mounted weapons. The mounted weapons use the statistics of a Laser Rifle found in Chapter 9 of the dmg.",
+                "These Huge Vehicles can also be made as Water Vehicles, meaning that they can be driven on water as if it was traveling on land."
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Minor Vehicle Construction"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Great Weapon Forging (prerequisite 5th level)",
+            "source": "MT",
+            "name": "Advanced Runic Studies",
             "entries": [
-                "When you use your Blood Forge feature you can make martial weapons and two-handed blood weapons. In order to forge a two-handed blood weapon, when you spend the hit die you take 1d12 damage instead of 1d4, 1d6, 1d8, or 1d10 damage. The damage die for the weapon is 1d12. Alternatively, whenever you forge a weapon using a 1d6 or 1d8 for the damage die, you can make the weapon a versatile weapon."
+                "This feature is an enhancement to the Basic Runic Studies option and replaces it when you pick this option. When you gain this feature you gain the following Runes that each cost 100 GP :",
+                "Rune of the Allfather: While you have the Rune Active, your Intelligence Score increases by 2 and you gain advantage on all Intelligence checks for 1 minute. In addition you can ask the DM any one question within that minute, to which the DM responds with a truthful, but possibly vague answer. Once you do so, the Rune’s magic ends early, depending on the answer.",
+                "Rune of the Valkyries: While you have the Rune Active, your Dexterity Score increases by 2 and you gain a flying speed of 60 ft. for the next minute. ",
+                "Rune of the Trickster: While you have the Rune Active, your Charisma Score increases by 2 and you gain a special action that you can use to charm a creature within 60 ft of you. The creature must make a Charisma saving throw against your Magitech Save DC. On a failed save, the creature is charmed by you for 1 hour and persists even when the Rune loses its magic. While charmed in this way, the creature is oblivious to your attempts to deceive them, no ability check required. The charm ends early if you or one of your allies damages them."
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Basic Runic Studies"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Chilling Blood (prerequisite 8th level)",
+            "source": "MT",
+            "name": "Elemental Magitech",
             "entries": [
-                "You can cast the Armor of Agathys spell at will at 3rd level without material components using Wisdom as your spellcasting ability. Once you use this trait you cannot do so again until you finish a short or long rest."
+                "You took a look at your weapon and thought “You know… it’s not good enough, let’s set it on fire.”",
+                "You have an Elemental Attachment that you can use to spend 5 Magitech Energy to grant your weapon with a specific elemental damage for the next minute. Until the effect ends, you deal an additional 1d10 damage using acid, cold, fire, lightning, or poison for the damage type using your Magitech Weapons."
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Magitech Attachments"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Spiteful Blood (prerequisite 8th level)",
+            "source": "MT",
+            "name": "Advanced Construction",
             "entries": [
-                "You can cast the Bane spell at will at 3rd level without material components using Wisdom as your spellcasting ability. When you do so you take 1d10 damage for each creature you target with the spell. Once you use this trait you cannot do so again until you finish a short or long rest."
+                "One construct was not enough for you, you must have more. They must be bigger, stronger, faster, and better. So you have studied this far to create your army of constructs. This feature is an enhancement to the Basic Construction feature and replaces that option when you pick this option.",
+                "You can spend a 1 hour ritual casting the spell Animate Objects at will using Intelligence as your spellcasting ability. The duration lasts until dispelled or until the objects are each dropped to 0 hit points. ",
+                "Rather than casting a spell, you can flavor this as tinkering around with the objects until it resembles more like humanoid like objects, adding gears and tiny components that would allow them to move around and open doors, fight, pick locks, etc."
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Basic Construction"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Toxic Blood (prerequisite 8th level)",
+            "source": "MT",
+            "name": "Advanced Nanotechnology",
             "entries": [
-                "Whenever you hit a creature using a blood weapon or your bloody tendrils the creature must make a Constitution Saving Throw, DC equal to 8 + Proficiency + Wisdom. On a failed save, the creature is poisoned until the start of your next turn. On a success the target is immune to the effects of this feature until the start of your next turn."
+                "You have learned how to make improvements to your nanotechnology and they have now become more efficient. This feature is an enhancement to the Nanotechnology Option and replaces that with this when you pick this option. ",
+                "When your nanites use the “Assist” Command you can add a 1d6 on top of the roll.",
+                " Any command (except for Assist) that requires a die roll, such as Enhance and Repair, increase that die to a d10 if it was not already a d10. ",
+                "You can now make 2 commands during the same bonus action but cannot do so again until you complete a short or long rest."
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Nanotechnology"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Unstable Blood Magic (prerequisite 8th level)",
+            "source": "MT",
+            "name": "Mystical Research",
             "entries": [
-                "Whenever you cast a spell using your Hemomancer features roll a d10. On a 3 or lower your blood magic goes wild. Roll from the Wild Magic chart provided by the Wild Magic Sorcerer. When your blood magic goes wild you gain 10 points into your Blood Pool."
+                "You have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including the one you chose from this subclass. You learn those spells and add them to your spellcasting list. A spell you choose must be of a level you can cast or a cantrip. The chosen spells count as Magitechnician spells for you and do not count against your prepared spells. Each time you level up, you can exchange the 1 of the 2 spells you chose for a different one."
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Mage Specialization"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Impatient Adrenaline (prerequisite 11th level)",
+            "source": "MT",
+            "name": "Masterwork Vehicle Construction",
             "entries": [
-                "When you take the dash action you can take 1d10 damage to double your movement speed. You can use this feature a number of times equal to your Constitution Modifier. You regain all expended uses of this feature when you finish a long rest."
+                "Your research has led you to this moment, you have now mastered the art of craft with vehicles. You can now create significantly larger vehicles, going to Gargantuan and larger sizes. These Vehicles can carry up to nine different medium sized creatures at a given time. These are the vehicles that can look more like modern cars, but you can flavour them however you wish. This feature is an enhancement to the Advanced Vehicle Construction option and replaces that option with this one when you pick this option.",
+                "You can also now create a flying vehicle, flying vehicles have a flying speed equal to its regular speed, but must have a speed higher than 50 ft and be of large size or smaller in order to fly."
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Advanced Vehicle Construction"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Fluidity of Blood (prerequisite 11th level)",
+            "source": "MT",
+            "name": "Grandiose Vehicle Construction",
             "entries": [
-                "You gain a swimming speed equal to twice your walking speed. In addition you can breathe water as if you could breathe air."
+                "You have been peaked by interstellar travel. You know that there is more out there than what was previously thought to be and you wish to experience it first hand. Your research up until now, was thought to be completed, but now you have stumbled across a new grand design",
+                "Your vehicles can now be created large enough to sustain at least 2 months of stellar travel, and any size category of vehicle can have a flying speed. This feature requires both Masterwork Vehicle Construction and this option and does not replace and inherit the previous ones. Your Vehicles can now carry a maximum of 20 different kinds of creatures."
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Masterwork Vehicle Construction",
+                        "Aberrant Technology"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Destructive Blood (prerequisite 11th level)",
+            "source": "MT",
+            "name": "Ancient Runic Studies",
             "entries": [
-                "When you hit with a weapon attack using your blood weapons or bloody tendrils, you can deal an additional 2d10 force damage by taking 2d10 damage to yourself. In addition, your blood weapons and bloody tendrils deal double damage to structures and objects."
+                "You have stumbled across the most powerful and ancient of runic magic.This feature is an enhancement to the Advanced Runic Studies option and replaces it when you pick this option. When you gain this feature you gain the following Runes that each cost 500 GP :",
+                "Rune of the Aesir: When the Rune is Active, you gain a truesight of 60 ft for 1 hour.",
+                "Rune of the Giants: When the Rune is Active, you gain the ability to tell whenever someone is telling a lie.",
+                "Rune of the Yggdrasil: When the Rune is Active you can cast one of the following spells: Etherealness, Astral Projection, or Teleport. Once one of the spells ends, the Rune loses its magic."
             ],
-            "featureType": "BloodDisciplines"
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Advanced Runic Studies"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
         },
         {
-            "source": "HM",
-            "name": "Bloody Ambush (prerequisite 11th level)",
+            "source": "MT",
+            "name": "Golem Crafting",
             "entries": [
-                "When you have advantage to hit on a creature, or you attack a creature that is suprised, the target takes an additional 5d6 damage and is stunned until the end of their next turn. You can only gain the benefits of this feature once per round."
+                "Your studies of creating constructs have led you to the intricate process of crafting various different kinds of constructs, including those that would initially require special magic items to craft. Instead now, your expertise in technology is enough to substitute.\n",
+                "You can craft a magical golem identical to ones through a similar process as if you had access to each variation of the Manual of Golems, but do not require the actual item itself in order to begin your Golem Crafting. Having the manual on hand will reduce the amount of time and resources needed by half. The Golem created by this effect follows your proficiency bonus instead. Once you have magically created a Golem in this way, you cannot do so again until you finish a long rest.",
+                "In addition, you can as a one hour ritual magically create any 1 construct that doesn’t list “Golem” in its name. This construct rolls its own initiative, and uses your proficiency bonus instead. Once you have magically created a construct in this way, you cannot do so again until you finish a long rest."
             ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Vampiric Weapons (prerequisite 14th level)",
-            "entries": [
-                "When you successfully hit a creature with your Blood Weapons you gain an amount of Blood Points into your Blood Pool equal to half your Wisdom Modifier (rounded down)."
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Advanced Construction"
+                    ]
+                }
             ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Improved Vitality (prerequisite 14th level)",
-            "entries": [
-                "While you are conscious you regain an amount of hit points at the start of your turn equal to half your proficiency bonus (rounded down). If you take any form of fire or cold damage you do not gain this benefit. In addition, the first time you would be knocked unconscious as a result of falling to zero hit points, you can spend your reaction remain at 1 instead. Once you fall unconscious you cannot gain the benefits from this feature again until you finish a long rest."
-            ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Chilling Blood (prerequisite 14th level)",
-            "entries": [
-                "While your blood bath is active, when you successfully hit a creature with a blood weapon or your bloody tendrils they suffer a -2 penalty to their AC until the start of your next turn. A creature can only suffer the penalties of this feature once per round."
-            ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Reduced Agony (prerequisite 14th level)",
-            "entries": [
-                "Whenever you take damage, as a reaction you can reduce the amount of damage you would take by 1d10 + your Wisdom Modifier. If you reduce the damage to 0, immediately you can make a single weapon attack using a blood weapon or a bloody tendril. Doing so will deal damage 1d10 damage to yourself."
-            ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Improved Blood Weapons (prerequisite 17th level)",
-            "entries": [
-                "Your Blood Weapons and Bloody Tendrils now gain a +3 bonus to attack and damage rolls. In addition, whenever you make a weapon attack using a Blood Weapon or Bloody Tendril, as a bonus action by spending a hit die and taking damage equal to what you roll, you can gain advantage on one attack you make with that chosen weapon."
-            ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Permanent Blood Weapon (prerequisite 17th level)",
-            "entries": [
-                "If you spend a 1 hour ritual concentrating on your Blood Weapon, you can have the weapon forged for an indefinite amount of time, no longer requiring concentration on the weapon. In addition, the weapon cannot be destroyed by non-magical means. You can only have 1 Permanent Blood Weapon at a time."
-            ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Blood Vortex (prerequisite 17th level)",
-            "entries": [
-                "By taking 6d10 damage, you create a 5ft tall and 30 ft radius swirling vortex of blood centered on yourself for 1 minute. The area within the vortex counts as difficult terrain. The vortex moves with you as you move. Each creature, except yourself, within range must make a Strength Saving Throw DC equal to 8 + Proficiency + Wisdom. The vortex deals 6d10 necrotic damage on a failed save and is dragged 10ft closer to the center. On a successful save they take half as much damage is not dragged."
-            ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Everlasting Horror (prerequisite 17th level)",
-            "entries": [
-                "While you are conscious, every hostile creature that can see you must make a wisdom saving throw, DC 8 + Proficiency + Wisdom. On a failed save they are frightened. While frightened by you in this way, they go into a panic and can only make the attack action on you, otherwise they must use their action to hide, disengage, or dash. A creature who passes the saving throw is not frightened and immune to this feature for 1 hour. A creature can repeat the saving throw at the end of their turn, but not if they have used the attack action."
-            ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Blood for the Blood God (prerequisite 20th level)",
-            "entries": [
-                "When you kill a creature using a Blood Weapon or a Bloody Tendril, as a reaction you can shout “Blood for the Blood God!”. Your Blood Pool is instantly filled and you gain an amount of temporary hit points equal to the creature’s CR."
-            ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Ultimate Vitality (prerequisite 20th level)",
-            "entries": [
-                "Once while you are conscious, you can restore up to half of your maximum hit points and you gain 25 Blood Points to your Blood Pool. Once you use this feature you cannot do so again until you finish a long rest."
-            ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Sacrificial Clone (prerequisite 20th level)",
-            "entries": [
-                "You know the clone spell and can cast it once per year without requiring material components. Once while you are unconscious if you were to die and you do not have an active clone, instead all of the blood remaining in your body, as well as your required organs, rises out and you enter your Bloody Form. When you do, you are at 1 hit point and have 3 levels of exhaustion. Your body perishes and requires a new one for the Bloody Form to enter. If you cannot find a body within an amount of days equal to your constitution modifier, you perish. Entering a new body is difficult, and requires an intense amount of willpower. As an action, make an opposing Wisdom Check against the creature whose body you are entering. The target cannot take actions or reactions until the either creature succeeds. On a success the target takes 1 death fail, on a failure you take 1 death fail. When the target has 3 death fails, the soul is forced out, and your soul takes its place, with you making their body your own. You gain their statistics, but not their class features. You do gain their innate abilities, innate spellcasting, and racial traits. You do however replace their Intelligence, Wisdom, and Charisma scores with your own."
-            ],
-            "featureType": "BloodDisciplines"
-        },
-        {
-            "source": "HM",
-            "name": "Lethal Strike (prerequisite 20th level and Improved Blood Weapons)",
-            "entries": [
-                "When you score a critical hit with a Blood Weapon or a Bloody Tendril, by spending half of your hit dice and taking the damage accordingly you can instantly drop the creature to 0 hit points, doing so does not outright kill them. You can use this feature once per long rest. This feature has no effect on creatures with Legendary Resistance."
-            ],
-            "featureType": "BloodDisciplines"
+            "featureType": "Magitech Research"
         }
     ]
 }
