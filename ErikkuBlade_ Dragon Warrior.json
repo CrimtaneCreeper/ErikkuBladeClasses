@@ -1,0 +1,1373 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "DW",
+                "abbreviation": "DW",
+                "full": "Dragon Warrior",
+                "authors": [
+                    "Erikku Blade"
+                ],
+                "convertedBy": [
+                    "CrimtaneCreeper"
+                ],
+                "version": "2.0",
+                "url": "",
+                "targetSchema": "1.0.0"
+            }
+        ]
+    },
+    "class": [
+        {
+            "name": "Dragon Warrior",
+            "source": "DW",
+            "hd": {
+                "number": 1,
+                "faces": 12
+            },
+            "proficiency": [
+                "con",
+                "cha"
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Draconian Powers"
+                    ],
+                    "rows": [
+                        [
+                            "-"
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ]
+                    ]
+                }
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "heavy",
+                    "shields"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "tools": [
+                    {
+                        "choose": {
+                            "from": [
+                                "Alchemist's Supplies",
+                                "Brewer's Supplies",
+                                "Caligrapher's Supplies",
+                                "Carpenter's Tools",
+                                "Cartographer's Tools",
+                                "Cobbler's Tools",
+                                "Cook's Utensils",
+                                "Glassblower's Tools",
+                                "Jeweler's Tools",
+                                "Leatherworker's Tools",
+                                "Mason's Tools",
+                                "Painter's Supplies",
+                                "Potter's Tools",
+                                "Smith's Tools",
+                                "Tinker's Tools",
+                                "Weaver's Tools",
+                                "Woodcarver's Tools"
+                            ],
+                            "count": 1
+                        }
+                    }
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "Acrobatics",
+                                "Animal Handling",
+                                "Arcana",
+                                "Athletics",
+                                "Deception",
+                                "History",
+                                "Insight",
+                                "Intimidation",
+                                "Investigation",
+                                "Medicine",
+                                "Nature",
+                                "Perception",
+                                "Performance",
+                                "Persuasion",
+                                "Religion",
+                                "Sleight of Hand",
+                                "Stealth",
+                                "Survival"
+                            ],
+                            "count": 3
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "(a) 1 martial weapon or (b) 1 simple weapon",
+                    "(a) explorer's pack or (b) dungeoneer's pack",
+                    "(a) 1 crystal orb (arcane focus) or (b) 1 large dragon tooth (arcane focus)",
+                    "(a) 1 scale mail or (b) 1 leather armor"
+                ],
+                "goldAlternative": "5d4x10"
+            },
+            "multiclassing": {
+                "requirements": {
+                    "int": 13,
+                    "or": [
+                        {
+                            "dex": 13,
+                            "str": 13
+                        }
+                    ]
+                },
+                "proficienciesGained": {}
+            },
+            "classFeatures": [
+                [
+                    {
+                        "name": "Draconian Origins",
+                        "entries": [
+                            "Beginning at 1st Level you choose one chromatic or metallic dragon; this color dragon will be where your power comes from. You gain features at certain levels depending on this color. In addition you gain a Spellcasting List depending on the color chosen. You are also able to speak, read, and write Draconic. \n(There are some origins that require a saving throw, the dc for them is 8 + Proficiency + Charisma modifier.)\n",
+                            "Red : Hot Body!",
+                            "You gain resistance to fire damage, at 11th level this becomes immunity. As a bonus action, you magically wreathe yourself in swirling fire, as your eyes glow like hot coals. For 1 minute, you gain the following benefits:",
+                            "You shed bright light in a 30-foot radius and dim light for an additional 30 feet.",
+                            "Any creature takes fire damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.",
+                            "Whenever you roll fire damage on your turn, the roll gains a bonus to equal to your Charisma modifier.",
+                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
+                            "Blue : Shocking Outcome!",
+                            "You gain resistance to lightning damage, at 11th level this becomes immunity. As a bonus action if you did not take the attack action this turn, you can shoot an arcane bolt of lightning from your hands. This bolt of lightning is 5 ft wide and 50 ft long. Each creature within range makes a dexterity saving throw and takes a number of d6 lightning damage equal to your Dragon Warrior level, or half as much on a success.  After you use this feature, you cannot take the attack action on your turn.",
+                            "You have a number of uses of this feature equal to your Charisma Modifier, regaining all expended uses after a long rest.",
+                            "Green : Toxic Personality!",
+                            "You gain resistance to poison damage and advantage to saving throws against being poisoned, at 11th level both of these become immunities. As a bonus action,  you can seep some of your own blood into a vial, making a vial of poison worth at least 150 gp. At 5th level you can make poisons worth at least 300 gp, at 11th level 600 gp, and at 17th level 1200 gp. These poisons are generally more potent than ordinary ones, so their save DC is equal to 8 + your proficiency bonus + your Charisma modifier.",
+                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
+                            "Black : Acidic Solution!",
+                            "You gain resistance to acid damage, at 11th level this becomes immunity. As an expert when it comes to traversing through difficult terrain, you’ve become so akin to it that you can serve as an excellent scout. You do not suffer the effects of non-magical difficult terrain and have advantage on ability checks and saving throws against magical difficult terrain",
+                            "In addition, you can create a powerful acid to which you can use to hinder your enemies. As a bonus action, choose a creature within 60 ft of you. Make a ranged spell attack using Charisma as your spellcasting ability. On hit, the target suffers a -2 penalty to their AC and weapon attack rolls for the next minute. A creature can only suffer this penalty once and cannot suffer it again until the effect ends. You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.\n",
+                            "White : Cold Shoulder!",
+                            "You gain resistance to cold damage, at 11th level this becomes immunity. As a bonus action you can create a blizzard surrounding you in a 20 ft radius sphere for 1 minute. Each creature, other than yourself, within range takes a number of d6 cold damage equal to half your dragon warrior level (rounded down to a minimum of 1) and must make a constitution saving throw or suffer the effects of difficult terrain and have disadvantage on attack rolls and saving throws while within your blizzard.",
+                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
+                            "Copper : You’re Too Slow!",
+                            "You gain resistance to acid damage, at 11th level this becomes immunity. In addition, you can hurl spits of acid that can slow your enemies in their tracks. As a bonus action you can choose a creature within 60 ft of you. Make a ranged spell attack using charisma as your spellcasting ability modifier. On hit, the target’s speed becomes halved and can only make 1 weapon attack per round for the next minute.",
+                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
+                            "Bronze : Stay Away!",
+                            "You gain resistance to lightning damage, at 11th level this becomes immunity. In addition, you can unleash a shockwave of energy and repel nearby enemies. As a bonus action, each creature within 5 ft of you makes a strength saving throw. On a failed save, they are pushed 20 ft backward and take a number of d6 lightning damage equal to half your dragon warrior level (rounded down minimum of 1) and are knocked prone, or half as much damage and are not pushed back or knocked prone on a success. If all creatures fail their save, you can immediately take the dash action as part of this bonus action.",
+                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
+                            "Brass : Hot Stuff!",
+                            "You gain resistance to fire damage, at 11th level this becomes immunity. In addition, you can give yourself a charming aroma to confuse your enemies and make friends easier. As a bonus action on your turn, you can activate your aroma for 1 minute. Each hostile creature within 15ft that has a sense of smell has to make a wisdom saving throw, dc = 8 + proficiency + your charisma modifier. On a failed save, they have disadvantage on attack rolls made against you. ",
+                            "In addition, you gain advantage on all charisma checks against creatures that have a sense of smell and are within 15 ft of you. Undead, creatures that are immune to being charmed are immune to both of these effects. You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
+                            "Silver : Winter’s Veil!",
+                            "You gain resistance to cold damage, at 11th level this becomes immunity. In addition, you can make a layer of thick ice armor surrounding you, making you tougher. As a bonus action, you can gain a number of d6 temporary hit points equal to half your dragon warrior level. (Rounded down to a minimum of 1) While you have these temporary hit points, you have resistance to all damage except fire, but have vulnerability to fire damage. ",
+                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
+                            "Gold : You’re a Wizard Harry!",
+                            "You gain resistance to fire damage, at 11th level this becomes immunity. In addition, you have studied the arcane long enough to understand it to a basic degree. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.",
+                            "Cantrips. You learn three cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level.",
+                            "Spell Slots. You have a number of spell slots equal to your intelligence modifier. These spell slots come back after a long rest. Each spell slot is a 1st level slot, and increases by 1 level every 4 levels after 1st.You regain all expended spell slots when you finish a long rest.",
+                            "Spells Known of 1st-Level and Higher. You know three 1st-level wizard spells of your choice. You gain an additional spell known every 2 levels you take in this class.",
+                            "Spellcasting Ability. Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.Spell save DC = 8 + your proficiency bonus + your Intelligence modifierSpell attack modifier = your proficiency bonus + your Intelligence modifier",
+                            "You can also replace your proficiency with charisma saving throws to intelligence saving throws instead."
+                        ]
+                    },
+                    {
+                        "name": "Draconian Body",
+                        "entries": [
+                            "Your body is riddled with dragon-like scales, granting you natural armor. While you are not wearing armor your AC equals 13 + your constitution modifier. You can still gain the benefits of a shield."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Fighting Style",
+                        "entries": [
+                            "At 2nd level you pick one of the following fighting styles :",
+                            "Unarmed Brawler : Your unarmed strikes deal 1d4 + strength or dexterity (your choice) bludgeoning damage. This damage increases to 1d6 at 5th level, 1d8 at 11th level, 1d10 at 17th level, and 1d12 at 20th level.",
+                            "Honed Mind and Spirit : You gain a +2 to concentration checks on spells and have advantage on wisdom and intelligence saving throws. You can also use an action to end one frightened or charmed condition.",
+                            "Reckless Strikes : Whenever you make a melee weapon attack you can choose to gain advantage in exchange for a -2 penalty to AC and saving throws until the start of your next turn.",
+                            "Patient Defender : When you take the dodge action you gain a +2 to AC. Also by sacrificing your movement action you can use the dodge action as a bonus action.",
+                            "Spellslinger : Whenever you cast a spell that deals damage, add your charisma modifier to the damage if you do not already. You also gain 1 additional damaging cantrip of your choice, that cantrip specifically has an additional + 1 to attack and damage rolls."
+                        ]
+                    },
+                    {
+                        "name": "Draconian Powers",
+                        "entries": [
+                            "Also at 2nd level you learn the ancient secrets of dragons. You know how they can fly, shoot fire - lighting - acid - even frost out of their mouths. You start off with 2 Draconian Powers and gain more as shown in the Dragon Warrior table. Some Draconian Powers are locked away by prerequisites that must be met before they obtain any of these sacred powers such as level and Draconian Origins. You can exchange a Draconian Power for others every time you level up."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Archetype",
+                        "entries": [
+                            "Beginning at 3rd level you have begun to better understand your powers and have decided to go down a path to better a specific field of this newfound power. There are three paths, Summoner, Invoker, Weapon Master. Each path has their own unique properties to them, but each of them is just as deadly as the other.",
+                            "Summoner",
+                            "Summoners have decided to devote their powers more so to asking for aid from spiritual manifestations of their draconic origins. This allows them to summon forth terrifying creatures of destruction in their stead to wreak havoc on their enemies. Summoners can be the most dangerous of Dragon Warriors.",
+                            "Invoker",
+                            "Invokers have harnessed the powers that dwell within them, their bodies becoming more and more dragon-like as they unlock more powers. As an invoker you focus less on physical capabilities and more so on spellcasting. ",
+                            "Weapon Master",
+                            "The Weapon Master is, well, self explanatory. Rather than focusing on magic or the power of friendship you have decided to walk the path of brute force. Through physical exercise and training in your spare time you have honed your skills to be physically stronger and faster than all the rest. Your blade is an extension of your arm and your bow can end a battle before it even begins."
+                        ]
+                    },
+                    {
+                        "name": "Draconian Archetype Feature",
+                        "entries": [
+                            "At 3rd level, you gain a feature from your chosen Draconian Archetype"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Extra Attack",
+                        "entries": [
+                            "Starting at 5th level, when you take the attack action on your turn you can make an additional weapon attack. "
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 6th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Archetype Feature",
+                        "entries": [
+                            "At 7th level, you gain a feature from your chosen Draconian Archetype"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Resistance (x1)",
+                        "entries": [
+                            "Starting at 9th level whenever you would take damage after the result of a saving throw, once per long rest you only take half as much damage on a failed save or none on a successful one. Regardless, after damage calculation you gain 10 temporary hit points. You gain an additional usage of this feature at 13th and 17th levels."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Archetype Feature",
+                        "entries": [
+                            "At 10th level, you gain a feature from your chosen Draconian Archetype"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Smite",
+                        "entries": [
+                            "Starting at 11th level, your weapon attacks become magical for the purposes of overcoming magical resistances, in addition they gain an additional 1d8 points of damage. This damage is related to your draconian origin, i.e. a red dragon warrior deals fire damage."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Resistance (x2)",
+                        "entries": [
+                            "At 13th level, Gain an extra use of the Draconian Resistance Feature"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Improved Draconian Smite",
+                        "entries": [
+                            "At 14th level you increase your Draconian Smite by 1d8."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Archetype Feature",
+                        "entries": [
+                            "At 15th level, you gain a feature from your chosen Draconian Archetype"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Resistance (x3)",
+                        "entries": [
+                            "At 17th level, Gain an extra use of the Draconian Resistance Feature"
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Archetype Feature",
+                        "entries": [
+                            "At 18th level, you gain a feature from your chosen Draconian Archetype"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Ability Score Improvement",
+                        "entries": [
+                            "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                            "If your DM allows the use of feats, you may instead take a feat."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Archetype Feature",
+                        "entries": [
+                            "At 20th level, you gain a feature from your chosen Draconian Archetype"
+                        ],
+                        "gainSubclassFeature": true
+                    }
+                ]
+            ],
+            "subclassTitle": "Draconian Archetype",
+            "subclasses": [
+                {
+                    "name": "Summoner",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Manifest Dragon",
+                                "entries": [
+                                    "Starting at 3rd level, as an action you can manifest a spiritual dragon. When you do so, the spirit has the stat block of a wyrmling corresponding to your Draconian Origin. For example, if you are a Red Dragon Warrior, you manifest a Red Dragon Wyrmling. Your manifested dragon has a number of hit points equal to three times your dragon warrior level, rather than the amount provided by the dragon’s stat block. Your manifested dragon also uses your proficiency bonus rather than its own. In addition, your manifested dragon is instantly destroyed if it is at least 30 ft away from you. Your manifested dragon is also destroyed if it falls to 0 hit points or fewer.",
+                                    "The manifested dragon shares its initiative with you, but cannot take actions unless otherwise commanded to as a bonus action. This command can be mentally given. In addition, while your dragon is manifested you can do any of the following: ",
+                                    "When you take the attack action on your turn, you can replace one of your attacks with an attack originating from your manifested dragon using one of its attacks.",
+                                    "You can magically swap places with your manifested dragon using 15 ft of your movement, regardless of the distance between the two of you.",
+                                    "When a creature that you can see within 5 feet of your manifested dragon moves at least 5 feet away from it, you can use your reaction to make an opportunity attack against that creature using your manifested dragon as the attacker. Your manifested dragon cannot use their reaction when you do so until after the attack roll is made and the creature has left melee range of it.",
+                                    "You have a number of uses of this feature equal to your charisma modifier, and regain all expended uses when you finish a long rest."
+                                ]
+                            },
+                            {
+                                "name": "Unleach Draconic Fury",
+                                "entries": [
+                                    "Also at 3rd level, when you take the attack action while your dragon is manifested, your dragon can make an additional melee attack against a creature within 5 ft of it. You have a number of uses of this feature equal to your Charisma Modifier, and regain all expended uses after a short rest or long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Manifest Greater Dragon",
+                                "entries": [
+                                    "Starting at 7th Level, when you use the Manifest Dragon feature, you can manifest a young dragon instead of a wyrmling. The same rules still apply, however the following changes are made:",
+                                    "Your manifested dragon can be up to 60 ft away from you without being destroyed.",
+                                    "Your manifested dragon loses any multiattack feature if it had one.",
+                                    "If you or an ally is within range of the manifested dragon’s breath weapon, they automatically succeed.",
+                                    "Your manifested dragon’s attacks are considered magical for the purposes of overcoming non-magical resistances."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Shared Mind of the Drakes",
+                                "entries": [
+                                    "At 10th level, you can now link with your manifested dragon’s senses. You can temporarily transfer your consciousness to your manifested dragon. As an action, you can see through your dragon's eyes and hear through its ears. During this time, you are deafened and blinded. You can sustain this effect for up to 10 minutes, and you can end it at any time (requires no action). While your manifested dragon is being used in this way, it can be up to 600 feet away from you without being destroyed."
+                                ]
+                            },
+                            {
+                                "name": "Cooperative Initiative",
+                                "entries": [
+                                    "Also starting at 10th level, while your manifested dragon is summoned you have advantage on initiative checks. In addition, you can no longer be surprised by creatures as a result of being unseen by you, as your manifested dragon gives you a mental forewarning of incoming danger."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Manifest Superior Dragon",
+                                "entries": [
+                                    "Starting at 15th Level, when you use the Manifest Dragon feature, you can manifest an adult dragon instead of a young or wyrmling. The same rules still apply, however the following changes are made:",
+                                    "The dragon loses any of its legendary actions and legendary resistances if it had any. ",
+                                    "The dragon gains a multiattack of two melee attacks and it can use its frightful presence as part of that multiattack.",
+                                    "The dragon loses any lair actions if it had any."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Mournful Sacrifice",
+                                "entries": [
+                                    "At 18th level, if you were to die by any means while your dragon is manifested, you can instantly destroy your manifestation and expend all remaining uses of your Manifest Dragon feature to avoid dying. When you do so, you are brought to your feet at 1 hit point instead."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Manifest Supreme Dragon",
+                                "entries": [
+                                    "Starting at 20th Level, when you use the Manifest Dragon feature, you can manifest an ancient dragon instead of an adult, young, or wyrmling. The same rules still apply, however the following changes are made:",
+                                    "The dragon’s multiattack increases to three attacks.",
+                                    "The dragon regains 1 Legendary Resistance.",
+                                    "The dragon’s AC increases by your proficiency bonus.",
+                                    "In addition, when you roll initiative while you have no uses of your Manifest Dragon feature, you regain 1 use."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "DW",
+                    "shortName": "Summoner"
+                },
+                {
+                    "name": "Invoker",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Spellcasting",
+                                "entries": [
+                                    "When you reach 3rd level, you have discovered an ancient heritage of magical prowess and have gained the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the sorcerer spell list.",
+                                    "Cantrips. You learn two cantrips of your choice from the sorcerer spell list. You learn an additional sorcerer cantrip of your choice at 10th level.",
+                                    "Spell Slots. The Invoker Spellcasting table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\nFor example, if you know the 1st-level spell shield and have a 1st-level and a 2nd-level spell slot available, you can cast shield using either slot.",
+                                    "Spells Known of 1st-Level and Higher. You know three 1st-level sorcerer spells of your choice.\nThe Spells Known column of the Invoker Spellcasting table shows when you learn more sorcerer spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+                                    "Whenever you gain a level in this class, you can replace one of the sorcerer spells you know with another spell of your choice from the sorcerer spell list. The new spell must be of a level for which you have spell slots.",
+                                    "Spellcasting Ability. Charisma is your spellcasting ability for your sorcerer spells, since you learn your spells through supernatural powers. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\nSpell attack modifier = your proficiency bonus + your Charisma modifier",
+                                    {
+                                        "type": "table",
+                                        "caption": "Invoker Spellcasting",
+                                        "colLabels": [
+                                            "Level",
+                                            "Cantrips Known",
+                                            "Spells Known",
+                                            "1st",
+                                            "2nd",
+                                            "3rd",
+                                            "4th"
+                                        ],
+                                        "rows": [
+                                            [
+                                                1,
+                                                "-",
+                                                "-",
+                                                "-",
+                                                "-",
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                2,
+                                                "-",
+                                                "-",
+                                                "-",
+                                                "-",
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                3,
+                                                2,
+                                                3,
+                                                2,
+                                                "-",
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                4,
+                                                2,
+                                                4,
+                                                3,
+                                                "-",
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                5,
+                                                2,
+                                                4,
+                                                3,
+                                                "-",
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                6,
+                                                2,
+                                                4,
+                                                3,
+                                                "-",
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                7,
+                                                2,
+                                                5,
+                                                4,
+                                                2,
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                8,
+                                                2,
+                                                6,
+                                                4,
+                                                2,
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                9,
+                                                2,
+                                                6,
+                                                4,
+                                                2,
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                10,
+                                                3,
+                                                7,
+                                                4,
+                                                3,
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                11,
+                                                3,
+                                                8,
+                                                4,
+                                                3,
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                12,
+                                                3,
+                                                8,
+                                                4,
+                                                3,
+                                                "-",
+                                                "-"
+                                            ],
+                                            [
+                                                13,
+                                                3,
+                                                9,
+                                                4,
+                                                3,
+                                                2,
+                                                "-"
+                                            ],
+                                            [
+                                                14,
+                                                3,
+                                                10,
+                                                4,
+                                                3,
+                                                2,
+                                                "-"
+                                            ],
+                                            [
+                                                15,
+                                                3,
+                                                10,
+                                                4,
+                                                3,
+                                                2,
+                                                "-"
+                                            ],
+                                            [
+                                                16,
+                                                3,
+                                                11,
+                                                4,
+                                                3,
+                                                3,
+                                                "-"
+                                            ],
+                                            [
+                                                17,
+                                                3,
+                                                11,
+                                                4,
+                                                3,
+                                                3,
+                                                "-"
+                                            ],
+                                            [
+                                                18,
+                                                3,
+                                                1,
+                                                4,
+                                                3,
+                                                3,
+                                                "-"
+                                            ],
+                                            [
+                                                19,
+                                                3,
+                                                12,
+                                                4,
+                                                3,
+                                                3,
+                                                1
+                                            ],
+                                            [
+                                                20,
+                                                3,
+                                                13,
+                                                4,
+                                                3,
+                                                3,
+                                                1
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Invoke Energy",
+                                "entries": [
+                                    "At 3rd level, you have a pool of Invoke Energy equal to your Dragon Warrior level. You use this energy to use the features in this Archetype. By spending a certain amount of Invoke Energy you can do one of the following as a bonus action on your turn :",
+                                    "Invoke Magic : You can turn Invoke Energy into a spell slot. The cost equals the spell slot level and only goes to a maximum of 3rd level. You cannot create a spell slot level that you do not have access to.",
+                                    "Draconian Empowerment : When you cast a spell using an Invoker Spell Slot you can do one of the following by spending 1 Invoke Energy :",
+                                    "Impose Disadvantage on the saving throw for the spell if there is one.",
+                                    "Treat the spell attack as an automatic hit but halve the damage dealt by the attack. ",
+                                    "Hastened Spell : By spending 2 Invoke Energy you can turn a spell that has an action casting time into a bonus action cast. A spell with a casting time longer than 1 minute takes half as much time to cast.",
+                                    "Invoke Weapon : Before you cast a spell you can imbue your weapon with that spell, by spending 1 Invoke Energy per spell level, applying its effects to trigger on a successful hit of the weapon. Any effect that requires a dexterity saving throw automatically counts as a failed saving throw.",
+                                    "Invoke Body : When you cast a spell that does a form of elemental damage such as fire, cold, lightning, acid, radiant, or bludgeoning from a water based spell, example being control water, by spending 1 Invoke Energy point you take half damage from an attack that deals that type of damage for 1 minute."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Invoke Chaos",
+                                "entries": [
+                                    "At 7th level as an action you can spend 2 Invoke Energy to cause a Random Event to occur. The random event is determined on a d20 roll followed by a d6 roll. Once the event occurs you gain 1 Chaos point. These chaos points stack up, maxing out at number equal to your Dragon Warrior level. The DM can use these Chaos Points to cause a Chaos Event to occur. Once the Chaos Event occurs you gain 1 Invoke Energy. If you have max Invoke Energy then you instead gain 1 temporary Invoke Energy. Temporary Invoke Energy can only be used to create spell slots and disappear after 1 minute. When you use Invoke Chaos you lose the ability to do so. At the start of each of your turns after you use Invoke Chaos you roll a d6. You regain the ability to use Invoke Chaos on a 4, 5, and 6. At 12th level you gain the ability to use 2 Random Events on the same usage of Invoke Chaos, but gaining the Chaos Points as if you used multiple usages as normal. ",
+                                    {
+                                        "type": "table",
+                                        "caption": "Random Events",
+                                        "colLabels": [
+                                            "Roll",
+                                            "Event"
+                                        ],
+                                        "rows": [
+                                            [
+                                                1,
+                                                "1) Time Freezes as per the time stop spell and ends as normal. [Gives 2 Chaos Points] 2) A random enemy’s non-magical weapon turns to dust. If there are no weapons that can be turned to dust, 4d6 force damage is done to a random enemy. 3) You lose 5d6 health, but the damage dealt to yourself is dealt to an enemy of your choosing. 4) You lose 2d6 health, but an ally regains the damage you took. 5) You switch places with an ally within 200 ft of you. 6) Every hostile creature within 60 ft of you are launched 100 ft into the air and forced down as per the downdraft effect of control winds. When they hit the ground they take fall damage as per normal, but they also receive 10d10 force damage. [You gain max Chaos Points]"
+                                            ],
+                                            [
+                                                "2-3",
+                                                "1) A random ally regains 2d6 HP. 2) A random enemy takes 2d6 force damage. 3) You are put under the effects of the Blink Spell for 1 minute, but the effect cannot be voluntarily ended. 4) You and allies within 30 ft of you are given 2d10 Temporary HP. 5) A hole appears underneath an enemy of your choice, the hole is always big enough to allow the creature to fall. It automatically fails the dexterity save unless it has flight. Creatures within 5ft of the target makes a dexterity save to not fall into the pit. The hole goes down 50ft. The hole disappears and the earth reforms after 1 minute. If there are creatures still stuck in the hole after it disappears, they begin to suffocate. 6) You regain 1 Invoke Energy but gain an additional Chaos Point."
+                                            ],
+                                            [
+                                                "4-5",
+                                                "1) You push an enemy within 5ft from you 60ft back and they take 6d6 force damage. 2) You gain the effects of mirror image. 3) You cast the spell Spiritual Weapon at 3rd level without spending a Draconian Spell Slot. 4) You, or 1 ally within 60 ft of you, gain the benefits of Bless for 1 minute without having to concentrate on it. 5) You, or 1 ally within 100 ft of you, gains 1 “Luck” point that they can use as per the “Lucky” feat. 6) Choose 1 enemy; that enemy has the effects of bane without you having to concentrate on it for 1 minute."
+                                            ],
+                                            [
+                                                "6-7",
+                                                "1) You, or an ally within 100 ft of you, has its speed doubled for 1 minute. 2) Choose a damage type of any kind, add 2d6 of that damage type to the next weapon attack, spell attack, or a spell or effect that does damage. 3) Roll a d3, a weapon with a magic bonus of what you rolled appears. The type of weapon can be of your choosing but it cannot be a named or sentient weapon. The weapon only appears for 1d4 minutes and disappears afterwards. 4) The next time you are hit by any attack, you can use your reaction to nullify the damage entirely. 5) A random cat appears, with the stats of an adult red dragon. It stays for 1 round, attacks, then vanishes. “Did that cat just breathe fire?” 6) You can switch an enemy’s position with another enemy."
+                                            ],
+                                            [
+                                                "8-9",
+                                                "1) The next time an enemy casts a spell, it automatically fails. Roll a d100, on a 1 it backfires and does the opposite the user wanted to do initially. On a 100 the spell succeeds. Anything in-between, the spell just fails. 2) The next time an ally gets hit by any attack, you can nullify the damage to zero. 3) A swarm of birds appear, when they do they screech at the top of their lungs. Every creature within 100 ft of the swarm makes a constitution saving throw dc 18. On a failed save they are deafened and take 4d6 thunder damage. If a creature is silenced they do not have to make the save. 4) You create a sphere of antimagic centered on you, radius 20 ft, for 1 minute. You are immune to its effects, but everyone else is affected as normal. 5) A pigeon appears out of nowhere, for the next five minutes out of game, anything you may learn out of character can be used as legal knowledge for the duration as the pigeon will speak of the things you learn. After the pigeon disappears each character makes a dc: 25 history check, on a successful check you remember everything the pigeon said, on a fail you remember nothing. 6) A card appears in your hand, it’s the knight card from the deck of many things. The effects of the card apply, then the card vanishes."
+                                            ],
+                                            [
+                                                "10-11",
+                                                "1) The next time you hit with a weapon attack a pillar of light appears where the attack struck. This pillar is a 10 ft radius and a 500 ft tall cylinder. Each creature within that cylinder makes a constitution saving throw and takes 10d10 radiant damage on a failed save and half as much on a successful one. 2) You immediately fire an adult dragon’s breath weapon in the exact direction you are facing when this occurs. The breath weapon’s damage varies on the type of dragon you chose. If you chose a metallic dragon you take it’s secondary breath weapon. 3) The next time you make a melee attack, you can choose to hit every creature within 10ft of you, including your allies. 4) Wings sprout out and immediately fly you up 100 ft. without provoking attacks of opportunity. These wings disappear when you next land. Until then, if you do not already have a fly speed, you have a fly speed of 50ft. 5) You gain resistance to fire, lightning, cold, and acid damage for 1 minute. 6) The next time you do damage with an attack, you regain hit points equal to half the damage you dealt."
+                                            ],
+                                            [
+                                                "12-13",
+                                                "1) Roll a d6, depending on what you roll, increase an ability score, from going 1-6 top to bottom, by 2 for 1 hour. 2) You gain advantage on Dexterity Saving Throws for 1 minute. 3) Your current hit points and maximum hit points are cut in half, afterwards for 1 minute a clone of yourself appears. The clone has all of your abilities and features except for Invoke Chaos. When this clone is reduced to 0 hit points it dies and fades away. When you are reduced to 0 hit points the clone is absorbed immediately by you and you regain the hit points the clone had remaining. Either way, once the clone disappears your maximum hit points returns to normal. 4) The next time you hit a creature, they make a strength saving throw. On a failed save the creature is knocked prone. 5) You teleport to a location that you can see within 90 ft of you. When you do creatures from 5ft of  where you teleported from take 3d10 force damage and are knocked back 5ft. 6) Re-Roll the d20 for the Invoke Chaos but keep the 6 roll on the d6."
+                                            ],
+                                            [
+                                                "14-15",
+                                                "1) Lightning strikes down on 6 enemies of your choice. Everything within 5ft of those targets makes a dexterity saving throw and  takes 12d6 lightning damage on a failed save and half as much on a successful one. 2) You are surrounded by faint, ethereal music for the next minute. 3) Roll a d10. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow. 4) You are immune to being intoxicated by alcohol for the next 5d6 days. 5) For the next minute, you must shout when you speak. 6) On the next attack you do, or spell you cast, you deal max damage."
+                                            ],
+                                            [
+                                                "16-17",
+                                                "1) A fiery shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to Magic Missile. 2) For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame. 3) For the next minute, you can see any invisible creature if you have line of sight to it. 4) For the next minute, you regain 5 hit points at the start of each of your turns. 5) A dragon eye appears on your forehead for the next minute. During that time, you have advantage on Wisdom (Perception) checks that rely on sight. 6) You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn."
+                                            ],
+                                            [
+                                                "18-19",
+                                                "1) A young dragon controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later. 2) You can take one additional action immediately. 3) Your size increases by one size category for the next minute. 4) Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw. 4) You jump forward in time exactly 1 minute, for 1 minute. From the perspective of everyone else, you cease to exist during that time. 5) You immediately cast expeditious retreat. 6) A random creature within 60 feet of you becomes poisoned for 1d4 hours."
+                                            ],
+                                            [
+                                                20,
+                                                "1) You gain max chaos points, but you also fully restore all of your hit points. 2) You gain 3 3rd level spell slots. 3) you replenish all of your spent Draconian Spell Slots. 4) You Reduce the amount of Chaos Points you have to 0 and you do not gain a Chaos Point after this Random Event. 5) Choose a creature within 120 ft of you. It must make a Constitution saving throw equal to your spell save dc. On a failed save it is reduced to 0 hit points. On a success it takes 20d10 force damage. After this Random Event you gain Max Chaos Points. 6) You can pick any random event to occur."
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "type": "table",
+                                        "caption": "Random Events",
+                                        "colLabels": [
+                                            "Cost",
+                                            "Chaos Event"
+                                        ],
+                                        "rows": [
+                                            [
+                                                1,
+                                                "A fireball is cast at 3rd level centered on the Invoker."
+                                            ],
+                                            [
+                                                2,
+                                                "A random item disappears from the invoker for 1 minute."
+                                            ],
+                                            [
+                                                3,
+                                                "The Invoker forgets how to speak any language but draconic for 1 minute. It can still comprehend its other languages."
+                                            ],
+                                            [
+                                                4,
+                                                "Choose an NPC that you have created as the GM, that NPC now has a burning hatred for the Invoker and seeks revenge on him or her for a lie they’ve been told by someone. The lie is entirely up to you, the GM."
+                                            ],
+                                            [
+                                                5,
+                                                "You can target 1 creature with a CR less than half of the Invoker’s level that has been killed or incapacitated. You can restore that creature to its full amount of hp and it receives the benefits of a new dawn."
+                                            ],
+                                            [
+                                                6,
+                                                "You can give advantage on any attack roll, saving throw, or ability check to one creature hostile to the Invoker."
+                                            ],
+                                            [
+                                                7,
+                                                "A random item disappears from the Invoker for 1d4 days."
+                                            ],
+                                            [
+                                                8,
+                                                "You can give disadvantage to any attack throw, saving throw, or ability check to the Invoker."
+                                            ],
+                                            [
+                                                9,
+                                                "The Invoker’s weapon shatters instantly if it was non-magical"
+                                            ],
+                                            [
+                                                10,
+                                                "Choose 1 fiend of a CR equal to or less than the level of the Invoker, summon it as a new enemy to fight the Invoker. It will not attack the other party members unless provoked. The fiend does not cease unless it is killed, sent back to its original plane, or if it kills the Invoker. The fiend cannot be persuaded to give up the fight or spare the Invoker."
+                                            ],
+                                            [
+                                                11,
+                                                "The Invoker becomes paralyzed for 1d2+2 rounds"
+                                            ],
+                                            [
+                                                12,
+                                                "The Invoker’s Magical Weapon shatters."
+                                            ],
+                                            [
+                                                13,
+                                                "A random item from the Invoker disappears for 1d4 weeks. "
+                                            ],
+                                            [
+                                                14,
+                                                "The Invoker loses half of their current hit points"
+                                            ],
+                                            [
+                                                15,
+                                                "You can fully heal one of the enemies in combat."
+                                            ],
+                                            [
+                                                16,
+                                                "One of the Invoker’s allies turns on them, as they become blinded by rage for 1d4 rounds."
+                                            ],
+                                            [
+                                                17,
+                                                "You cast meteor swarm centered on the Invoker."
+                                            ],
+                                            [
+                                                18,
+                                                "A random item disappears from the Invoker permanently."
+                                            ],
+                                            [
+                                                19,
+                                                "The Invoker loses all of their Spell Slots "
+                                            ],
+                                            [
+                                                20,
+                                                "The Invoker falls unconscious instantly, being brought down to 0 hp. The Invoker cannot die or be targeted for attacks or other harmful effects. The Invoker disappears into the Astral Plane for 1d4 hours. Afterwards the Invoker wakes up in one location of the GM’s choosing, with nothing except 1 weapon, 1 magic item, 1 new sentient cursed magical item or weapon, and the Invoker’s clothes and arcane focus. The Invoker also has no memory of anything that happened within the last year. He regains his memory after 1d6 days."
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Invoke Element",
+                                "entries": [
+                                    "Starting at 10th level, when you roll acid, cold, fire, lightning, or poison damage, you can spend 1 Invoke Energy to replace that damage type with a different type from the same list."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Invoke Fate",
+                                "entries": [
+                                    "At 15th level whenever you fail a saving throw, ability check, or miss an attack roll you can spend 2 Invoke Energy and gain 2 Chaos Points to re-roll that die and you choose which result to take. Once you use this feature you cannot use it again until you complete a short or long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Invoke Arcane",
+                                "entries": [
+                                    "At 18th level your arcane prowess towers over most. You add your proficiency modifier to all damage rolls from your spells. You also add your ability modifier to all your spells damage rolls if you don’t already add it. You can also spend 1 Invoke Energy to add an extra damage die to your spell’s damage."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Invoke Control",
+                                "entries": [
+                                    "At 20th level, you can spend 4 Invoke energy to choose any 1 random event and any 1 chaos event to occur. You can do this a number of times equal to half your charisma modifier (rounded down). You regain all uses of this feature after you complete a long rest."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "DW",
+                    "shortName": "Invoker"
+                },
+                {
+                    "name": "Weapon Master",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Draconian Bond",
+                                "entries": [
+                                    "At third level you form a bond between you and your weapons, passing down your draconian powers to your weapons. You can spend 1 hour as part of your short or long rest meditating in front of 2 weapons. One ranged weapon of any kind, and one melee weapon of any kind, or both of one type. Once your meditation has completed your weapons glow and transform depending on your draconian origin. This bond breaks when you die. While your weapons are bonded they gain the following benefits :",
+                                    "Your weapons deal an additional 1d6 damage of the type relating to your draconian origin i.e red = fire and blue = lightning. The damage die increases to 1d8 at level 5, 1d10 at level 11, and 1d12 at level 17.",
+                                    "You can use a bonus action to make your weapons disappear into an extra dimensional plane. You can also use a bonus action to summon your weapons.",
+                                    "Your weapons count as magical for the purposes of overcoming magical resistances. At 5th level they gain a magic bonus of +1, at 11th they become +2, and on the 17th they become +3.",
+                                    "Your weapons are nigh indestructible, except by the means of the disintegrate or wish spells."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Draconian Spirit",
+                                "entries": [
+                                    "Starting at 7th level you have a pool of spirit energy from deep within called “Draconian Spirit”. You have a number of Draconian Spirit Energy equal to half your Dragon Warrior level rounded down. As a bonus action on your turn by spending your Draconian Spirit Energy you can do one of the following, each of these abilities cost 1 point :",
+                                    "Spirit of the Warrior : You gain advantage on your attack rolls for the current turn and gain 10 temporary hit points.",
+                                    "Flurry of Strikes : You can make 2 weapon attacks immediately after you take the attack action, however you do not add your ability modifier to damage rolls.",
+                                    "Healing Energy : You can restore yourself  2d10 + your constitution modifier hit points.",
+                                    "Indomitable Shield : Your speed is reduced to 0. You cannot use this ability before you use your action, otherwise your action is wasted. You can cut the damage of the next incoming attack in half. If you are not attacked by the start of your next turn the effect ends and you instead gain 10 temporary hit points. While you have these temporary hit points you can spend your reaction to cut the damage of the next incoming attack in half. Once you do, you lose the temporary hit points, but after damage calculation. These temporary hit points are always lost first if you are using a variant rule for temporary hit points.",
+                                    "Staggering Strike : The next time you hit with a weapon attack the target makes a strength saving throw. On a failed save, the creature is knocked prone and they are stunned until the start of your next turn.",
+                                    "Swiftness of the Warrior : You can use the dash or disengage actions, choose one. Your jump distance is doubled and you cut any fall damage you would take in half until the start of your next turn. Alternatively you can use this ability as a reaction instead of a bonus action."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Magic Warrior",
+                                "entries": [
+                                    "Starting at 10th level, your body has become a juggernaut against magical effects. You gain advantage on saving throws against spells and other magical effects. In addition, spell attacks have disadvantage against you if you are within 15 ft of the caster."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Relentless Warrior",
+                                "entries": [
+                                    "At 15th level by spending 2 of your Draconian Spirit Energy as a reaction whenever you would be reduced to 0 hit points but not outright killed you can instead be reduced to 1 hit point."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Honor Before Death",
+                                "entries": [
+                                    "Starting at 18th level once per long rest, you can use your Relentless Warrior without spending any Draconian Spirit Energy and even if the attack would outright kill you. If the attack would outright kill you you fall to 0 hit points but before you do, you can make a weapon attack against the attacker with advantage. If you hit, you deal an additional amount of damage equal to the same amount of damage you would have originally taken, but the damage is of your weapon’s type or your Draconian Origin’s type, your choice."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Strength and Glory",
+                                "entries": [
+                                    "At 20th level, you can become a bastion of strength. Your current and maximum Strength and Constitution scores increase by 2. In addition, when you roll initiative while you have 0 Draconian Spirit Energy, you regain 4 points."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "DW",
+                    "shortName": "Weapon Master"
+                }
+            ],
+            "fluff": [
+                {
+                    "entries": [
+                        "A Dragon Warrior is a powerful fighter who has either made a deal with a dragon, has been blessed by a dragon, has killed a dragon or was around when a dragon died and absorbed its power, or was raised by a dragon. Either way, a Dragon Warrior uses the magical power that originated from a dragon, but has evolved it into their own power. While Dragons are indeed magical they are very limited on the spell casting end of things, which is what the Dragon Warrior tries to make up for with physical combat. One of the many benefits of the Dragon Warrior is that they have a lot of options, there are a lot of options that the Dragon Warrior can have and many that they will never obtain. There is a lot of versatility and choices for each Dragon Warrior, making 1 entirely different from the others. If you like a class with a lot of options, then this may be one for you.\n"
+                    ],
+                    "name": "Dragon Warrior",
+                    "type": "section"
+                }
+            ]
+        }
+    ],
+    "optionalfeature": [
+        {
+            "source": "MT",
+            "name": "Gadget Crafting",
+            "entries": [
+                "By undertaking this Magitech Research you can begin making more complex gadgets and gizmos. When making a Gadget consider what task you want it to complete. Examples include a Flash Grenade that is intended to blind creatures. So the idea is to give it a range of how far you can throw it, making it involve a saving throw, etc. Here are some examples of Gadgets, but work with your DM to craft your Gadgets. You have a number of known Gadgets equal to your Intelligence Modifier.",
+                "Grappling Hook! (50 GP) : This device contains a 50ft long hook and rope that shoots outward, connecting to any wooden or rough surface climbing gear would. (This is a bonus action in combat) Then you can either launch yourself forward with the Grappling Hook, or you can aim it at a creature and attempt to grapple them. They make an opposing athletics or acrobatics check against your Magitech Save DC. You can then spend an action to retract the Grappling Hook to knock the enemy prone and reduce their movement to zero until the start of your next turn. No save required if the target was already grappled on a previous turn.",
+                "Smoke Bomb! (50 GP) : A small ball filled to the brim with smoke, as a bonus action you throw it down you can do one of two things : set it to explode at a specific time OR have it explode on impact. Upon explosion a large amount of gas expands outward in a 20ft radius sphere. You have advantage on stealth checks to leave the sphere and creatures inside the sphere have disadvantage on perception checks.",
+                "Flash Grenade! (50 GP) : FLASH! Throw a grenade that explodes mid air as a bonus action, you create a flash of light outward for a 20ft radius sphere. Any creature within the radius of the flash grenade must pass a Constitution Saving Throw against your Magitech Save DC. On a failed save the target is blinded for 1d4 rounds.",
+                "There are various different kinds of gadgets you can make, but most of these gadgets should be mundane in usage and don’t have any real magical properties to them, other than making the gadgets possible to function in general."
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Minor Vehicle Construction",
+            "entries": [
+                "By undertaking this Magitech Research you can make small land vehicles to help you and your group travel to places more quickly. Certain vehicles can make traveling in certain areas much less of a hassle. These vehicles can be used to possibly ignore difficult terrain and may come equipped with a set of navigation tools. Though you may have to supply some magitech energy to power them and they may not last long. Crafting one will generally cost around 100gp - 500gp.",
+                "These vehicles can take the appearance of whatever you wish so long that it is of medium or large size. (A medium sized vehicle can be something like a hoverboard, or a scooter even.) 5 Magitech Energy can power these vehicles for 1 hour, after which they need to be recharged by either spending 5 additional Magitech Energy or using a Magitech Energy Pack to keep it charged until the Energy Pack runs out of Energy.",
+                "The vehicles will have a stat block, but only the Strength, Dexterity, and Constitution Scores will be used. Work with the DM on how your specific vehicles may be statted. Its armor class will equal its Strength Score, its Speed will equal 5 x its Dexterity Score, and its hit points will be 10 x its Constitution Score. Some Example stat blocks will be at the bottom of this document. Regardless, its mental ability scores should all equal 1 and they are immune to all conditions."
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Basic Runic Studies",
+            "entries": [
+                "By learning the various different kinds of magic, you have stumbled across a peculiar type of magic used by giants. You can incorporate this runic magic to your Magitech Gear and Weapons. Each Rune costs 50 gp to craft. (You can also apply the Runes to other Magitech Devices, but make sure to OK with your DM first.) Activating a Rune costs 10 Magitech Energy and lasts for 1 hour. Once a rune is used they lose their magical properties and regain them at the end of a long rest.",
+                "Rune of Strength: While you have the Rune Active, your Strength Score increases by 2 and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. In addition you have advantage on Strength Checks.",
+                "Rune of Enlargement: While you have the Rune Active, your Constitution Score increases by 2 and you are put under the effects of the Enlarge effect of the Enlarge/Reduce Spell.",
+                "Rune of the Raven Eyes: While you have the Rune Active, your Wisdom Score Increases by 2 and you have advantage on Wisdom (Perception) and Wisdom (Insight) checks. "
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Basic Construction",
+            "entries": [
+                "Creating constructs has been a favored pastime for all kinds of inventors, from the mountain driven dwarves to the forest homed gnomes, tiny constructs have always held a special place in a tinkerer’s heart. Now you too can join in on the fun. By imbuing magic into a tiny humanoid looking statue made of wood, clay, or even metal; you can create a tiny construct that can move around and do mundane tasks. ",
+                "As a 10 minute ritual, you can cast the Tiny Servant spell using Intelligence as your spellcasting ability at will. The duration lasts until the creature falls to 0 hit points, at which point the spell ends. Otherwise, the spell lasts until dispelled.",
+                "Rather than casting a spell, you can flavor this as tinkering around with an object until it resembles more of a humanoid like object, adding gears and tiny components that would allow it to move around and open doors, pick locks, etc."
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Magitech Attachments",
+            "entries": [
+                "You took a look at your weapon and thought “You know… why not add more?”",
+                "You have a number of known Magitech Attachments equal to your Intelligence Modifier. You can craft Magitech Attachments at a base cost of 50 gp. Work with your DM on how your attachments function and the usages of them. Do they add a modifier to hit? To damage? Do they make weapons fly back into your hand? It’s up to you, but at the end of the day it’s up to you and the DM to determine that. Here are some example attachments to get you started:",
+                "Scope (50 GP): You gain advantage to hit a creature within base range of a shot with a ranged weapon this attachment is on and you gain a normal roll with the disadvantage range of a ranged weapon with this attachment on.\n",
+                "Serrated Blade (50 GP): A melee weapon with this attachment gains an additional 1d6 Slashing damage.",
+                "Energy Amplifier (75 GP): A magitech ranged weapon that is energy based adds an additional damage die of the type of damage it deals, but at the cost of 5 Magitech Energy.",
+                "Detachable Battery (100 GP): A magitech Energy Pack that you can attach directly to your weapons or devices. This battery can contain up to 5 x Your Intelligence Modifier in Magitech Energy and regains all expended Magitech Energy at the end of a long rest. Detaching and Attaching the battery onto a Magitech Device costs a Bonus Action in combat."
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Chemical Construction",
+            "entries": [
+                "You’ve studied the art of technology and magic, but what if you added chemistry into the mix? Now you’re asking for a good time. Through your genius and research you’ve discovered a way to create a sentient ooze. ",
+                "As a 1 hour ritual you can artificially create an ooze of a CR up to half your Magitechnician level (rounded down). The ooze has an Intelligence Score of 10 unless it was already higher than 10. It follows your initiative and acts on its own. You can mentally command it however by spending a bonus action. You can only have 1 ooze at a time when you use this feature."
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Ionic Research",
+            "entries": [
+                "You’ve learned how to create energy based weapons through the means science and magic. You can replace the damage type of your Magitech Weapons with radiant damage. In addition, your Magitech Weapons deals an additional amount of radiant damage on hit equal to your intelligence modifier."
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Aberrant Technology",
+            "entries": [
+                "You have been contacted by, or discovered, an eldritch aberration from the Far Realm and have been given information about their strange anatomy and the science behind it. Being the inventor you are, you have made it your goal to incorporate this information into your technology. ",
+                "You are given a single Warlock Spell Slot, see the Warlock’s “Pact Magic” feature PHB pg 107. Choose from two Eldritch Invocations (you must meet the prerequisites) and create a Magitech Device that incorporates those invocations. You also gain the Eldritch Blast cantrip and 2 spells from the Warlock Spellcasting List. These spells must be of a level of which you’d be able to cast as a 3rd level Warlock. You cast these spells through odd Magitech Devices that are thematically designed to fit the spell. Eldritch Blast can be cast through your ranged Magitech Weapon."
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Botanist Researcher",
+            "entries": [
+                "You’ve decided to delve into researching nature and have discovered that many herbs can be used in ways you’ve never even imagined. Never underestimate the power of nature. You gain proficiency in Nature, if you already have proficiency you add double your proficiency bonus instead. You also gain proficiency in an Herbalism Kit and you add your Improved Tinkers Tools bonus to ability checks made with your Herbalism Kit.",
+                "Additionally, when you make potions using your Herbalism Kit, you gain the following options using similar materials used to make Potions of Healing, costing the same amount:",
+                "Potion of Fertility: This greenish liquid allows soil to become instantly fertile, and capable of growing plant life even in arid or otherwise uninhabitable environments. ",
+                "Potion of Growth (look at DMG p187)",
+                "Philter of Love (look at DMG p184)"
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Nanotechnology",
+            "entries": [
+                "Your research in robotics has led to this very moment, you have learned how to create very tiny, microscopic sized robots that basically act as a literal tiny army. It costs roughly 200 GP worth of Magitech materials in order to create an efficient batch of nanotech. This nanotechnology can perform mundane tasks as well as be used to further enhance other works of Magitech. \n",
+                "Your nanites, as they will be called for simplicity’s sake, have some basic commands that you can give them. Upon doing so they will be given a task based on that command. To use a command takes a bonus action. You can add more commands to the Nanites in time, but their basic commands go as such: ",
+                "Assist : provides the help action.",
+                "Repair : Heals a construct for 1d6 + Your Intelligence Modifier. ",
+                "Enhance : Your nanites enter inside of your weapons and gear enhancing them. You can now add a 1d6 to any attack roll, saving throw, or ability check. This can be used 3 times until the command ends. (This command can be used for yourself or any ally with the correct magitech gear, i.e if they only have a weapon they only get the bonus for attack rolls.)"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6
+                    },
+                    "feature": [
+                        "Basic Construction"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Magical Gadgets",
+            "entries": [
+                "You have furthered your research into your Gadget Crafting and incorporated magic into the mix. You can craft gadgets that can magically cause a creature to become poisoned, paralyzed, slowed, etc. This option is an enhancement to the Gadget Crafting and replaces it when you gain this option. You can recreate your already existing gadgets to become magical gadgets. Some examples of magical gadgets are :",
+                "Shock Grenade : (150 GP) As a bonus action you can throw a small object that explodes mid air, releasing a large discharge of electricity. Each creature within 20 ft of the Shock Grenade makes a Dexterity saving throw against your Magitech Save DC, taking 2d10 lightning damage and is paralyzed on a failed save, or half as much on a success and is not paralyzed.",
+                "Noxious Spray : (100 GP) As an action you can pull out a spray canister that contains a noxious gas. You spray out a 15 ft cone of this gas, each creature within range makes a Constitution saving throw against your Magitech Save DC or is poisoned for the next minute. While poisoned in this way, instead of being able to see clearly or hear, it hallucinates and is considered blinded and deafened. A creature can repeat its save at the end of each of its turns, ending the effect on a success.",
+                "Charming Bowtie : (100 GP) As an action you can tighten a special bowtie to give off a very stunning appearance to those around you. Each creature that can see you makes a Charisma saving throw against your Magitech Save DC, or be charmed by you for the next hour. If the creature takes damage by you or your companions, this effect ends. If they pass the saving throw, they do not know you were attempting to charm them. While charmed in this way, they see you as a close friend and are more willing to share sensitive information with you."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Gadget Crafting"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Advanced Vehicle Construction",
+            "entries": [
+                "As you delve more into your research into constructing vehicles, you can now make much larger vehicles, allowing more than one person to enter a vehicle. You can craft a huge Vehicle which can carry up to two people at a time. A larger Vehicle can potentially move slower, but have a higher hit point pool. This option is an enhancement to the Minor Vehicle Construction option and replaces it when you gain this option. Some examples of Huge Vehicle stat blocks will be shown at the bottom of this document alongside the smaller ones.",
+                "In addition, your Advanced Vehicles come equipped with mounted weapons. The mounted weapons use the statistics of a Laser Rifle found in Chapter 9 of the dmg.",
+                "These Huge Vehicles can also be made as Water Vehicles, meaning that they can be driven on water as if it was traveling on land."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Minor Vehicle Construction"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Advanced Runic Studies",
+            "entries": [
+                "This feature is an enhancement to the Basic Runic Studies option and replaces it when you pick this option. When you gain this feature you gain the following Runes that each cost 100 GP :",
+                "Rune of the Allfather: While you have the Rune Active, your Intelligence Score increases by 2 and you gain advantage on all Intelligence checks for 1 minute. In addition you can ask the DM any one question within that minute, to which the DM responds with a truthful, but possibly vague answer. Once you do so, the Rune’s magic ends early, depending on the answer.",
+                "Rune of the Valkyries: While you have the Rune Active, your Dexterity Score increases by 2 and you gain a flying speed of 60 ft. for the next minute. ",
+                "Rune of the Trickster: While you have the Rune Active, your Charisma Score increases by 2 and you gain a special action that you can use to charm a creature within 60 ft of you. The creature must make a Charisma saving throw against your Magitech Save DC. On a failed save, the creature is charmed by you for 1 hour and persists even when the Rune loses its magic. While charmed in this way, the creature is oblivious to your attempts to deceive them, no ability check required. The charm ends early if you or one of your allies damages them."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Basic Runic Studies"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Elemental Magitech",
+            "entries": [
+                "You took a look at your weapon and thought “You know… it’s not good enough, let’s set it on fire.”",
+                "You have an Elemental Attachment that you can use to spend 5 Magitech Energy to grant your weapon with a specific elemental damage for the next minute. Until the effect ends, you deal an additional 1d10 damage using acid, cold, fire, lightning, or poison for the damage type using your Magitech Weapons."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Magitech Attachments"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Advanced Construction",
+            "entries": [
+                "One construct was not enough for you, you must have more. They must be bigger, stronger, faster, and better. So you have studied this far to create your army of constructs. This feature is an enhancement to the Basic Construction feature and replaces that option when you pick this option.",
+                "You can spend a 1 hour ritual casting the spell Animate Objects at will using Intelligence as your spellcasting ability. The duration lasts until dispelled or until the objects are each dropped to 0 hit points. ",
+                "Rather than casting a spell, you can flavor this as tinkering around with the objects until it resembles more like humanoid like objects, adding gears and tiny components that would allow them to move around and open doors, fight, pick locks, etc."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Basic Construction"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Advanced Nanotechnology",
+            "entries": [
+                "You have learned how to make improvements to your nanotechnology and they have now become more efficient. This feature is an enhancement to the Nanotechnology Option and replaces that with this when you pick this option. ",
+                "When your nanites use the “Assist” Command you can add a 1d6 on top of the roll.",
+                " Any command (except for Assist) that requires a die roll, such as Enhance and Repair, increase that die to a d10 if it was not already a d10. ",
+                "You can now make 2 commands during the same bonus action but cannot do so again until you complete a short or long rest."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Nanotechnology"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Mystical Research",
+            "entries": [
+                "You have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including the one you chose from this subclass. You learn those spells and add them to your spellcasting list. A spell you choose must be of a level you can cast or a cantrip. The chosen spells count as Magitechnician spells for you and do not count against your prepared spells. Each time you level up, you can exchange the 1 of the 2 spells you chose for a different one."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Mage Specialization"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Masterwork Vehicle Construction",
+            "entries": [
+                "Your research has led you to this moment, you have now mastered the art of craft with vehicles. You can now create significantly larger vehicles, going to Gargantuan and larger sizes. These Vehicles can carry up to nine different medium sized creatures at a given time. These are the vehicles that can look more like modern cars, but you can flavour them however you wish. This feature is an enhancement to the Advanced Vehicle Construction option and replaces that option with this one when you pick this option.",
+                "You can also now create a flying vehicle, flying vehicles have a flying speed equal to its regular speed, but must have a speed higher than 50 ft and be of large size or smaller in order to fly."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Advanced Vehicle Construction"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Grandiose Vehicle Construction",
+            "entries": [
+                "You have been peaked by interstellar travel. You know that there is more out there than what was previously thought to be and you wish to experience it first hand. Your research up until now, was thought to be completed, but now you have stumbled across a new grand design",
+                "Your vehicles can now be created large enough to sustain at least 2 months of stellar travel, and any size category of vehicle can have a flying speed. This feature requires both Masterwork Vehicle Construction and this option and does not replace and inherit the previous ones. Your Vehicles can now carry a maximum of 20 different kinds of creatures."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Masterwork Vehicle Construction",
+                        "Aberrant Technology"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Ancient Runic Studies",
+            "entries": [
+                "You have stumbled across the most powerful and ancient of runic magic.This feature is an enhancement to the Advanced Runic Studies option and replaces it when you pick this option. When you gain this feature you gain the following Runes that each cost 500 GP :",
+                "Rune of the Aesir: When the Rune is Active, you gain a truesight of 60 ft for 1 hour.",
+                "Rune of the Giants: When the Rune is Active, you gain the ability to tell whenever someone is telling a lie.",
+                "Rune of the Yggdrasil: When the Rune is Active you can cast one of the following spells: Etherealness, Astral Projection, or Teleport. Once one of the spells ends, the Rune loses its magic."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Advanced Runic Studies"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        },
+        {
+            "source": "MT",
+            "name": "Golem Crafting",
+            "entries": [
+                "Your studies of creating constructs have led you to the intricate process of crafting various different kinds of constructs, including those that would initially require special magic items to craft. Instead now, your expertise in technology is enough to substitute.\n",
+                "You can craft a magical golem identical to ones through a similar process as if you had access to each variation of the Manual of Golems, but do not require the actual item itself in order to begin your Golem Crafting. Having the manual on hand will reduce the amount of time and resources needed by half. The Golem created by this effect follows your proficiency bonus instead. Once you have magically created a Golem in this way, you cannot do so again until you finish a long rest.",
+                "In addition, you can as a one hour ritual magically create any 1 construct that doesn’t list “Golem” in its name. This construct rolls its own initiative, and uses your proficiency bonus instead. Once you have magically created a construct in this way, you cannot do so again until you finish a long rest."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 15,
+                        "class": {
+                            "name": "Magitechnician"
+                        }
+                    },
+                    "feature": [
+                        "Advanced Construction"
+                    ]
+                }
+            ],
+            "featureType": "Magitech Research"
+        }
+    ]
+}
