@@ -1001,373 +1001,955 @@
     ],
     "optionalfeature": [
         {
-            "source": "MT",
-            "name": "Gadget Crafting",
+            "source": "DW",
+            "name": "Sight of the Land and Seas",
             "entries": [
-                "By undertaking this Magitech Research you can begin making more complex gadgets and gizmos. When making a Gadget consider what task you want it to complete. Examples include a Flash Grenade that is intended to blind creatures. So the idea is to give it a range of how far you can throw it, making it involve a saving throw, etc. Here are some examples of Gadgets, but work with your DM to craft your Gadgets. You have a number of known Gadgets equal to your Intelligence Modifier.",
-                "Grappling Hook! (50 GP) : This device contains a 50ft long hook and rope that shoots outward, connecting to any wooden or rough surface climbing gear would. (This is a bonus action in combat) Then you can either launch yourself forward with the Grappling Hook, or you can aim it at a creature and attempt to grapple them. They make an opposing athletics or acrobatics check against your Magitech Save DC. You can then spend an action to retract the Grappling Hook to knock the enemy prone and reduce their movement to zero until the start of your next turn. No save required if the target was already grappled on a previous turn.",
-                "Smoke Bomb! (50 GP) : A small ball filled to the brim with smoke, as a bonus action you throw it down you can do one of two things : set it to explode at a specific time OR have it explode on impact. Upon explosion a large amount of gas expands outward in a 20ft radius sphere. You have advantage on stealth checks to leave the sphere and creatures inside the sphere have disadvantage on perception checks.",
-                "Flash Grenade! (50 GP) : FLASH! Throw a grenade that explodes mid air as a bonus action, you create a flash of light outward for a 20ft radius sphere. Any creature within the radius of the flash grenade must pass a Constitution Saving Throw against your Magitech Save DC. On a failed save the target is blinded for 1d4 rounds.",
-                "There are various different kinds of gadgets you can make, but most of these gadgets should be mundane in usage and don’t have any real magical properties to them, other than making the gadgets possible to function in general."
+                "You gain a tremorsense of 60 feet."
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Minor Vehicle Construction",
+            "source": "DW",
+            "name": "Draconian Claws and Fangs",
             "entries": [
-                "By undertaking this Magitech Research you can make small land vehicles to help you and your group travel to places more quickly. Certain vehicles can make traveling in certain areas much less of a hassle. These vehicles can be used to possibly ignore difficult terrain and may come equipped with a set of navigation tools. Though you may have to supply some magitech energy to power them and they may not last long. Crafting one will generally cost around 100gp - 500gp.",
-                "These vehicles can take the appearance of whatever you wish so long that it is of medium or large size. (A medium sized vehicle can be something like a hoverboard, or a scooter even.) 5 Magitech Energy can power these vehicles for 1 hour, after which they need to be recharged by either spending 5 additional Magitech Energy or using a Magitech Energy Pack to keep it charged until the Energy Pack runs out of Energy.",
-                "The vehicles will have a stat block, but only the Strength, Dexterity, and Constitution Scores will be used. Work with the DM on how your specific vehicles may be statted. Its armor class will equal its Strength Score, its Speed will equal 5 x its Dexterity Score, and its hit points will be 10 x its Constitution Score. Some Example stat blocks will be at the bottom of this document. Regardless, its mental ability scores should all equal 1 and they are immune to all conditions."
+                "You gain 2 new additional forms of unarmed strikes. You have claws that, on top of your unarmed strike damage, gain an additional 1d6 slashing damage, and fangs that deal an additional 1d6 piercing damage. When you reach 5th level your unarmed strikes count as magical for the purposes of overcoming magic resistances."
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Basic Runic Studies",
+            "source": "DW",
+            "name": "All Knowing Eyes",
             "entries": [
-                "By learning the various different kinds of magic, you have stumbled across a peculiar type of magic used by giants. You can incorporate this runic magic to your Magitech Gear and Weapons. Each Rune costs 50 gp to craft. (You can also apply the Runes to other Magitech Devices, but make sure to OK with your DM first.) Activating a Rune costs 10 Magitech Energy and lasts for 1 hour. Once a rune is used they lose their magical properties and regain them at the end of a long rest.",
-                "Rune of Strength: While you have the Rune Active, your Strength Score increases by 2 and you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. In addition you have advantage on Strength Checks.",
-                "Rune of Enlargement: While you have the Rune Active, your Constitution Score increases by 2 and you are put under the effects of the Enlarge effect of the Enlarge/Reduce Spell.",
-                "Rune of the Raven Eyes: While you have the Rune Active, your Wisdom Score Increases by 2 and you have advantage on Wisdom (Perception) and Wisdom (Insight) checks. "
+                "You can cast Identify at will without expending a spell slot or requiring a material component, you also do not need to touch the item to identify it."
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Basic Construction",
+            "source": "DW",
+            "name": "Terrifying Glare",
             "entries": [
-                "Creating constructs has been a favored pastime for all kinds of inventors, from the mountain driven dwarves to the forest homed gnomes, tiny constructs have always held a special place in a tinkerer’s heart. Now you too can join in on the fun. By imbuing magic into a tiny humanoid looking statue made of wood, clay, or even metal; you can create a tiny construct that can move around and do mundane tasks. ",
-                "As a 10 minute ritual, you can cast the Tiny Servant spell using Intelligence as your spellcasting ability at will. The duration lasts until the creature falls to 0 hit points, at which point the spell ends. Otherwise, the spell lasts until dispelled.",
-                "Rather than casting a spell, you can flavor this as tinkering around with an object until it resembles more of a humanoid like object, adding gears and tiny components that would allow it to move around and open doors, pick locks, etc."
+                "You gain proficiency in Intimidation and have advantage on Intimidation checks. If you already have proficiency in Intimidation, you add double your proficiency bonus instead."
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Magitech Attachments",
+            "source": "DW",
+            "name": "Dragonsong",
             "entries": [
-                "You took a look at your weapon and thought “You know… why not add more?”",
-                "You have a number of known Magitech Attachments equal to your Intelligence Modifier. You can craft Magitech Attachments at a base cost of 50 gp. Work with your DM on how your attachments function and the usages of them. Do they add a modifier to hit? To damage? Do they make weapons fly back into your hand? It’s up to you, but at the end of the day it’s up to you and the DM to determine that. Here are some example attachments to get you started:",
-                "Scope (50 GP): You gain advantage to hit a creature within base range of a shot with a ranged weapon this attachment is on and you gain a normal roll with the disadvantage range of a ranged weapon with this attachment on.\n",
-                "Serrated Blade (50 GP): A melee weapon with this attachment gains an additional 1d6 Slashing damage.",
-                "Energy Amplifier (75 GP): A magitech ranged weapon that is energy based adds an additional damage die of the type of damage it deals, but at the cost of 5 Magitech Energy.",
-                "Detachable Battery (100 GP): A magitech Energy Pack that you can attach directly to your weapons or devices. This battery can contain up to 5 x Your Intelligence Modifier in Magitech Energy and regains all expended Magitech Energy at the end of a long rest. Detaching and Attaching the battery onto a Magitech Device costs a Bonus Action in combat."
+                "You have advantage on performance and acrobatics checks. You gain proficiency in two musical instruments of your choice. As a bonus action you can begin singing your Dragonsong for 1 minute. While singing your song you gain a bonus to your AC equal to your Wisdom Modifier. You cannot use your Dragonsong again until you finish a long rest."
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Chemical Construction",
+            "source": "DW",
+            "name": "Deadly Veracity",
             "entries": [
-                "You’ve studied the art of technology and magic, but what if you added chemistry into the mix? Now you’re asking for a good time. Through your genius and research you’ve discovered a way to create a sentient ooze. ",
-                "As a 1 hour ritual you can artificially create an ooze of a CR up to half your Magitechnician level (rounded down). The ooze has an Intelligence Score of 10 unless it was already higher than 10. It follows your initiative and acts on its own. You can mentally command it however by spending a bonus action. You can only have 1 ooze at a time when you use this feature."
-            ],
-            "featureType": "Magitech Research"
-        },
-        {
-            "source": "MT",
-            "name": "Ionic Research",
-            "entries": [
-                "You’ve learned how to create energy based weapons through the means science and magic. You can replace the damage type of your Magitech Weapons with radiant damage. In addition, your Magitech Weapons deals an additional amount of radiant damage on hit equal to your intelligence modifier."
-            ],
-            "featureType": "Magitech Research"
-        },
-        {
-            "source": "MT",
-            "name": "Aberrant Technology",
-            "entries": [
-                "You have been contacted by, or discovered, an eldritch aberration from the Far Realm and have been given information about their strange anatomy and the science behind it. Being the inventor you are, you have made it your goal to incorporate this information into your technology. ",
-                "You are given a single Warlock Spell Slot, see the Warlock’s “Pact Magic” feature PHB pg 107. Choose from two Eldritch Invocations (you must meet the prerequisites) and create a Magitech Device that incorporates those invocations. You also gain the Eldritch Blast cantrip and 2 spells from the Warlock Spellcasting List. These spells must be of a level of which you’d be able to cast as a 3rd level Warlock. You cast these spells through odd Magitech Devices that are thematically designed to fit the spell. Eldritch Blast can be cast through your ranged Magitech Weapon."
-            ],
-            "featureType": "Magitech Research"
-        },
-        {
-            "source": "MT",
-            "name": "Botanist Researcher",
-            "entries": [
-                "You’ve decided to delve into researching nature and have discovered that many herbs can be used in ways you’ve never even imagined. Never underestimate the power of nature. You gain proficiency in Nature, if you already have proficiency you add double your proficiency bonus instead. You also gain proficiency in an Herbalism Kit and you add your Improved Tinkers Tools bonus to ability checks made with your Herbalism Kit.",
-                "Additionally, when you make potions using your Herbalism Kit, you gain the following options using similar materials used to make Potions of Healing, costing the same amount:",
-                "Potion of Fertility: This greenish liquid allows soil to become instantly fertile, and capable of growing plant life even in arid or otherwise uninhabitable environments. ",
-                "Potion of Growth (look at DMG p187)",
-                "Philter of Love (look at DMG p184)"
-            ],
-            "featureType": "Magitech Research"
-        },
-        {
-            "source": "MT",
-            "name": "Nanotechnology",
-            "entries": [
-                "Your research in robotics has led to this very moment, you have learned how to create very tiny, microscopic sized robots that basically act as a literal tiny army. It costs roughly 200 GP worth of Magitech materials in order to create an efficient batch of nanotech. This nanotechnology can perform mundane tasks as well as be used to further enhance other works of Magitech. \n",
-                "Your nanites, as they will be called for simplicity’s sake, have some basic commands that you can give them. Upon doing so they will be given a task based on that command. To use a command takes a bonus action. You can add more commands to the Nanites in time, but their basic commands go as such: ",
-                "Assist : provides the help action.",
-                "Repair : Heals a construct for 1d6 + Your Intelligence Modifier. ",
-                "Enhance : Your nanites enter inside of your weapons and gear enhancing them. You can now add a 1d6 to any attack roll, saving throw, or ability check. This can be used 3 times until the command ends. (This command can be used for yourself or any ally with the correct magitech gear, i.e if they only have a weapon they only get the bonus for attack rolls.)"
+                " If you move at least 30 ft in a straight line to a target you gain 1 additional weapon attack or unarmed strike. You can only make one additional attack like this once per round."
             ],
             "prerequisite": [
                 {
                     "level": {
-                        "level": 6
-                    },
-                    "feature": [
-                        "Basic Construction"
-                    ]
+                        "level": 8,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
                 }
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Magical Gadgets",
+            "source": "DW",
+            "name": "Minor Draconian Senses",
             "entries": [
-                "You have furthered your research into your Gadget Crafting and incorporated magic into the mix. You can craft gadgets that can magically cause a creature to become poisoned, paralyzed, slowed, etc. This option is an enhancement to the Gadget Crafting and replaces it when you gain this option. You can recreate your already existing gadgets to become magical gadgets. Some examples of magical gadgets are :",
-                "Shock Grenade : (150 GP) As a bonus action you can throw a small object that explodes mid air, releasing a large discharge of electricity. Each creature within 20 ft of the Shock Grenade makes a Dexterity saving throw against your Magitech Save DC, taking 2d10 lightning damage and is paralyzed on a failed save, or half as much on a success and is not paralyzed.",
-                "Noxious Spray : (100 GP) As an action you can pull out a spray canister that contains a noxious gas. You spray out a 15 ft cone of this gas, each creature within range makes a Constitution saving throw against your Magitech Save DC or is poisoned for the next minute. While poisoned in this way, instead of being able to see clearly or hear, it hallucinates and is considered blinded and deafened. A creature can repeat its save at the end of each of its turns, ending the effect on a success.",
-                "Charming Bowtie : (100 GP) As an action you can tighten a special bowtie to give off a very stunning appearance to those around you. Each creature that can see you makes a Charisma saving throw against your Magitech Save DC, or be charmed by you for the next hour. If the creature takes damage by you or your companions, this effect ends. If they pass the saving throw, they do not know you were attempting to charm them. While charmed in this way, they see you as a close friend and are more willing to share sensitive information with you."
+                "You gain 10 ft of blindsight and 120 ft of darkvision if you don’t have it already. You cannot discern color while using your darkvision, only shades of gray."
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Eyes of the Magi Drakes",
+            "entries": [
+                "You can cast detect magic at will without material, somatic, or verbal components or spending a spell slot."
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Draconian Breath Weapon",
+            "entries": [
+                "Depending on the Draconian Origin you picked you gain a breath weapon that does 4d8 damage. The number of damage dice increases by 2 at 5th level, and then again at 10th, once more at 15th, and one last time at 20th level. You have a number of uses of this Draconian Power equal to half your Charisma Modifier (rounded down, minimum of 1) and regain all uses of it after a long rest. (Look at the Dragonborn Ancestry to determine the damage type). At 5th level the breath weapon increases to a range of a 30 foot cone or line depending on the type of dragon, 60 feet at 11th level, and 90 feet at 17th. The save DC for this power uses Constitution."
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Draconian Rage",
+            "entries": [
+                "As a bonus action on your turn you can enter a relentless rage for 1 minute. While raging you have resistance to non-magical slashing, piercing, and bludgeoning damage. In addition you receive a + 2 to attack and damage rolls. ",
+                "You can choose to make your attacks at advantage but attacks made against you have advantage as well. Your rage ends early once you fall unconscious, are incapacitated, or die."
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Gift of the Sea Dragon",
+            "entries": [
+                "You can breathe underwater as you do air. In addition, attacks made underwater are made normally as if you were on land."
+            ],
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Requires Gold, Green, Bronze, White, or Black Draconian Origins",
+                        "entrySummary": "Requires Gold, Green, Bronze, White, or Black Draconian Origins"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Magma Walk",
+            "entries": [
+                "You no longer suffer difficult terrain from natural phenomenons on volcanoes, or anywhere where magma or lava is impeding movement. You can also walk on magma or lava without suffering damage and swim through it using a swimming speed if you have one or use half your movement. (You are not immune to fire damage, but you can traverse in hot areas to no difficulty) You can do so for 10 minutes without taking damage."
+            ],
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Requires Gold, Brass, or Red Draconian Origins",
+                        "entrySummary": "Requires Gold, Brass, or Red Draconian Origins"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Sense Treasure",
+            "entries": [
+                "You can detect whether or not gold or magical items are within 60ft of you, but not how much or where specifically. (not gold pieces, more like bars or large sums of gold.) "
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Acidic Shield",
+            "entries": [
+                "You no longer suffer from difficult terrain or negative effects from terrain impeded by acid. Also you can swim in acid using your swimming speed or half your movement. (You are not immune to acid damage, but you can traverse in acidic areas to no difficulty) You can do so for 10 minutes without taking damage."
+            ],
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Requires Black or Copper Draconian Origins",
+                        "entrySummary": "Requires Black or Copper Draconian Origins"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Moderate Flight",
+            "entries": [
+                "You gain a flying speed equal to 30 ft."
             ],
             "prerequisite": [
                 {
                     "level": {
                         "level": 6,
                         "class": {
-                            "name": "Magitechnician"
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Tongue of Dragons",
+            "entries": [
+                "You can speak any language so long as it has linguistic meaning and you have heard someone speak it before. You can comprehend any language spoken to you, but only as a rough translation, GM’s discretion."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Mystical Insight",
+            "entries": [
+                "You gain a passive insight equal to 10 + your insight modifier. You can use this in place of a failed insight check"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Moderate Draconian Senses",
+            "entries": [
+                "You gain 30 ft of  blindsight and 120 ft of darkvision if you don’t have it already. You can also discern color while using your darkvision."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Minor Draconian Shapechanger",
+            "entries": [
+                "You can cast Disguise Self and Alter Self at will without concentration or material components or spending a spell slot. Alternatively you can cast polymorph at will without spending a spell slot, but it does require concentration."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Draconian Shapechanger",
+            "entries": [
+                "You magically polymorph into a humanoid or beast that has a challenge rating no higher than half your own level. You revert to your true form if you die or if you fall unconscious or incapacitated. Any equipment you are wearing or carrying is absorbed or borne by the new form (your choice). In the new form, you retain your alignment, hit points, Hit Dice, ability to speak, proficiencies, class features, and Intelligence, Wisdom, and Charisma scores, as well as this action. Your statistics and capabilities are otherwise replaced by those of the new form, except any class features of that form. You can use this feature a number of times equal to half your Charisma Modifier. Reverting back to normal does not expend a usage."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
                         }
                     },
+                    "otherSummary": {
+                        "entry": "Requires Bronze, Silver, and Gold Draconian Origins",
+                        "entrySummary": "Requires Bronze, Silver, and Gold Draconian Origins"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Knowledge of the Ancient Ones",
+            "entries": [
+                "You gain proficiency in Arcana, History, Religion, and Intelligence Saving Throws. You also have advantage on Intelligence Checks. You also cannot have another “Ancient Ones” Draconian Power."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Wisdom of the Ancient Ones",
+            "entries": [
+                "You gain proficiency in Insight, Survival, Medicine, and Wisdom Saving Throws. You also have advantage on Wisdom Checks. You also cannot have another “Ancient Ones” Draconian Power."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Strength of the Ancient Ones",
+            "entries": [
+                "You gain proficiency in Athletics and Strength Saving Throws. You also have advantage on Strength Checks. Also whenever you make a grapple check you can move using your full movement instead of half. You can now carry triple the amount of weight before being encumbered. You also cannot have another “Ancient Ones” Draconian Power."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Speed of the Ancient Ones",
+            "entries": [
+                "You gain proficiency in Acrobatics, Stealth, Sleight of Hand, and Dexterity Saving Throws. You also gain advantage on Dexterity Checks. All of your movement speeds gain an additional 10 ft. You also cannot have another “Ancient Ones” Draconian Power."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Charm of the Ancient Ones",
+            "entries": [
+                "You gain proficiency in Persuasion, Deception, Performance, and add double your proficiency bonus to Charisma Saving Throws. You also gain advantage on Charisma Checks. You also cannot have another “Ancient Ones” Draconian Power."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Endurance of the Ancient Ones",
+            "entries": [
+                "You add double your proficiency to Constitution Saving Throws and gain proficiency in Death Saving Throws. You can no longer be intoxicated, poisoned, nor diseased. Once per long rest if you were to drop to 0 or less HP but not outright killed, you can drop to 1 instead. You also cannot have another “Ancient Ones” Draconian Power"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Hyper Draconian Senses",
+            "entries": [
+                "You gain 60 ft of  blindsight and 120 ft of darkvision if you don’t have it already. You can also discern color while using your darkvision. You can now also see normally in Magical Darkness."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 12,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Shadow Draconian",
+            "entries": [
+                "You gain advantage on stealth checks, while in dim light or darkness, you have resistance to all damage that isn’t force, psychic, or radiant. You can take the Hide action as a bonus action. Any damage dealt by your Draconian Origins or other Dragon Warrior Features (such as Draconian Powers) becomes necrotic damage. You have immunity to necrotic damage but lose the immunity from your Draconian Origin. You cannot choose Radiant Draconian or Ethereal Draconian while having this power."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 12,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Radiant Draconian",
+            "entries": [
+                "As an action you can dispel any magical darkness. You can do this a number of times equal to your charisma modifier. Any damage dealt by your Draconian Origins or other Dragon Warrior Features (such as Draconian Powers) becomes radiant damage. As an action you can touch another creature. The target magically regains 4d8 + your charisma modifier hit points and is freed from any curse, disease, poison, blindness, or deafness. You can do this up to a number of times equal to half your charisma modifier. You regain the uses of both of those abilities after a long rest. You have immunity to radiant damage but lose the immunity from your Draconian Origin. You cannot choose Shadow Draconian or Ethereal Draconian while having this power."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 12,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Ethereal Draconian",
+            "entries": [
+                "You can see into the Ethereal Plane up to 120 feet. You can cast the Etherealness and Planeshift Spells without using a spell slot a number of times equal to your charisma modifier. (Both count for the expended uses.) You regain all uses of this after a long rest. Any damage dealt by your Draconian Origins or other Dragon Warrior Features (such as Draconian Powers) becomes Force damage, but only while on the Ethereal Plane. Your attacks always count as magical for the purposes of overcoming magic resistances but only on the Ethereal Plane. You gain resistance to force damage and retain your other immunities. You cannot choose Shadow Draconian or Radiant Draconian while having this power. (Note to GM : Feel free to disapprove if this does not fit in your campaign.)"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 14,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Hyperflight",
+            "entries": [
+                "You have a flying speed of 60 ft."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 14,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Frightful Presence",
+            "entries": [
+                "Each creature of your choice that is within 120 ft. of you and aware of you must succeed on a Wisdom Saving Throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 16,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Legendary Form",
+            "entries": [
+                "As an action on your turn, you polymorph into an Ancient variant of whatever dragon you chose for your Draconian Origin OR if you chose Radiant, Shadow, or Ethereal Draconian you become an Ancient variant of that. Your equipment follows the same ruling as Polymorph for the purposes of this ability. Your HP also applies the same ruling as per Polymorph. If you as the dragon drops to 0 hit points you revert back to normal and take whatever excess damage is leftover. After which you cannot use this ability again for 1d4 days and you suffer a -2 to your AC and 2 levels of exhaustion. After you use this feature you expand the usage of your Invoke Transformation feature."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 20,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    },
+                    "otherSummary": {
+                        "entry": "Requires Invoker Archetype",
+                        "entrySummary": "Requires Invoker Archetype"
+                    },
                     "feature": [
-                        "Gadget Crafting"
+                        "Invoke Transformation"
                     ]
                 }
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Advanced Vehicle Construction",
+            "source": "DW",
+            "name": "Legendary Summons",
             "entries": [
-                "As you delve more into your research into constructing vehicles, you can now make much larger vehicles, allowing more than one person to enter a vehicle. You can craft a huge Vehicle which can carry up to two people at a time. A larger Vehicle can potentially move slower, but have a higher hit point pool. This option is an enhancement to the Minor Vehicle Construction option and replaces it when you gain this option. Some examples of Huge Vehicle stat blocks will be shown at the bottom of this document alongside the smaller ones.",
-                "In addition, your Advanced Vehicles come equipped with mounted weapons. The mounted weapons use the statistics of a Laser Rifle found in Chapter 9 of the dmg.",
-                "These Huge Vehicles can also be made as Water Vehicles, meaning that they can be driven on water as if it was traveling on land."
+                "You can manifest two dragons at the same time, both of which follow the same rules. In addition, they gain an additional 20 hit points. When you use the Unleash Draconic Fury feature, you can make two attacks originating from either manifested dragon rather than 1"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 20,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    },
+                    "otherSummary": {
+                        "entry": "Requires Summon Archetype",
+                        "entrySummary": "Requires Summon Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Legendary Weapons",
+            "entries": [
+                "Your bonded weapons now crit on a 19 or 20 and on a successful critical hit they add an additional 4d6 of the weapon’s damage type. In addition your bonded weapons ignore resistances and immunities to damage types caused by them."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 20,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    },
+                    "otherSummary": {
+                        "entry": "Requires Weapon Master Archetype",
+                        "entrySummary": "Requires Weapon Master Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Dragon Rider",
+            "entries": [
+                "As a 1 hour ritual you can summon a Wyvern to use as a mount. This Wyvern is clad in scales corresponding to your Draconian Origin, so it gains your Draconian Scales feature. The Wyvern rolls its own initiative but can take commands as per normal. If you are riding the Wyvern, it can go before or after your own initiative (your choice). The Wyvern summoned in this way is friendly towards you and your allies, in addition it cannot be charmed or frightened. You can speak telepathically to the Wyvern and command it as a free action on your turn, but it loses any multiattack feature it had previously if you command it. If you do not command it, it acts on its own controlled by the DM. The appearance of the Wyvern is entirely up to you, so long as it is a functional flying mount. At 12th level your Wyvern’s stats and abilities change to that of a Young Dragon’s, but it also retains its Wyvern abilities and attacks. Once it has grown into a Young Dragon, it regains its multiattack feature. Its appearance can also change if you so desire. You can only have 1 Wyvern summoned at a time."
             ],
             "prerequisite": [
                 {
                     "level": {
                         "level": 6,
                         "class": {
-                            "name": "Magitechnician"
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
                         }
                     },
-                    "feature": [
-                        "Minor Vehicle Construction"
-                    ]
+                    "otherSummary": {
+                        "entry": "Requires Summoner Archetype",
+                        "entrySummary": "Requires Summoner Archetype"
+                    }
                 }
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Advanced Runic Studies",
+            "source": "DW",
+            "name": "Shared Powers",
             "entries": [
-                "This feature is an enhancement to the Basic Runic Studies option and replaces it when you pick this option. When you gain this feature you gain the following Runes that each cost 100 GP :",
-                "Rune of the Allfather: While you have the Rune Active, your Intelligence Score increases by 2 and you gain advantage on all Intelligence checks for 1 minute. In addition you can ask the DM any one question within that minute, to which the DM responds with a truthful, but possibly vague answer. Once you do so, the Rune’s magic ends early, depending on the answer.",
-                "Rune of the Valkyries: While you have the Rune Active, your Dexterity Score increases by 2 and you gain a flying speed of 60 ft. for the next minute. ",
-                "Rune of the Trickster: While you have the Rune Active, your Charisma Score increases by 2 and you gain a special action that you can use to charm a creature within 60 ft of you. The creature must make a Charisma saving throw against your Magitech Save DC. On a failed save, the creature is charmed by you for 1 hour and persists even when the Rune loses its magic. While charmed in this way, the creature is oblivious to your attempts to deceive them, no ability check required. The charm ends early if you or one of your allies damages them."
+                "Your summoned dragons share the Draconian Powers that you possess that do not have the “Summoner Archetype” prerequisite. They also share your Draconian Origins abilities."
+            ],
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Requires Summoner Archetype",
+                        "entrySummary": "Requires Summoner Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Trained Body",
+            "entries": [
+                "Through extensive training with your summoned dragons, your body has toughened even further. You gain an amount of hit points equal to your current level and each time you level up you gain 1 additional hit point. In addition you gain resistance to slashing, piercing, and bludgeoning damage from non-magical attacks."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    },
+                    "otherSummary": {
+                        "entry": "Requires Summoner Archetype",
+                        "entrySummary": "Requires Summoner Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Persistant Allies",
+            "entries": [
+                "Whenever a summoned dragon is within 30 feet of you they regain 5 hit points at the start of their turn as long as they have at least 1 hit point. In addition if they fail a saving throw while within 30 ft of you, they can spend their reaction to reroll that saving throw."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 12,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    },
+                    "otherSummary": {
+                        "entry": "Requires Summoner Archetype",
+                        "entrySummary": "Requires Summoner Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Aura of Friendship",
+            "entries": [
+                "Your summoned dragons within 10 feet of you receives an increase to all saving throws equal to your charisma modifier, to a minimum of 1. At 10th level this becomes 30 feet, and at 20th level this becomes 60 feet."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    },
+                    "otherSummary": {
+                        "entry": "Requires Summoner Archetype",
+                        "entrySummary": "Requires Summoner Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Summon Companion",
+            "entries": [
+                "As a 1 hour ritual you can summon a dragon-like humanoid with the stats of a Wyrmling corresponding to your Draconian Origins. The appearance and gender of this humanoid is up to you, but the scales on them correspond to your Draconian Origins. This companion is friendly to you and your allies and you can communicate telepathically to them. They also speak, read, and write all the languages you do. You can only have 1 companion at a time."
+            ],
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Requires Summoner Archetype",
+                        "entrySummary": "Requires Summoner Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Invoke Transformation",
+            "entries": [
+                "As an action by spending 4 Invoke Energy you can transform your body into that of a Dragon’s. While transformed in this way you retain your skill proficiencies, saving throw proficiencies, ability scores that are higher than your transformed state, and class features. You gain the hit points of your new form along with any attacks or abilities by your new form except legendary resistance and legendary actions. In addition you gain any resistances or immunities from your new form. If you are dropped to 0 hit points or die in your transformation, the form is dropped. You can also end the transformation early as a bonus action on your turn. When your form is dropped you cannot transform again until after a long rest. At 8th level you can transform into a dragon of CR 4 or lower corresponding to your origin. At 14th level you can transform into a dragon CR 9 or lower corresponding to your origin. At 19th level you can transform into a CR 17 or lower corresponding to your origin."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    },
+                    "otherSummary": {
+                        "entry": "Requires Invoker Archetype",
+                        "entrySummary": "Requires Invoker Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Invoke Spirit",
+            "entries": [
+                "By spending Invoke Energy you can create a pool of spirit energy that you can use to heal allies or empower yourself. Adding energy to the pool requires a bonus action, and healing an ally requires an action. 1 Invoke Energy adds 1 Spirit Energy to the pool, and you can only have a maximum number of Spirit Energy equal to your Proficiency Bonus. By spending 1 Spirit Energy you can heal either yourself or one ally within 30 feet 1d6 + your charisma modifier hit points. Alternatively you can spend 1 Energy point to roll a d6 and add that number to any attack roll, ability check, or saving throw - this can be done at any time when you make the roll.\n"
+            ],
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Requires Invoker Archetype",
+                        "entrySummary": "Requires Invoker Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Invoke Dragon Eye",
+            "entries": [
+                "By spending 1 Invoke Energy you can cast the true seeing spell without requiring concentration or material components or spending a spell slot."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    },
+                    "otherSummary": {
+                        "entry": "Requires Invoker Archetype",
+                        "entrySummary": "Requires Invoker Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Invoke Durability",
+            "entries": [
+                "By spending 1 Invoke Energy, for 1 minute while you are conscious you also gain temporary hit points at the start of each of your turns equal to your charisma modifier, but not while you still have them. If you still have the temporary hit points but have less than your charisma modifier, you gain the difference."
             ],
             "prerequisite": [
                 {
                     "level": {
                         "level": 6,
                         "class": {
-                            "name": "Magitechnician"
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
                         }
                     },
-                    "feature": [
-                        "Basic Runic Studies"
-                    ]
+                    "otherSummary": {
+                        "entry": "Requires Invoker Archetype",
+                        "entrySummary": "Requires Invoker Archetype"
+                    }
                 }
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Elemental Magitech",
+            "source": "DW",
+            "name": "Invoke Strength",
             "entries": [
-                "You took a look at your weapon and thought “You know… it’s not good enough, let’s set it on fire.”",
-                "You have an Elemental Attachment that you can use to spend 5 Magitech Energy to grant your weapon with a specific elemental damage for the next minute. Until the effect ends, you deal an additional 1d10 damage using acid, cold, fire, lightning, or poison for the damage type using your Magitech Weapons."
+                "By spending 1 Invoke Energy, for 1 minute you can add your charisma modifier to all strength ability checks and saving throws."
+            ],
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Requires Invoker Archetype",
+                        "entrySummary": "Requires Invoker Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Mastery of the Blade",
+            "entries": [
+                "When you make a weapon attack using a bladed melee weapon you can subtract 5 from the attack roll to increase the damage by 10. As a reaction you can impose disadvantage on 1 melee weapon attack aimed towards you. When you score a critical hit you add extra damage to the roll equal to your weapon’s main damage die. You cannot have this power if you have the Mastery of Archery power."
+            ],
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Requires Weapon Master Archetype",
+                        "entrySummary": "Requires Weapon Master Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Mastery of Archery",
+            "entries": [
+                "The range of your ranged weapon attacks become twice the normal amount. Making a ranged attack on a prone creature or while within 5 feet of a creature does not impose disadvantage on the attack roll. When you make a ranged weapon attack and miss you can spend your reaction to make another ranged weapon attack, doing so gives you an advantage on the roll, however you do not add your proficiency bonus or ability modifier to the damage roll. You cannot have this power if you have the Mastery of the Blade power."
+            ],
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Requires Weapon Master Archetype",
+                        "entrySummary": "Requires Weapon Master Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Combat Awareness",
+            "entries": [
+                "Once per round as a free action, you can spend 1 Draconian Spirit Energy to gain 1 additional reaction. If a melee weapon attack is made against you, you can spend a reaction to make a weapon attack against the attacker. If you hit, the attack made against you is made at a disadvantage."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 8,
+                        "class": {
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
+                        }
+                    },
+                    "otherSummary": {
+                        "entry": "Requires Weapon Master Archetype",
+                        "entrySummary": "Requires Weapon Master Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Heart of a Dragon",
+            "entries": [
+                "If you were to fall unconscious as a result of a poison or effect other than falling to 0 hit points, you can choose to stay conscious instead. After you use this ability you cannot do so again until you finish a short or long rest. At 12th level you can do so twice per long rest, and at 18th level you can do so three times per long rest."
             ],
             "prerequisite": [
                 {
                     "level": {
                         "level": 6,
                         "class": {
-                            "name": "Magitechnician"
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
                         }
                     },
-                    "feature": [
-                        "Magitech Attachments"
-                    ]
+                    "otherSummary": {
+                        "entry": "Requires Weapon Master Archetype",
+                        "entrySummary": "Requires Weapon Master Archetype"
+                    }
                 }
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Advanced Construction",
+            "source": "DW",
+            "name": "Dance of the Dragon Blade",
             "entries": [
-                "One construct was not enough for you, you must have more. They must be bigger, stronger, faster, and better. So you have studied this far to create your army of constructs. This feature is an enhancement to the Basic Construction feature and replaces that option when you pick this option.",
-                "You can spend a 1 hour ritual casting the spell Animate Objects at will using Intelligence as your spellcasting ability. The duration lasts until dispelled or until the objects are each dropped to 0 hit points. ",
-                "Rather than casting a spell, you can flavor this as tinkering around with the objects until it resembles more like humanoid like objects, adding gears and tiny components that would allow them to move around and open doors, fight, pick locks, etc."
+                "If you have made three or more melee weapon attacks on one target within your turn you can make 1 additional melee weapon attack against that target at advantage, afterward you gain the benefits of the dodge action. Doing so prevents you from taking your action next turn."
             ],
             "prerequisite": [
                 {
                     "level": {
-                        "level": 9,
+                        "level": 10,
                         "class": {
-                            "name": "Magitechnician"
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
                         }
                     },
-                    "feature": [
-                        "Basic Construction"
-                    ]
+                    "otherSummary": {
+                        "entry": "Requires Weapon Master Archetype",
+                        "entrySummary": "Requires Weapon Master Archetype"
+                    }
                 }
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Advanced Nanotechnology",
+            "source": "DW",
+            "name": "Arrow of the Soaring Dragon",
             "entries": [
-                "You have learned how to make improvements to your nanotechnology and they have now become more efficient. This feature is an enhancement to the Nanotechnology Option and replaces that with this when you pick this option. ",
-                "When your nanites use the “Assist” Command you can add a 1d6 on top of the roll.",
-                " Any command (except for Assist) that requires a die roll, such as Enhance and Repair, increase that die to a d10 if it was not already a d10. ",
-                "You can now make 2 commands during the same bonus action but cannot do so again until you complete a short or long rest."
+                "When you make a ranged weapon attack, instead of drawing an arrow from your quiver you can summon an arrow made of pure energy. Doing so does not require you to have ammunition. When you roll damage, instead of using your weapon’s normal damage roll you calculate the distance between you and the target. The damage equals 1d4 per 10 feet you are from the target. This damage does not gain the benefits of any damage modification, including your Dragon Warrior features."
+            ],
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Requires Weapon Master Archetype",
+                        "entrySummary": "Requires Weapon Master Archetype"
+                    }
+                }
+            ],
+            "featureType": "Draconian Powers"
+        },
+        {
+            "source": "DW",
+            "name": "Coming of Age",
+            "entries": [
+                "Your maximum CR for your Draconian Shape feature increases by 4."
             ],
             "prerequisite": [
                 {
                     "level": {
-                        "level": 9,
+                        "level": 17,
                         "class": {
-                            "name": "Magitechnician"
+                            "name": "Dragon Shaman"
                         }
-                    },
-                    "feature": [
-                        "Nanotechnology"
-                    ]
+                    }
                 }
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Mystical Research",
+            "source": "DW",
+            "name": "Abberant Dragon",
             "entries": [
-                "You have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including the one you chose from this subclass. You learn those spells and add them to your spellcasting list. A spell you choose must be of a level you can cast or a cantrip. The chosen spells count as Magitechnician spells for you and do not count against your prepared spells. Each time you level up, you can exchange the 1 of the 2 spells you chose for a different one."
+                "You can replace your Draconian Arts damage type with psychic damage. This choice can be made before you roll damage. In addition, you gain resistance to psychic damage and as a bonus action you can establish a telepathic link to one creature you can see within 30 feet of you. This telepathic link allows you to communicate freely telepathically for up to twice the amount you could normally speak in the span of 6 seconds. ",
+                "You are given two Warlock Spell Slots, see the Warlock’s “Pact Magic” feature PHB pg 107. Choose from two Eldritch Invocations (you must meet the prerequisites). You also gain the Eldritch Blast and one additional cantrip from the Warlock Spellcasting List. You also gain 4 spells from the Warlock Spellcasting List. These spells must be of a level of which you’d be able to cast as a 6th level Warlock.",
+                "As you gain Dragon Shaman levels, or if you choose this Draconian Power at a later level, you can replace the spells you know with other spells from the same spellcasting list. In addition, you learn 1 warlock spell for each dragon shaman level above 6th. You gain additional Warlock Spell Slot at 11th level, and another one at 17th level. You also gain an additional Eldritch Invocation at these given levels.",
+                "Your appearance also changes. Your body might have a coating of viscous slime, tough hide, scales, perhaps you have an invisible barrier or any other weird aberrant things your sick mind can come up with. As a result, this gives you an increase to your armor class equal to half your Intelligence modifier. (Rounded down to a minimum of 1)"
             ],
             "prerequisite": [
                 {
                     "level": {
-                        "level": 9,
+                        "level": 6,
                         "class": {
-                            "name": "Magitechnician"
+                            "name": "Dragon Shaman"
                         }
-                    },
-                    "feature": [
-                        "Mage Specialization"
-                    ]
+                    }
                 }
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Masterwork Vehicle Construction",
+            "source": "DW",
+            "name": "Draconian Familiar",
             "entries": [
-                "Your research has led you to this moment, you have now mastered the art of craft with vehicles. You can now create significantly larger vehicles, going to Gargantuan and larger sizes. These Vehicles can carry up to nine different medium sized creatures at a given time. These are the vehicles that can look more like modern cars, but you can flavour them however you wish. This feature is an enhancement to the Advanced Vehicle Construction option and replaces that option with this one when you pick this option.",
-                "You can also now create a flying vehicle, flying vehicles have a flying speed equal to its regular speed, but must have a speed higher than 50 ft and be of large size or smaller in order to fly."
+                "You can conjure a tiny dragon to keep you company. You can ritual cast the “Find Familiar” spell without requiring material components, but you can only summon a Pseudodragon with this feature. The Pseudodragon has the “Familiar” feature when summoned in this way."
             ],
             "prerequisite": [
                 {
                     "level": {
-                        "level": 9,
+                        "level": 6,
                         "class": {
-                            "name": "Magitechnician"
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
                         }
-                    },
-                    "feature": [
-                        "Advanced Vehicle Construction"
-                    ]
+                    }
                 }
             ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         },
         {
-            "source": "MT",
-            "name": "Grandiose Vehicle Construction",
+            "source": "DW",
+            "name": "Greater Draconian Familiar",
             "entries": [
-                "You have been peaked by interstellar travel. You know that there is more out there than what was previously thought to be and you wish to experience it first hand. Your research up until now, was thought to be completed, but now you have stumbled across a new grand design",
-                "Your vehicles can now be created large enough to sustain at least 2 months of stellar travel, and any size category of vehicle can have a flying speed. This feature requires both Masterwork Vehicle Construction and this option and does not replace and inherit the previous ones. Your Vehicles can now carry a maximum of 20 different kinds of creatures."
+                "You can conjure a tiny dragon to keep you company. You can ritual cast the “Find Familiar” spell without requiring material components, but you can only summon a Pseudodragon or a Faerie Dragon with this feature. The Pseudodragon or Faerie Dragon has the “Familiar” feature when summoned in this way."
             ],
             "prerequisite": [
                 {
                     "level": {
-                        "level": 15,
+                        "level": 11,
                         "class": {
-                            "name": "Magitechnician"
+                            "name": "Dragon Warrior, Dragon Shaman, or Dragon Mage"
                         }
-                    },
-                    "feature": [
-                        "Masterwork Vehicle Construction",
-                        "Aberrant Technology"
-                    ]
+                    }
                 }
             ],
-            "featureType": "Magitech Research"
-        },
-        {
-            "source": "MT",
-            "name": "Ancient Runic Studies",
-            "entries": [
-                "You have stumbled across the most powerful and ancient of runic magic.This feature is an enhancement to the Advanced Runic Studies option and replaces it when you pick this option. When you gain this feature you gain the following Runes that each cost 500 GP :",
-                "Rune of the Aesir: When the Rune is Active, you gain a truesight of 60 ft for 1 hour.",
-                "Rune of the Giants: When the Rune is Active, you gain the ability to tell whenever someone is telling a lie.",
-                "Rune of the Yggdrasil: When the Rune is Active you can cast one of the following spells: Etherealness, Astral Projection, or Teleport. Once one of the spells ends, the Rune loses its magic."
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 15,
-                        "class": {
-                            "name": "Magitechnician"
-                        }
-                    },
-                    "feature": [
-                        "Advanced Runic Studies"
-                    ]
-                }
-            ],
-            "featureType": "Magitech Research"
-        },
-        {
-            "source": "MT",
-            "name": "Golem Crafting",
-            "entries": [
-                "Your studies of creating constructs have led you to the intricate process of crafting various different kinds of constructs, including those that would initially require special magic items to craft. Instead now, your expertise in technology is enough to substitute.\n",
-                "You can craft a magical golem identical to ones through a similar process as if you had access to each variation of the Manual of Golems, but do not require the actual item itself in order to begin your Golem Crafting. Having the manual on hand will reduce the amount of time and resources needed by half. The Golem created by this effect follows your proficiency bonus instead. Once you have magically created a Golem in this way, you cannot do so again until you finish a long rest.",
-                "In addition, you can as a one hour ritual magically create any 1 construct that doesn’t list “Golem” in its name. This construct rolls its own initiative, and uses your proficiency bonus instead. Once you have magically created a construct in this way, you cannot do so again until you finish a long rest."
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 15,
-                        "class": {
-                            "name": "Magitechnician"
-                        }
-                    },
-                    "feature": [
-                        "Advanced Construction"
-                    ]
-                }
-            ],
-            "featureType": "Magitech Research"
+            "featureType": "Draconian Powers"
         }
     ]
 }
