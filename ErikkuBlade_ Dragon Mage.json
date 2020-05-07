@@ -32,68 +32,278 @@
             "classTableGroups": [
                 {
                     "colLabels": [
+                        "Cantrips Known",
+                        "1st",
+                        "2nd",
+                        "3rd",
+                        "4th",
+                        "5th",
+                        "6th",
+                        "7th",
+                        "8th",
+                        "9th",
                         "Draconian Powers"
                     ],
                     "rows": [
                         [
+                            3,
+                            2,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
                             "-"
                         ],
                         [
-                            2
-                        ],
-                        [
-                            2
-                        ],
-                        [
+                            3,
+                            3,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
                             3
                         ],
                         [
+                            3,
+                            4,
+                            2,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
                             3
                         ],
                         [
+                            4,
+                            4,
+                            3,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
                             4
                         ],
                         [
+                            4,
+                            4,
+                            3,
+                            2,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
                             4
                         ],
                         [
+                            4,
+                            4,
+                            3,
+                            3,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
                             5
                         ],
                         [
-                            5
-                        ],
-                        [
+                            4,
+                            4,
+                            3,
+                            3,
+                            1,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
                             6
                         ],
                         [
+                            4,
+                            4,
+                            3,
+                            3,
+                            2,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            "-",
                             6
                         ],
                         [
+                            5,
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
+                            6
+                        ],
+                        [
+                            5,
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            "-",
+                            "-",
+                            "-",
+                            "-",
                             7
                         ],
                         [
+                            5,
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            "-",
+                            "-",
+                            "-",
                             7
                         ],
                         [
+                            5,
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            "-",
+                            "-",
+                            "-",
                             8
                         ],
                         [
-                            8
-                        ],
-                        [
+                            5,
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            "-",
+                            "-",
                             9
                         ],
                         [
+                            6,
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            "-",
+                            "-",
                             9
                         ],
                         [
+                            6,
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            "-",
+                            9
+                        ],
+                        [
+                            6,
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            "-",
                             10
                         ],
                         [
+                            6,
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1,
                             10
                         ],
                         [
+                            6,
+                            4,
+                            3,
+                            3,
+                            3,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1,
                             11
+                        ],
+                        [
+                            6,
+                            4,
+                            3,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            11
+                        ],
+                        [
+                            6,
+                            4,
+                            3,
+                            3,
+                            3,
+                            3,
+                            2,
+                            2,
+                            1,
+                            1,
+                            12
                         ]
                     ]
                 }
@@ -176,93 +386,123 @@
             "classFeatures": [
                 [
                     {
+                        "name": "Spellcasting",
+                        "entries": [
+                            "Drawing on the ancient powers of dragons, you can cast spells to shape that essence to your will and express your prowess with the arcane over all others",
+                            {
+                                "type": "entries",
+                                "name": "Cantrips",
+                                "entries": [
+                                    "At 1st level, you know three cantrips of your choice from your available spell lists based on your Draconian Origin. You learn additional Dragon Mage cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Dragon Mage table."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Preparing and Casting Spells",
+                                "entries": [
+                                    "The Dragon Mage table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these Dragon Mage spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                                    "You prepare the list of Dragon Mage spells that are available for you to cast, choosing from the Dragon Mage spell list. When you do so, choose a number of Dragon Mage spells equal to your Spell Casting Ability modifier + your Dragon Mage level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+                                    "For example, if you are a 3rd-level Dragon Mage, you have four 1st-level and two 2nd-level spell slots. With a Spellcasting Ability of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell Burning Hands, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Spellcasting Ability",
+                                "entries": [
+                                    "Charisma or Intelligence of your choosing is your spellcasting ability for your Dragon Mage spells, since your magic can draw from the soul of a Dragon and can naturally grow stronger or you can study the arcane and master it through your wits alone. You use one of these abilities whenever a spell refers to your spellcasting ability. In addition, you use your spellcasting ability modifier when setting the saving throw DC for a Dragon Mage spell you cast and when making an attack roll with one.",
+                                    {
+                                        "type": "abilityDc",
+                                        "name": "Spell",
+                                        "attributes": [
+                                            "int",
+                                            "cha"
+                                        ]
+                                    },
+                                    {
+                                        "type": "abilityAttackMod",
+                                        "name": "Spell",
+                                        "attributes": [
+                                            "int",
+                                            "cha"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Ritual Casting",
+                                "entries": [
+                                    "You can cast a Dragon Mage spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Spellcasting Focus",
+                                "entries": [
+                                    "You can use an arcane focus or a component as a spellcasting focus for your Dragon Mage spells."
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "name": "Draconian Origins",
                         "entries": [
-                            "Beginning at 1st Level you choose one chromatic or metallic dragon; this color dragon will be where your power comes from. You gain features at certain levels depending on this color. In addition you gain a Spellcasting List depending on the color chosen. You are also able to speak, read, and write Draconic. \n(There are some origins that require a saving throw, the dc for them is 8 + Proficiency + Charisma modifier.)\n",
-                            "Red : Hot Body!",
-                            "You gain resistance to fire damage, at 11th level this becomes immunity. As a bonus action, you magically wreathe yourself in swirling fire, as your eyes glow like hot coals. For 1 minute, you gain the following benefits:",
-                            "You shed bright light in a 30-foot radius and dim light for an additional 30 feet.",
-                            "Any creature takes fire damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.",
-                            "Whenever you roll fire damage on your turn, the roll gains a bonus to equal to your Charisma modifier.",
-                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
-                            "Blue : Shocking Outcome!",
-                            "You gain resistance to lightning damage, at 11th level this becomes immunity. As a bonus action if you did not take the attack action this turn, you can shoot an arcane bolt of lightning from your hands. This bolt of lightning is 5 ft wide and 50 ft long. Each creature within range makes a dexterity saving throw and takes a number of d6 lightning damage equal to your Dragon Warrior level, or half as much on a success.  After you use this feature, you cannot take the attack action on your turn.",
-                            "You have a number of uses of this feature equal to your Charisma Modifier, regaining all expended uses after a long rest.",
-                            "Green : Toxic Personality!",
-                            "You gain resistance to poison damage and advantage to saving throws against being poisoned, at 11th level both of these become immunities. As a bonus action,  you can seep some of your own blood into a vial, making a vial of poison worth at least 150 gp. At 5th level you can make poisons worth at least 300 gp, at 11th level 600 gp, and at 17th level 1200 gp. These poisons are generally more potent than ordinary ones, so their save DC is equal to 8 + your proficiency bonus + your Charisma modifier.",
-                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
-                            "Black : Acidic Solution!",
-                            "You gain resistance to acid damage, at 11th level this becomes immunity. As an expert when it comes to traversing through difficult terrain, you’ve become so akin to it that you can serve as an excellent scout. You do not suffer the effects of non-magical difficult terrain and have advantage on ability checks and saving throws against magical difficult terrain",
-                            "In addition, you can create a powerful acid to which you can use to hinder your enemies. As a bonus action, choose a creature within 60 ft of you. Make a ranged spell attack using Charisma as your spellcasting ability. On hit, the target suffers a -2 penalty to their AC and weapon attack rolls for the next minute. A creature can only suffer this penalty once and cannot suffer it again until the effect ends. You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.\n",
-                            "White : Cold Shoulder!",
-                            "You gain resistance to cold damage, at 11th level this becomes immunity. As a bonus action you can create a blizzard surrounding you in a 20 ft radius sphere for 1 minute. Each creature, other than yourself, within range takes a number of d6 cold damage equal to half your dragon warrior level (rounded down to a minimum of 1) and must make a constitution saving throw or suffer the effects of difficult terrain and have disadvantage on attack rolls and saving throws while within your blizzard.",
-                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
-                            "Copper : You’re Too Slow!",
-                            "You gain resistance to acid damage, at 11th level this becomes immunity. In addition, you can hurl spits of acid that can slow your enemies in their tracks. As a bonus action you can choose a creature within 60 ft of you. Make a ranged spell attack using charisma as your spellcasting ability modifier. On hit, the target’s speed becomes halved and can only make 1 weapon attack per round for the next minute.",
-                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
-                            "Bronze : Stay Away!",
-                            "You gain resistance to lightning damage, at 11th level this becomes immunity. In addition, you can unleash a shockwave of energy and repel nearby enemies. As a bonus action, each creature within 5 ft of you makes a strength saving throw. On a failed save, they are pushed 20 ft backward and take a number of d6 lightning damage equal to half your dragon warrior level (rounded down minimum of 1) and are knocked prone, or half as much damage and are not pushed back or knocked prone on a success. If all creatures fail their save, you can immediately take the dash action as part of this bonus action.",
-                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
-                            "Brass : Hot Stuff!",
-                            "You gain resistance to fire damage, at 11th level this becomes immunity. In addition, you can give yourself a charming aroma to confuse your enemies and make friends easier. As a bonus action on your turn, you can activate your aroma for 1 minute. Each hostile creature within 15ft that has a sense of smell has to make a wisdom saving throw, dc = 8 + proficiency + your charisma modifier. On a failed save, they have disadvantage on attack rolls made against you. ",
-                            "In addition, you gain advantage on all charisma checks against creatures that have a sense of smell and are within 15 ft of you. Undead, creatures that are immune to being charmed are immune to both of these effects. You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
-                            "Silver : Winter’s Veil!",
-                            "You gain resistance to cold damage, at 11th level this becomes immunity. In addition, you can make a layer of thick ice armor surrounding you, making you tougher. As a bonus action, you can gain a number of d6 temporary hit points equal to half your dragon warrior level. (Rounded down to a minimum of 1) While you have these temporary hit points, you have resistance to all damage except fire, but have vulnerability to fire damage. ",
-                            "You have a number of uses of this feature equal to your charisma modifier, regaining all expended uses after a long rest.",
-                            "Gold : You’re a Wizard Harry!",
-                            "You gain resistance to fire damage, at 11th level this becomes immunity. In addition, you have studied the arcane long enough to understand it to a basic degree. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.",
-                            "Cantrips. You learn three cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level.",
-                            "Spell Slots. You have a number of spell slots equal to your intelligence modifier. These spell slots come back after a long rest. Each spell slot is a 1st level slot, and increases by 1 level every 4 levels after 1st.You regain all expended spell slots when you finish a long rest.",
-                            "Spells Known of 1st-Level and Higher. You know three 1st-level wizard spells of your choice. You gain an additional spell known every 2 levels you take in this class.",
-                            "Spellcasting Ability. Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.Spell save DC = 8 + your proficiency bonus + your Intelligence modifierSpell attack modifier = your proficiency bonus + your Intelligence modifier",
-                            "You can also replace your proficiency with charisma saving throws to intelligence saving throws instead."
+                            "Beginning at 1st Level you choose one chromatic or metallic dragon; this color dragon will be where your power comes from. You gain features depending on this color. In addition you gain a Spellcasting List depending on the color chosen. You are also able to speak, read, and write Draconic. Some of your Draconian Abilities will require a saving throw, the DC for that will equal your Spell Save DC.",
+                            "Red:",
+                            "You have resistance to fire damage, at 10th level this becomes immunity. Whenever you cast a spell of 1st level or higher that deals fire damage, each creature that suffers the effects of the spell must make a Constitution Saving Throw. On a failed save, the creature will be wreathed in flames that will deal fire damage equal to your spellcasting ability modifier at the start of each of their turns for 1 minute. They can repeat their saving throws at the end of each of their turns, ending the effect on a success. A creature can spend their action putting out the flames, ending the effect early.",
+                            "Blue:",
+                            "You have resistance to lightning damage, at 10th level this becomes immunity. Whenever you cast a spell of 1st level or higher that deals lightning damage, you gain an additional 10 ft. to your movement speed and your movement does not provoke attacks of opportunity each of these effects ending at the end of your turn. Additionally each creature that suffers the effects of the spell must make a Constitution Saving Throw or be stunned until the end of your next turn.",
+                            "Green:",
+                            "You have resistance to poison damage, at 10th level this becomes immunity. Whenever you cast a spell of 1st level or higher that would deal poison damage, each creature that suffers the effects of the spell must make a Constitution Saving Throw. On a failed save, the creature is poisoned for 1 minute. While poisoned in this way, the creature suffers a -2 to AC and a -10 ft. to its movement speed.",
+                            "Black:",
+                            "You have resistance to acid damage, at 10th level this becomes immunity. Whenever you cast a spell of 1st level or higher that would deal acid damage, each creature that suffers the effects of the spell must make a Dexterity Saving Throw. On a failed save you can choose either any non-magical armor or a non-magical weapon they are carrying, roll a d100 to determine what happens to said selected item. The higher stages inherit the lower stages’ effects. ",
+                            "1-10 : The item is damaged, the next time they crit fail to attack or a critical hit is imposed onto them  the item will break. 11-20 : The item receives a -2 penalty to either AC or to Attack Rolls. 21-30 : The item becomes unwieldy, giving them disadvantage on ability checks while holding the weapon or wearing the armor. 31-40 : The target has disadvantage on attack rolls while wielding the weapon, or disadvantage on saving throws while wearing the armor. 41-50 : While the item is equipped they suffer a -2 penalty to damage rolls. 51-60 : While the item is equipped they have disadvantage on Constitution Saving Throws. 61-70 : While the item is equipped they take 1d6 acid damage at the start of their turns. 71-80 : In 1 minute, the item will be destroyed as it melts away by the acid. 81-90 : In 30 seconds, the item will snap in two, becoming either an improvised weapon, or unusable armor. 91-100 : The item is instantly destroyed and they take 4d6 acid damage.",
+                            "White:",
+                            "You have resistance to cold damage, at 10th level it becomes immunity. Whenever you cast a spell of 1st level or higher that deals cold damage, you gain 10 temporary hit points until the start of your next turn. Each creature that suffers the effects of the spell must make a Dexterity Saving Throw, on a failed save they are coated with ice, making their movement speed 0 and their attack rolls are made at a disadvantage until the start of your next turn. If they were in mid flight and failed the save, they fall to the ground and take fall damage as per normal.",
+                            "Copper:",
+                            "You have resistance to acid damage, at 10th level it becomes immunity. Whenever you cast a spell of 1st level or higher that deals acid damage, the ground beneath you in a 15 ft radius becomes difficult terrain. While a creature other than yourself moves within this terrain they take 1d6 acid damage for every 5ft they move.",
+                            "Bronze:",
+                            "You have resistance to lightning damage, at 10th level it becomes immunity. Whenever you cast a spell of 1st level or higher that deals lightning damage, a burst of electricity blasts out from your hands in a 15 ft radius sphere. Each creature within the sphere, excluding yourself, takes 1d6 lightning damage and must make a Strength Saving Throw. On a failed save they are pushed back 15 ft.",
+                            "Brass:",
+                            "You have resistance to fire damage, at 10th level it becomes immunity. Whenever you cast a spell of 1st level or higher that deals fire damage, red gas exudes from your hands in a 15 ft radius sphere. Each creature, excluding yourself within the gas takes 1d6 fire damage and must pass a Constitution Saving throw, falling unconscious on a failed save. The creature(s) reawaken if they take any damage, or if another creature spends their action to wake them.",
+                            "Silver:",
+                            "You have resistance to cold damage, at 10th level it becomes immunity. Whenever you cast a spell of 1st level or higher that deals cold damage, icy cold winds blow outward from your body in a 15 ft radius. Each creature within range takes 1d6 cold damage and must make a Constitution Saving Throw, suffering a -2 penalty to their AC and disadvantage on dexterity checks and saving throws on a failed save until the end of your next turn.",
+                            "Gold:",
+                            "You have resistance to fire damage, at 10th level it becomes immunity. Whenever you cast a spell of 1st level or higher that deals fire damage, fire flares out in a 15 ft radius sphere. Each creature takes 1d6 fire damage and must make a Strength Saving Throw, suffering disadvantage on all Strength Checks, Saving Throws, and attacks using Strength until the start of your next turn."
                         ]
                     },
                     {
-                        "name": "Draconian Body",
+                        "name": "Draconian Scales",
                         "entries": [
-                            "Your body is riddled with dragon-like scales, granting you natural armor. While you are not wearing armor your AC equals 13 + your constitution modifier. You can still gain the benefits of a shield."
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "name": "Draconian Fighting Style",
-                        "entries": [
-                            "At 2nd level you pick one of the following fighting styles :",
-                            "Unarmed Brawler : Your unarmed strikes deal 1d4 + strength or dexterity (your choice) bludgeoning damage. This damage increases to 1d6 at 5th level, 1d8 at 11th level, 1d10 at 17th level, and 1d12 at 20th level.",
-                            "Honed Mind and Spirit : You gain a +2 to concentration checks on spells and have advantage on wisdom and intelligence saving throws. You can also use an action to end one frightened or charmed condition.",
-                            "Reckless Strikes : Whenever you make a melee weapon attack you can choose to gain advantage in exchange for a -2 penalty to AC and saving throws until the start of your next turn.",
-                            "Patient Defender : When you take the dodge action you gain a +2 to AC. Also by sacrificing your movement action you can use the dodge action as a bonus action.",
-                            "Spellslinger : Whenever you cast a spell that deals damage, add your charisma modifier to the damage if you do not already. You also gain 1 additional damaging cantrip of your choice, that cantrip specifically has an additional + 1 to attack and damage rolls."
+                            "Being a Dragon Mage, your body is riddled with dragon scales, making your skin tougher. At 1st level While not wearing armor you have a natural armor equal to 13 + your Dexterity Modifier."
                         ]
                     },
-                    {
-                        "name": "Draconian Powers",
-                        "entries": [
-                            "Also at 2nd level you learn the ancient secrets of dragons. You know how they can fly, shoot fire - lighting - acid - even frost out of their mouths. You start off with 2 Draconian Powers and gain more as shown in the Dragon Warrior table. Some Draconian Powers are locked away by prerequisites that must be met before they obtain any of these sacred powers such as level and Draconian Origins. You can exchange a Draconian Power for others every time you level up."
-                        ]
-                    }
-                ],
-                [
                     {
                         "name": "Draconian Archetype",
                         "entries": [
-                            "Beginning at 3rd level you have begun to better understand your powers and have decided to go down a path to better a specific field of this newfound power. There are three paths, Summoner, Invoker, Weapon Master. Each path has their own unique properties to them, but each of them is just as deadly as the other.",
-                            "Summoner",
-                            "Summoners have decided to devote their powers more so to asking for aid from spiritual manifestations of their draconic origins. This allows them to summon forth terrifying creatures of destruction in their stead to wreak havoc on their enemies. Summoners can be the most dangerous of Dragon Warriors.",
-                            "Invoker",
-                            "Invokers have harnessed the powers that dwell within them, their bodies becoming more and more dragon-like as they unlock more powers. As an invoker you focus less on physical capabilities and more so on spellcasting. ",
-                            "Weapon Master",
-                            "The Weapon Master is, well, self explanatory. Rather than focusing on magic or the power of friendship you have decided to walk the path of brute force. Through physical exercise and training in your spare time you have honed your skills to be physically stronger and faster than all the rest. Your blade is an extension of your arm and your bow can end a battle before it even begins."
-                        ]
-                    },
-                    {
-                        "name": "Draconian Archetype Feature",
-                        "entries": [
-                            "At 3rd level, you gain a feature from your chosen Draconian Archetype"
+                            "There are many variations of Dragon Mages, Summoners who call upon the help of an inner spirit to come to their aid, Devoted whose magic is brought upon the study or worship of either Tiamat or Bahamut, Evokers who imbue power into their allies, and Primordials who further enhance their elemental attunement."
                         ],
                         "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Powers",
+                        "entries": [
+                            "Also at 2nd level you learn the ancient secrets of dragons. You know how they can fly, shoot fire - lighting - acid - even frost out of their mouths. You start off with 3 Draconian Powers and gain more as shown in the Dragon Mage table. Some Draconian Powers are locked away by prerequisites that must be met before they obtain any of these sacred powers such as level and Draconian Origins. You can exchange a Draconian Power for others every time you level up."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Awakening",
+                        "entries": [
+                            "Starting at 3rd level, as an action you can awaken ancient powers from within, maximizing your magical prowess. Once your Draconian Awakening ends, you suffer 1 level of exhaustion and cannot cast spells for 1 round. You cannot use this transformation until you finish a long rest. You gain more uses of this feature per long rest at 7th, 13th, and 17th levels. When you transform, you gain the following benefits for 1 minute :",
+                            "You gain advantage on Saving Throws against spells and other magical effects, including a Dragon’s Breath Weapon.",
+                            "If you have a flying speed, it increases by 30 ft. If you do not have a flying speed, you gain a flying speed of 40 ft. Until you reach 5th level, you cannot end your turn airborne, any attempt to do so causes you to fall.",
+                            "You reduce the amount of damage you take from spells and other magical effects by 1d10. You can only do so once per round.",
+                            "You increase the amount of damage dealt by your spells and other magical effects by 1d10. You can only do so once per round. "
+                        ]
                     }
                 ],
                 [
@@ -276,18 +516,10 @@
                 ],
                 [
                     {
-                        "name": "Extra Attack",
+                        "name": "Draconian Recovery",
                         "entries": [
-                            "Starting at 5th level, when you take the attack action on your turn you can make an additional weapon attack. "
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "name": "Ability Score Improvement",
-                        "entries": [
-                            "When you reach 6th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-                            "If your DM allows the use of feats, you may instead take a feat."
+                            "At 5th level, you have learned to regain some of your magical energy by pulling power out from the depths of your draconian soul. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Dragon Mage level (rounded up), and none of the slots can be 6th level or higher.",
+                            "For example, if you're a 5th-level Dragon Mage, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots."
                         ]
                     }
                 ],
@@ -295,9 +527,17 @@
                     {
                         "name": "Draconian Archetype Feature",
                         "entries": [
-                            "At 7th level, you gain a feature from your chosen Draconian Archetype"
+                            "At 6th level, gain a feature from your chosen Draconian Archetype"
                         ],
                         "gainSubclassFeature": true
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Awakening (x2)",
+                        "entries": [
+                            "At 7th level, Gain another use of Draconian Awakening"
+                        ]
                     }
                 ],
                 [
@@ -311,9 +551,17 @@
                 ],
                 [
                     {
-                        "name": "Draconian Resistance (x1)",
+                        "name": "Spell Expertise",
                         "entries": [
-                            "Starting at 9th level whenever you would take damage after the result of a saving throw, once per long rest you only take half as much damage on a failed save or none on a successful one. Regardless, after damage calculation you gain 10 temporary hit points. You gain an additional usage of this feature at 13th and 17th levels."
+                            "Starting at 9th level, you have become exceptionally skilled at learning spells. You can choose an additional spell list provided by the Draconian Spellcasting Lists. Starting at 14th level, you can choose an additional list to choose spells from."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "name": "Draconian Resistance",
+                        "entries": [
+                            "Starting at 10th level, whenever you fail a saving throw against a spell or magical effect, as a reaction you can roll an additional time, choosing the highest result. Once you use this feature you cannot do so again until you finish a long rest. At 15th level, instead of rolling you can choose to succeed instead."
                         ]
                     }
                 ],
@@ -321,16 +569,7 @@
                     {
                         "name": "Draconian Archetype Feature",
                         "entries": [
-                            "At 10th level, you gain a feature from your chosen Draconian Archetype"
-                        ],
-                        "gainSubclassFeature": true
-                    }
-                ],
-                [
-                    {
-                        "name": "Draconian Smite",
-                        "entries": [
-                            "Starting at 11th level, your weapon attacks become magical for the purposes of overcoming magical resistances, in addition they gain an additional 1d8 points of damage. This damage is related to your draconian origin, i.e. a red dragon warrior deals fire damage."
+                            "At 11th level, gain a feature from your chosen Draconian Archetype"
                         ]
                     }
                 ],
@@ -345,27 +584,26 @@
                 ],
                 [
                     {
-                        "name": "Draconian Resistance (x2)",
+                        "name": "Draconian Awakening (x3)",
                         "entries": [
-                            "At 13th level, Gain an extra use of the Draconian Resistance Feature"
+                            "At 13th level, Gain another use of Draconian Awakening"
                         ]
                     }
                 ],
                 [
                     {
-                        "name": "Improved Draconian Smite",
+                        "name": "Spell Expertise Improvement",
                         "entries": [
-                            "At 14th level you increase your Draconian Smite by 1d8."
+                            "At 14th level, Choose another spellcasting list provided"
                         ]
                     }
                 ],
                 [
                     {
-                        "name": "Draconian Archetype Feature",
+                        "name": "Draconian Resistance Improvement",
                         "entries": [
-                            "At 15th level, you gain a feature from your chosen Draconian Archetype"
-                        ],
-                        "gainSubclassFeature": true
+                            "Refer to the Draconian Resistance Feature"
+                        ]
                     }
                 ],
                 [
@@ -375,23 +613,29 @@
                             "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
                             "If your DM allows the use of feats, you may instead take a feat."
                         ]
+                    },
+                    {
+                        "name": "Draconian Archetype Feature",
+                        "entries": [
+                            "At 16th level, Gain a feature from your chosen Draconian Archetype"
+                        ],
+                        "gainSubclassFeature": true
                     }
                 ],
                 [
                     {
-                        "name": "Draconian Resistance (x3)",
+                        "name": "Draconian Awakening (x4)",
                         "entries": [
-                            "At 17th level, Gain an extra use of the Draconian Resistance Feature"
+                            "At 17th level, Gain another use of Draconian Awakening"
                         ]
                     }
                 ],
                 [
                     {
-                        "name": "Draconian Archetype Feature",
+                        "name": "Draconian Mastery",
                         "entries": [
-                            "At 18th level, you gain a feature from your chosen Draconian Archetype"
-                        ],
-                        "gainSubclassFeature": true
+                            "Starting at 18th level, At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level Dragon Mage spell and a 2nd-level Dragon Mage spell. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal."
+                        ]
                     }
                 ],
                 [
@@ -416,24 +660,354 @@
             "subclassTitle": "Draconian Archetype",
             "subclasses": [
                 {
+                    "name": "Devoted",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Devoted Spellcasting",
+                                "entries": [
+                                    "At 1st level you obtain an expanded spell list depending on the Dragon God you choose to worship or study. These spells are added to your Dragon Mage Spell Lists and count as Dragon Mage spells when you cast them.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Bahamut Spell List",
+                                        "colLabels": [
+                                            "Spell Level",
+                                            "Spells"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "1st",
+                                                "Bless, Cure Wounds, Healing Word, Sanctuary, Shield of Faith"
+                                            ],
+                                            [
+                                                "2nd",
+                                                "Aid, Augury, Calm Emotions, Prayer of Healing, Lesser Restoration"
+                                            ],
+                                            [
+                                                "3rd",
+                                                "Beacon of Hope, Daylight, Mass Healing Word, Revivify, Spirit Guardians"
+                                            ],
+                                            [
+                                                "4th",
+                                                "Banishment, Death Ward, Divination, Guardian of Faith"
+                                            ],
+                                            [
+                                                "5th",
+                                                "Commune, Greater Restoration, Mass Cure Wounds"
+                                            ],
+                                            [
+                                                "6th",
+                                                "Heal"
+                                            ],
+                                            [
+                                                "7th",
+                                                "Conjure Celestial"
+                                            ],
+                                            [
+                                                "8th",
+                                                "Holy Aura"
+                                            ],
+                                            [
+                                                "9th",
+                                                "Mass Heal"
+                                            ]
+                                        ]
+                                    },
+                                    {
+                                        "type": "table",
+                                        "caption": "Tiamat Spell List",
+                                        "colLabels": [
+                                            "Spell Level",
+                                            "Spells"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "1st",
+                                                "Arms of Hadar, Bane, Inflict Wounds, Wrathful Smite, Chaos Bolt"
+                                            ],
+                                            [
+                                                "2nd",
+                                                "Blindness/Deafness, Crown of Madness, Silence, Spiritual Weapon, Phantasmal Force"
+                                            ],
+                                            [
+                                                "3rd",
+                                                "Animate Dead, Bestow Curse, Hunger of Hadar, Speak with Dead, Summon Lesser Demons"
+                                            ],
+                                            [
+                                                "4th",
+                                                "Blight, Sickening Radiance, Staggering Smite, Summon Greater Demons"
+                                            ],
+                                            [
+                                                "5th",
+                                                "Contagion, Destructive Wave, Raise Dead"
+                                            ],
+                                            [
+                                                "6th",
+                                                "Harm"
+                                            ],
+                                            [
+                                                "7th",
+                                                "Finger of Death"
+                                            ],
+                                            [
+                                                "8th",
+                                                "Feeblemind"
+                                            ],
+                                            [
+                                                "9th",
+                                                "Power Word Kill"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Divine Empowerment",
+                                "entries": [
+                                    "Also at 1st level, choose Bahamut or Tiamat, you gain one of the following abilities that correlates to what you picked. You can use each of these empowerments once per short rest. You gain another Empowerment at 6th level, another at 11th level, and finally one more at 16th level.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Divine Empowerment Spells",
+                                        "colLabels": [
+                                            "Level",
+                                            "Bahamut",
+                                            "Tiamat"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "1st",
+                                                "Divine Blessing : If you were to fail a saving throw, as a reaction you can add 2d4 to the roll.",
+                                                "Divine Bane : If a creature were to succeed on a saving throw against one of your Dragon Mage spells, as a reaction you can subtract 2d4 from their roll."
+                                            ],
+                                            [
+                                                "6th",
+                                                "Divine Healing : Whenever you heal a creature(s) with a Dragon Mage spell, as a reaction you can add an additional 2d4 to the roll.",
+                                                "Divine Harming : Whenever you would damage a creature(s) with a Dragon Mage spell, as a reaction you can add an additional 2d4 damage to the roll. "
+                                            ],
+                                            [
+                                                "11th",
+                                                "Divine Grace : When you would be hit by an attack you can, as a reaction you can add 2 to your armor class for that attack - potentially allowing the outcome to change.",
+                                                "Divine Peril: When you would miss an attack roll against a creature, as a reaction you can subtract 2 from their armor class for that attack - potentially allowing the outcome to change."
+                                            ],
+                                            [
+                                                "16th",
+                                                "Divine Protection : Whenever you would take damage, as a reaction you can subtract 2d4 from the damage roll.",
+                                                "Divine Retribution : Whenever you would take damage, as a reaction you can deal 2d4 damage to the attacker. The damage is dependent on your Draconian Origin."
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        [],
+                        [],
+                        [],
+                        [
+                            {
+                                "name": "Divine Calling",
+                                "entries": [
+                                    "At 20th level, as an action you can call upon the powers of either Tiamat or Bahamut, upon doing so gives you one of the following benefits depending on whom you call upon for 1 minute. Once the effects end you cannot call upon the powers until after you finish a long rest.",
+                                    "[Bahamut] Aura of Blessing",
+                                    "You and each friendly creature within 30 ft of you gain a +2 to AC and Saving Throws.",
+                                    "Your healing spells heal an additional 2d6.",
+                                    "You and each friendly creature within 30 ft of you receives 2d6 less damage from any incoming damage once per round.",
+                                    "You and each friendly creature within 30 ft of you do not suffer the effects of difficult terrain.",
+                                    "[Tiamat] Aura of Destruction",
+                                    "Every hostile creature within 30 ft of you suffer a -2 to their AC and Saving Throws.",
+                                    "Every hostile creature within 30 ft of you receives 2d6 less hit points from healing spells.",
+                                    "Every hostile creature within 30 ft of you receives 2d6 more damage from your attacks and spells.",
+                                    "Every hostile creature within 30 ft of you suffers the effects of difficult terrain"
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "DM",
+                    "shortName": "Devoted"
+                },
+                {
+                    "name": "Evoker",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Destructive Magic",
+                                "entries": [
+                                    "At 1st level, when you cast a Dragon Mage spell that deals damage it gains a bonus to the damage roll equal to your spellcasting ability modifier. "
+                                ]
+                            },
+                            {
+                                "name": "Evoke Energy",
+                                "entries": [
+                                    "Also at 1st level you have a pool of energy that you’ll use for your Evoker Features called Evoke Energy. You have an amount of Evoke Energy equal to twice your Dragon Mage level. You regain all expended Evoke Energy after a long rest. As a bonus action on your turn you can spend your Evoke Energy to do one of the following effects :",
+                                    "Evoke Destruction : When you cast an evocation spell of 1st level or higher that deals damage, by spending 2 Evoke Energy you can double the range of that spell and deal an additional amount of damage equal to 2 times the spell’s level. As a result, you suffer an amount of damage equal to the bonus damage dealt. You do not gain the benefits of any resistances or immunities to this damage.",
+                                    "Evoke Speed : When you cast an evocation spell of 1st level or higher you can spend 2 Evoke Energy to cause you and all your allies within 30 ft of you to gain 10 ft of movement speed.",
+                                    "Evoke Durability : When you cast an evocation spell of 1st level or higher you can spend 2 Evoke Energy to grant your allies within 30 ft of you also gain 10 temporary hit points, you yourself however do not receive that bonus.",
+                                    "Evoke Strength : When you cast an evocation spell of 1st level or higher, by spending 2 Evoke Energy to have allies within 30 ft of you gain advantage on all attack rolls and saving throws, you yourself however do not receive that bonus."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Evoke Aura",
+                                "entries": [
+                                    "Beginning at 6th level you can spend an action and 2 Evoke Energy to activate your “Evoke Aura”. Your Aura does not have a duration, however at the start of each of your turns you must spend 2 Evoke Energy to prolong the aura. While the Aura is active you have the following effects : ",
+                                    "Each creature you choose within 30ft of you makes a Wisdom saving throw against your spell save DC, on a failed save they are frightened for as long as the aura lasts, on a success they are immune to this effect for 24 hours. Each affected creature can repeat their save at the end of each of their turns, ending this effect on a success.",
+                                    "Creatures who are frightened of you have disadvantage on ability checks and saving throws against Evocation spells you cast. In addition, creatures frightened of you cannot regain hit points if they are within your Aura’s radius.",
+                                    "You can choose a number of creatures within your aura’s radius up to your spellcasting ability modifier, those creatures gain a number of temporary hit points equal to half your Dragon Mage level at the start of each of their turns. ",
+                                    "When the effects of your Evoke Aura ends you suffer 1 level of exhaustion and take 2d12 necrotic damage. Once you have used your Evoke Aura once, you cannot do so again until you finish a long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Evoke Full Release",
+                                "entries": [
+                                    "At 11th level, as an action you can spend all of your remaining Evoke Energy to release a burst of energy outward 60 ft in every direction. This Energy will heal your allies within range 1d6 per Evoke Energy spent and deal 1d6 force damage per Evoke Energy spent to each hostile creature within range. When doing so, you take 2d6 damage per Evoke Energy spent. When you use this feature you cannot do so again until you finish a long rest. The damage you take ignores all damage reductions, immunities, and resistances. If you were to die as a result of this attack, your body and soul are destroyed. Only the means of the Wish spell can return you to life."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Evoke Control",
+                                "entries": [
+                                    "At 16th level, when you spend Evoke Energy on an evocation spell that deals damage, you can spend twice the amount you would normally spend to deal no damage to objects and allies within the range of the spell. Once you use this feature you cannot do so again until you finish a short rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Evoke Mastery",
+                                "entries": [
+                                    "At 20th level, you have learned how to harness your Evoke Energy more efficiently, being able to call upon it more reliably. Whenever you roll initiative while you have no Evoke Energy, you regain 8. In addition, all of your Evoke Energy now restores after a short rest.\n"
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "DM",
+                    "shortName": "Evoker"
+                },
+                {
+                    "name": "Primordial",
+                    "subclassFeatures": [
+                        [
+                            {
+                                "name": "Elemental Attunement",
+                                "entries": [
+                                    "Beginning at 1st level, you gain the Druidcraft cantrip and one additional cantrip depending on your Draconian Origin damage type. You also learn how to speak, read, and write all dialects of Primordial. The damage provided by your Draconian Origin becomes known as your “Primordial Damage”. ",
+                                    "*Original Cantrip, See below for details",
+                                    "Fire : Control Flames",
+                                    "Cold : Shape Water",
+                                    "Lightning : Control Sparks*",
+                                    "Acid : Shape Acid*",
+                                    "Poison : Poison Flow*",
+                                    "These cantrips do not count against your total known cantrips and count as Dragon Mage cantrips. ",
+                                    "Original Cantrips:",
+                                    "Control Sparks :",
+                                    "Transmutation",
+                                    "Casting Time : 1 Action",
+                                    "Range : 30 ft.",
+                                    "Components : S",
+                                    "Duration : Instantaneous or 1 Hour",
+                                    "You create small harmless sparks of electricity. You can shape the strands of electricity in any way you see fit within range in a 5ft cube. You can use the sparks to ignite small objects, for example a cigarette, but never actually set it aflame. You can also surround yourself with these sparks and whenever a creature comes into contact with you, the sparks zap them as if it were static electricity. You can also use this feature to give a device active electricity for up to 1 hour.",
+                                    "Shape Acid : ",
+                                    "Transmutation",
+                                    "Casting Time : 1 Action",
+                                    "Range : 30 ft.",
+                                    "Components : S",
+                                    "Duration : Instantaneous or 1 Hour",
+                                    "You choose an area of acid that you can see within range and that fits within a 5-foot cube. \nYou manipulate it in one of the following ways:",
+                                    "You instantaneously move or otherwise change the flow of the acid as you direct, up to 5 feet in any direction. This movement doesn’t have enough force to cause damage and the acid being manipulated loses its damaging properties until released, which when released it deals 1d6 acid damage to a creature it is dropped on.",
+                                    "You cause the acid to form into simple shapes and animate at your direction. This change lasts for 1 hour.",
+                                    "You change the acid’s color or opacity. The acid must be changed in the same way throughout. This change lasts for 1 hour.",
+                                    "If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.",
+                                    "Poison Flow :",
+                                    "Transmutation",
+                                    "Casting Time : 1 Action",
+                                    "Range : 30 ft.",
+                                    "Components : S",
+                                    "Duration : Instantaneous or 1 Hour",
+                                    "Choose a poisonous substance nearby, whether it is in a vial, pool, bowl, drink, etc. You can magically move that substance freely within range. If moved into a creature, the creature can make a Dexterity Saving Throw, consuming the poison on a failed save. If a creature has a poison flowing through them, you can use this cantrip to remove the poison safely, without harming the creature who is poisoned. The creature must be within the range of the cantrip and must remain perfectly still so that the flow is not interrupted."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Elemental Supremacy",
+                                "entries": [
+                                    "Starting at 6th level, when you cast a spell of 1st level or higher that deals your Primordial Damage, you can instead deal the maximum amount of damage for the spell instead of rolling damage. You can use this feature a number of times equal to half your proficiency bonus rounded down. You regain all expended uses of this feature after you finish a short rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Primordial Summons",
+                                "entries": [
+                                    "Starting at 11th level, depending on your Primordial Damage, you gain the ability to use the “Conjure Elementals” spell to summon that specific Elemental without requiring concentration on the spell or spending a spell slot. The Elemental lasts for the spell's normal duration and follows your commands as per the spell. The Elementals adopt the appearance of Dragons, but retain the original creature size.",
+                                    "Fire : Fire Elemental",
+                                    "Cold : Ice Elemental (Uses Earth Elemental stats but deals cold damage instead and the Earth Glide glides through solid ice rather than stone. It also replaces its Immunity to Poison damage with Cold.)",
+                                    "Lightning : Storm Elemental (Uses Air Elemental stats but deals lightning damage instead and replaces its immunity to Poison damage with Lightning instead.)",
+                                    "Acid : Acid Elemental (Uses stats for a Water Elemental but deals Acid damage instead and replaces its immunity to Poison damage with Acid.)",
+                                    "Poison : Poison Elemental (Uses stats for Earth Elemental but deals poison damage instead, but loses its Earth Glide feature.)",
+                                    "The Elementals follow the rules of the Conjure Elemental Spell and have advantage on saving throws against spells and other magical effects. Once you use this feature you cannot do so again until you finish a long rest."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Primordial Transformation",
+                                "entries": [
+                                    "Starting at 16th level, as an action you can attain the shape of a Primordial. While in this state you gain the features of the Elementals you can summon as well as their slam attacks - which for the purposes of this transformation is the slam attacks are melee spell attacks. You retain your original features and stats, unless your Elemental has higher stats. This transformation lasts for 1 minute. Also depending on your Primordial Damage, you gain one of the following features while transformed in this way :",
+                                    "Fire : Flaming Weapons. Your weapons become magical for the purposes of overcoming magic resistances and are wreathed in flames, dealing an additional 2d6 fire damage.",
+                                    "Cold : Frozen Body. Your AC increases by 2 and you have advantage on all Constitution Saving Throws and your Slam attacks deal 2d6 cold damage.",
+                                    "Lightning : Shocking Retaliation. Whenever you are hit by a melee weapon attack, the source of the attack takes 2d6 lightning damage.",
+                                    "Acid : Melting Touch. Whenever you come into contact with an object, make a melee spell attack. On hit you deal 2d6 acid damage and the object begins to melt away. Depending on the size of the object it could take as little as 10 seconds to as long as 1 hour to melt away.",
+                                    "Poison : Toxic Touch : When you come into contact with a creature, they must make a Constitution Saving Throw against your Spell Save DC. On a failed save they become poisoned for 1 hour. They can repeat their saving throw at the end of each of their turns.",
+                                    "Once your transformation ends, you suffer 1 level of exhaustion and cannot transform again until you finish a long rest."
+                                ]
+                            },
+                            {
+                                "name": "Primordial Appearance",
+                                "entries": [
+                                    "Also at 16th level, rather than unleashing the might of the Primordial Transformation - you can assume the appearance of it at any given time, doing so however does not grant you the benefits of said transformation."
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "name": "Primordial Lord",
+                                "entries": [
+                                    "At 20th level, you have mastered your control over the elements. You can now use your Primordial Transformation indefinitely and can permanently summon your Elemental as a companion, but can only summon one at a time. You also have advantage on Charisma checks with other Elementals, as they view you as a powerful Primordial.\n"
+                                ]
+                            },
+                            {
+                                "name": "Elemental Mastery",
+                                "entries": [
+                                    "Also at 20th level, whenever you deal your Primordial Damage it ignores all damage reductions, resistances, and immunities to that damage type. In addition, you gain “Absorption” to that damage type, which allows you to gain temporary hit points equal to the amount of damage you would have normally taken."
+                                ]
+                            }
+                        ]
+                    ],
+                    "source": "DM",
+                    "shortName": "Primordial"
+                },
+                {
                     "name": "Summoner",
                     "subclassFeatures": [
                         [
                             {
                                 "name": "Manifest Dragon",
                                 "entries": [
-                                    "Starting at 3rd level, as an action you can manifest a spiritual dragon. When you do so, the spirit has the stat block of a wyrmling corresponding to your Draconian Origin. For example, if you are a Red Dragon Warrior, you manifest a Red Dragon Wyrmling. Your manifested dragon has a number of hit points equal to three times your dragon warrior level, rather than the amount provided by the dragon’s stat block. Your manifested dragon also uses your proficiency bonus rather than its own. In addition, your manifested dragon is instantly destroyed if it is at least 30 ft away from you. Your manifested dragon is also destroyed if it falls to 0 hit points or fewer.",
+                                    "Starting at 1st level, as an action you can manifest a spiritual dragon. When you do so, the spirit has the stat block of a wyrmling corresponding to your Draconian Origin. For example, if you are a Red dragon mage, you manifest a Red Dragon Wyrmling. Your manifested dragon has a number of hit points equal to three times your dragon mage level, rather than the amount provided by the dragon’s stat block. Your manifested dragon also uses your proficiency bonus rather than its own. In addition, your manifested dragon is instantly destroyed if it is at least 30 ft away from you. Your manifested dragon is also destroyed if it falls to 0 hit points or fewer.",
                                     "The manifested dragon shares its initiative with you, but cannot take actions unless otherwise commanded to as a bonus action. This command can be mentally given. In addition, while your dragon is manifested you can do any of the following: ",
-                                    "When you take the attack action on your turn, you can replace one of your attacks with an attack originating from your manifested dragon using one of its attacks.",
+                                    "When you take the attack action or cast a spell on your turn, you can replace one of your attacks with an attack originating from your manifested dragon using one of its attacks, or the spell can be cast originating from its position as if it had cast the spell. The spell still uses your own statistics when determining spell attack bonus and the spell save dc.",
                                     "You can magically swap places with your manifested dragon using 15 ft of your movement, regardless of the distance between the two of you.",
                                     "When a creature that you can see within 5 feet of your manifested dragon moves at least 5 feet away from it, you can use your reaction to make an opportunity attack against that creature using your manifested dragon as the attacker. Your manifested dragon cannot use their reaction when you do so until after the attack roll is made and the creature has left melee range of it.",
-                                    "You have a number of uses of this feature equal to your charisma modifier, and regain all expended uses when you finish a long rest."
+                                    "You have a number of uses of this feature equal to your spellcasting ability modifier, and regain all expended uses when you finish a long rest."
                                 ]
                             },
                             {
-                                "name": "Unleach Draconic Fury",
+                                "name": "Unleash Draconic Fury",
                                 "entries": [
-                                    "Also at 3rd level, when you take the attack action while your dragon is manifested, your dragon can make an additional melee attack against a creature within 5 ft of it. You have a number of uses of this feature equal to your Charisma Modifier, and regain all expended uses after a short rest or long rest."
+                                    "Also at 1st level, when you take the attack action or cast a spell while your dragon is manifested, your dragon can make a melee attack against a creature within 5 ft of it. You have a number of uses of this feature equal to your proficiency bonus, and regain all expended uses after a short rest or long rest."
                                 ]
                             }
                         ],
@@ -441,7 +1015,7 @@
                             {
                                 "name": "Manifest Greater Dragon",
                                 "entries": [
-                                    "Starting at 7th Level, when you use the Manifest Dragon feature, you can manifest a young dragon instead of a wyrmling. The same rules still apply, however the following changes are made:",
+                                    "Starting at 6th Level, when you use the Manifest Dragon feature, you can manifest a young dragon instead of a wyrmling. The same rules still apply, however the following changes are made:",
                                     "Your manifested dragon can be up to 60 ft away from you without being destroyed.",
                                     "Your manifested dragon loses any multiattack feature if it had one.",
                                     "If you or an ally is within range of the manifested dragon’s breath weapon, they automatically succeed.",
@@ -453,13 +1027,13 @@
                             {
                                 "name": "Shared Mind of the Drakes",
                                 "entries": [
-                                    "At 10th level, you can now link with your manifested dragon’s senses. You can temporarily transfer your consciousness to your manifested dragon. As an action, you can see through your dragon's eyes and hear through its ears. During this time, you are deafened and blinded. You can sustain this effect for up to 10 minutes, and you can end it at any time (requires no action). While your manifested dragon is being used in this way, it can be up to 600 feet away from you without being destroyed."
+                                    "At 11th level, you can now link with your manifested dragon’s senses. You can temporarily transfer your consciousness to your manifested dragon. As an action, you can see through your dragon's eyes and hear through its ears. During this time, you are deafened and blinded. You can sustain this effect for up to 10 minutes, and you can end it at any time (requires no action). While your manifested dragon is being used in this way, it can be up to 600 feet away from you without being destroyed."
                                 ]
                             },
                             {
                                 "name": "Cooperative Initiative",
                                 "entries": [
-                                    "Also starting at 10th level, while your manifested dragon is summoned you have advantage on initiative checks. In addition, you can no longer be surprised by creatures as a result of being unseen by you, as your manifested dragon gives you a mental forewarning of incoming danger."
+                                    "Also starting at 11th level, while your manifested dragon is summoned you have advantage on initiative checks. In addition, you can no longer be surprised by creatures as a result of being unseen by you, as your manifested dragon gives you a mental forewarning of incoming danger."
                                 ]
                             }
                         ],
@@ -467,7 +1041,7 @@
                             {
                                 "name": "Manifest Superior Dragon",
                                 "entries": [
-                                    "Starting at 15th Level, when you use the Manifest Dragon feature, you can manifest an adult dragon instead of a young or wyrmling. The same rules still apply, however the following changes are made:",
+                                    "Starting at 16th Level, when you use the Manifest Dragon feature, you can manifest an adult dragon instead of a young or wyrmling. The same rules still apply, however the following changes are made:",
                                     "The dragon loses any of its legendary actions and legendary resistances if it had any. ",
                                     "The dragon gains a multiattack of two melee attacks and it can use its frightful presence as part of that multiattack.",
                                     "The dragon loses any lair actions if it had any."
@@ -478,11 +1052,9 @@
                             {
                                 "name": "Mournful Sacrifice",
                                 "entries": [
-                                    "At 18th level, if you were to die by any means while your dragon is manifested, you can instantly destroy your manifestation and expend all remaining uses of your Manifest Dragon feature to avoid dying. When you do so, you are brought to your feet at 1 hit point instead."
+                                    "At 20th level, if you were to die by any means while your dragon is manifested, you can instantly destroy your manifestation and expend all remaining uses of your Manifest Dragon feature to avoid dying. When you do so, you are brought to your feet at 1 hit point instead.\n"
                                 ]
-                            }
-                        ],
-                        [
+                            },
                             {
                                 "name": "Manifest Supreme Dragon",
                                 "entries": [
@@ -495,493 +1067,16 @@
                             }
                         ]
                     ],
-                    "source": "DW",
+                    "source": "DM",
                     "shortName": "Summoner"
-                },
-                {
-                    "name": "Invoker",
-                    "subclassFeatures": [
-                        [
-                            {
-                                "name": "Spellcasting",
-                                "entries": [
-                                    "When you reach 3rd level, you have discovered an ancient heritage of magical prowess and have gained the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the sorcerer spell list.",
-                                    "Cantrips. You learn two cantrips of your choice from the sorcerer spell list. You learn an additional sorcerer cantrip of your choice at 10th level.",
-                                    "Spell Slots. The Invoker Spellcasting table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\nFor example, if you know the 1st-level spell shield and have a 1st-level and a 2nd-level spell slot available, you can cast shield using either slot.",
-                                    "Spells Known of 1st-Level and Higher. You know three 1st-level sorcerer spells of your choice.\nThe Spells Known column of the Invoker Spellcasting table shows when you learn more sorcerer spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
-                                    "Whenever you gain a level in this class, you can replace one of the sorcerer spells you know with another spell of your choice from the sorcerer spell list. The new spell must be of a level for which you have spell slots.",
-                                    "Spellcasting Ability. Charisma is your spellcasting ability for your sorcerer spells, since you learn your spells through supernatural powers. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.\nSpell save DC = 8 + your proficiency bonus + your Charisma modifier\nSpell attack modifier = your proficiency bonus + your Charisma modifier",
-                                    {
-                                        "type": "table",
-                                        "caption": "Invoker Spellcasting",
-                                        "colLabels": [
-                                            "Level",
-                                            "Cantrips Known",
-                                            "Spells Known",
-                                            "1st",
-                                            "2nd",
-                                            "3rd",
-                                            "4th"
-                                        ],
-                                        "rows": [
-                                            [
-                                                1,
-                                                "-",
-                                                "-",
-                                                "-",
-                                                "-",
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                2,
-                                                "-",
-                                                "-",
-                                                "-",
-                                                "-",
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                3,
-                                                2,
-                                                3,
-                                                2,
-                                                "-",
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                4,
-                                                2,
-                                                4,
-                                                3,
-                                                "-",
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                5,
-                                                2,
-                                                4,
-                                                3,
-                                                "-",
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                6,
-                                                2,
-                                                4,
-                                                3,
-                                                "-",
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                7,
-                                                2,
-                                                5,
-                                                4,
-                                                2,
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                8,
-                                                2,
-                                                6,
-                                                4,
-                                                2,
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                9,
-                                                2,
-                                                6,
-                                                4,
-                                                2,
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                10,
-                                                3,
-                                                7,
-                                                4,
-                                                3,
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                11,
-                                                3,
-                                                8,
-                                                4,
-                                                3,
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                12,
-                                                3,
-                                                8,
-                                                4,
-                                                3,
-                                                "-",
-                                                "-"
-                                            ],
-                                            [
-                                                13,
-                                                3,
-                                                9,
-                                                4,
-                                                3,
-                                                2,
-                                                "-"
-                                            ],
-                                            [
-                                                14,
-                                                3,
-                                                10,
-                                                4,
-                                                3,
-                                                2,
-                                                "-"
-                                            ],
-                                            [
-                                                15,
-                                                3,
-                                                10,
-                                                4,
-                                                3,
-                                                2,
-                                                "-"
-                                            ],
-                                            [
-                                                16,
-                                                3,
-                                                11,
-                                                4,
-                                                3,
-                                                3,
-                                                "-"
-                                            ],
-                                            [
-                                                17,
-                                                3,
-                                                11,
-                                                4,
-                                                3,
-                                                3,
-                                                "-"
-                                            ],
-                                            [
-                                                18,
-                                                3,
-                                                1,
-                                                4,
-                                                3,
-                                                3,
-                                                "-"
-                                            ],
-                                            [
-                                                19,
-                                                3,
-                                                12,
-                                                4,
-                                                3,
-                                                3,
-                                                1
-                                            ],
-                                            [
-                                                20,
-                                                3,
-                                                13,
-                                                4,
-                                                3,
-                                                3,
-                                                1
-                                            ]
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Invoke Energy",
-                                "entries": [
-                                    "At 3rd level, you have a pool of Invoke Energy equal to your Dragon Warrior level. You use this energy to use the features in this Archetype. By spending a certain amount of Invoke Energy you can do one of the following as a bonus action on your turn :",
-                                    "Invoke Magic : You can turn Invoke Energy into a spell slot. The cost equals the spell slot level and only goes to a maximum of 3rd level. You cannot create a spell slot level that you do not have access to.",
-                                    "Draconian Empowerment : When you cast a spell using an Invoker Spell Slot you can do one of the following by spending 1 Invoke Energy :",
-                                    "Impose Disadvantage on the saving throw for the spell if there is one.",
-                                    "Treat the spell attack as an automatic hit but halve the damage dealt by the attack. ",
-                                    "Hastened Spell : By spending 2 Invoke Energy you can turn a spell that has an action casting time into a bonus action cast. A spell with a casting time longer than 1 minute takes half as much time to cast.",
-                                    "Invoke Weapon : Before you cast a spell you can imbue your weapon with that spell, by spending 1 Invoke Energy per spell level, applying its effects to trigger on a successful hit of the weapon. Any effect that requires a dexterity saving throw automatically counts as a failed saving throw.",
-                                    "Invoke Body : When you cast a spell that does a form of elemental damage such as fire, cold, lightning, acid, radiant, or bludgeoning from a water based spell, example being control water, by spending 1 Invoke Energy point you take half damage from an attack that deals that type of damage for 1 minute."
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "name": "Invoke Chaos",
-                                "entries": [
-                                    "At 7th level as an action you can spend 2 Invoke Energy to cause a Random Event to occur. The random event is determined on a d20 roll followed by a d6 roll. Once the event occurs you gain 1 Chaos point. These chaos points stack up, maxing out at number equal to your Dragon Warrior level. The DM can use these Chaos Points to cause a Chaos Event to occur. Once the Chaos Event occurs you gain 1 Invoke Energy. If you have max Invoke Energy then you instead gain 1 temporary Invoke Energy. Temporary Invoke Energy can only be used to create spell slots and disappear after 1 minute. When you use Invoke Chaos you lose the ability to do so. At the start of each of your turns after you use Invoke Chaos you roll a d6. You regain the ability to use Invoke Chaos on a 4, 5, and 6. At 12th level you gain the ability to use 2 Random Events on the same usage of Invoke Chaos, but gaining the Chaos Points as if you used multiple usages as normal. ",
-                                    {
-                                        "type": "table",
-                                        "caption": "Random Events",
-                                        "colLabels": [
-                                            "Roll",
-                                            "Event"
-                                        ],
-                                        "rows": [
-                                            [
-                                                1,
-                                                "1) Time Freezes as per the time stop spell and ends as normal. [Gives 2 Chaos Points] 2) A random enemy’s non-magical weapon turns to dust. If there are no weapons that can be turned to dust, 4d6 force damage is done to a random enemy. 3) You lose 5d6 health, but the damage dealt to yourself is dealt to an enemy of your choosing. 4) You lose 2d6 health, but an ally regains the damage you took. 5) You switch places with an ally within 200 ft of you. 6) Every hostile creature within 60 ft of you are launched 100 ft into the air and forced down as per the downdraft effect of control winds. When they hit the ground they take fall damage as per normal, but they also receive 10d10 force damage. [You gain max Chaos Points]"
-                                            ],
-                                            [
-                                                "2-3",
-                                                "1) A random ally regains 2d6 HP. 2) A random enemy takes 2d6 force damage. 3) You are put under the effects of the Blink Spell for 1 minute, but the effect cannot be voluntarily ended. 4) You and allies within 30 ft of you are given 2d10 Temporary HP. 5) A hole appears underneath an enemy of your choice, the hole is always big enough to allow the creature to fall. It automatically fails the dexterity save unless it has flight. Creatures within 5ft of the target makes a dexterity save to not fall into the pit. The hole goes down 50ft. The hole disappears and the earth reforms after 1 minute. If there are creatures still stuck in the hole after it disappears, they begin to suffocate. 6) You regain 1 Invoke Energy but gain an additional Chaos Point."
-                                            ],
-                                            [
-                                                "4-5",
-                                                "1) You push an enemy within 5ft from you 60ft back and they take 6d6 force damage. 2) You gain the effects of mirror image. 3) You cast the spell Spiritual Weapon at 3rd level without spending a Draconian Spell Slot. 4) You, or 1 ally within 60 ft of you, gain the benefits of Bless for 1 minute without having to concentrate on it. 5) You, or 1 ally within 100 ft of you, gains 1 “Luck” point that they can use as per the “Lucky” feat. 6) Choose 1 enemy; that enemy has the effects of bane without you having to concentrate on it for 1 minute."
-                                            ],
-                                            [
-                                                "6-7",
-                                                "1) You, or an ally within 100 ft of you, has its speed doubled for 1 minute. 2) Choose a damage type of any kind, add 2d6 of that damage type to the next weapon attack, spell attack, or a spell or effect that does damage. 3) Roll a d3, a weapon with a magic bonus of what you rolled appears. The type of weapon can be of your choosing but it cannot be a named or sentient weapon. The weapon only appears for 1d4 minutes and disappears afterwards. 4) The next time you are hit by any attack, you can use your reaction to nullify the damage entirely. 5) A random cat appears, with the stats of an adult red dragon. It stays for 1 round, attacks, then vanishes. “Did that cat just breathe fire?” 6) You can switch an enemy’s position with another enemy."
-                                            ],
-                                            [
-                                                "8-9",
-                                                "1) The next time an enemy casts a spell, it automatically fails. Roll a d100, on a 1 it backfires and does the opposite the user wanted to do initially. On a 100 the spell succeeds. Anything in-between, the spell just fails. 2) The next time an ally gets hit by any attack, you can nullify the damage to zero. 3) A swarm of birds appear, when they do they screech at the top of their lungs. Every creature within 100 ft of the swarm makes a constitution saving throw dc 18. On a failed save they are deafened and take 4d6 thunder damage. If a creature is silenced they do not have to make the save. 4) You create a sphere of antimagic centered on you, radius 20 ft, for 1 minute. You are immune to its effects, but everyone else is affected as normal. 5) A pigeon appears out of nowhere, for the next five minutes out of game, anything you may learn out of character can be used as legal knowledge for the duration as the pigeon will speak of the things you learn. After the pigeon disappears each character makes a dc: 25 history check, on a successful check you remember everything the pigeon said, on a fail you remember nothing. 6) A card appears in your hand, it’s the knight card from the deck of many things. The effects of the card apply, then the card vanishes."
-                                            ],
-                                            [
-                                                "10-11",
-                                                "1) The next time you hit with a weapon attack a pillar of light appears where the attack struck. This pillar is a 10 ft radius and a 500 ft tall cylinder. Each creature within that cylinder makes a constitution saving throw and takes 10d10 radiant damage on a failed save and half as much on a successful one. 2) You immediately fire an adult dragon’s breath weapon in the exact direction you are facing when this occurs. The breath weapon’s damage varies on the type of dragon you chose. If you chose a metallic dragon you take it’s secondary breath weapon. 3) The next time you make a melee attack, you can choose to hit every creature within 10ft of you, including your allies. 4) Wings sprout out and immediately fly you up 100 ft. without provoking attacks of opportunity. These wings disappear when you next land. Until then, if you do not already have a fly speed, you have a fly speed of 50ft. 5) You gain resistance to fire, lightning, cold, and acid damage for 1 minute. 6) The next time you do damage with an attack, you regain hit points equal to half the damage you dealt."
-                                            ],
-                                            [
-                                                "12-13",
-                                                "1) Roll a d6, depending on what you roll, increase an ability score, from going 1-6 top to bottom, by 2 for 1 hour. 2) You gain advantage on Dexterity Saving Throws for 1 minute. 3) Your current hit points and maximum hit points are cut in half, afterwards for 1 minute a clone of yourself appears. The clone has all of your abilities and features except for Invoke Chaos. When this clone is reduced to 0 hit points it dies and fades away. When you are reduced to 0 hit points the clone is absorbed immediately by you and you regain the hit points the clone had remaining. Either way, once the clone disappears your maximum hit points returns to normal. 4) The next time you hit a creature, they make a strength saving throw. On a failed save the creature is knocked prone. 5) You teleport to a location that you can see within 90 ft of you. When you do creatures from 5ft of  where you teleported from take 3d10 force damage and are knocked back 5ft. 6) Re-Roll the d20 for the Invoke Chaos but keep the 6 roll on the d6."
-                                            ],
-                                            [
-                                                "14-15",
-                                                "1) Lightning strikes down on 6 enemies of your choice. Everything within 5ft of those targets makes a dexterity saving throw and  takes 12d6 lightning damage on a failed save and half as much on a successful one. 2) You are surrounded by faint, ethereal music for the next minute. 3) Roll a d10. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow. 4) You are immune to being intoxicated by alcohol for the next 5d6 days. 5) For the next minute, you must shout when you speak. 6) On the next attack you do, or spell you cast, you deal max damage."
-                                            ],
-                                            [
-                                                "16-17",
-                                                "1) A fiery shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to Magic Missile. 2) For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame. 3) For the next minute, you can see any invisible creature if you have line of sight to it. 4) For the next minute, you regain 5 hit points at the start of each of your turns. 5) A dragon eye appears on your forehead for the next minute. During that time, you have advantage on Wisdom (Perception) checks that rely on sight. 6) You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn."
-                                            ],
-                                            [
-                                                "18-19",
-                                                "1) A young dragon controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later. 2) You can take one additional action immediately. 3) Your size increases by one size category for the next minute. 4) Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw. 4) You jump forward in time exactly 1 minute, for 1 minute. From the perspective of everyone else, you cease to exist during that time. 5) You immediately cast expeditious retreat. 6) A random creature within 60 feet of you becomes poisoned for 1d4 hours."
-                                            ],
-                                            [
-                                                20,
-                                                "1) You gain max chaos points, but you also fully restore all of your hit points. 2) You gain 3 3rd level spell slots. 3) you replenish all of your spent Draconian Spell Slots. 4) You Reduce the amount of Chaos Points you have to 0 and you do not gain a Chaos Point after this Random Event. 5) Choose a creature within 120 ft of you. It must make a Constitution saving throw equal to your spell save dc. On a failed save it is reduced to 0 hit points. On a success it takes 20d10 force damage. After this Random Event you gain Max Chaos Points. 6) You can pick any random event to occur."
-                                            ]
-                                        ]
-                                    },
-                                    {
-                                        "type": "table",
-                                        "caption": "Random Events",
-                                        "colLabels": [
-                                            "Cost",
-                                            "Chaos Event"
-                                        ],
-                                        "rows": [
-                                            [
-                                                1,
-                                                "A fireball is cast at 3rd level centered on the Invoker."
-                                            ],
-                                            [
-                                                2,
-                                                "A random item disappears from the invoker for 1 minute."
-                                            ],
-                                            [
-                                                3,
-                                                "The Invoker forgets how to speak any language but draconic for 1 minute. It can still comprehend its other languages."
-                                            ],
-                                            [
-                                                4,
-                                                "Choose an NPC that you have created as the GM, that NPC now has a burning hatred for the Invoker and seeks revenge on him or her for a lie they’ve been told by someone. The lie is entirely up to you, the GM."
-                                            ],
-                                            [
-                                                5,
-                                                "You can target 1 creature with a CR less than half of the Invoker’s level that has been killed or incapacitated. You can restore that creature to its full amount of hp and it receives the benefits of a new dawn."
-                                            ],
-                                            [
-                                                6,
-                                                "You can give advantage on any attack roll, saving throw, or ability check to one creature hostile to the Invoker."
-                                            ],
-                                            [
-                                                7,
-                                                "A random item disappears from the Invoker for 1d4 days."
-                                            ],
-                                            [
-                                                8,
-                                                "You can give disadvantage to any attack throw, saving throw, or ability check to the Invoker."
-                                            ],
-                                            [
-                                                9,
-                                                "The Invoker’s weapon shatters instantly if it was non-magical"
-                                            ],
-                                            [
-                                                10,
-                                                "Choose 1 fiend of a CR equal to or less than the level of the Invoker, summon it as a new enemy to fight the Invoker. It will not attack the other party members unless provoked. The fiend does not cease unless it is killed, sent back to its original plane, or if it kills the Invoker. The fiend cannot be persuaded to give up the fight or spare the Invoker."
-                                            ],
-                                            [
-                                                11,
-                                                "The Invoker becomes paralyzed for 1d2+2 rounds"
-                                            ],
-                                            [
-                                                12,
-                                                "The Invoker’s Magical Weapon shatters."
-                                            ],
-                                            [
-                                                13,
-                                                "A random item from the Invoker disappears for 1d4 weeks. "
-                                            ],
-                                            [
-                                                14,
-                                                "The Invoker loses half of their current hit points"
-                                            ],
-                                            [
-                                                15,
-                                                "You can fully heal one of the enemies in combat."
-                                            ],
-                                            [
-                                                16,
-                                                "One of the Invoker’s allies turns on them, as they become blinded by rage for 1d4 rounds."
-                                            ],
-                                            [
-                                                17,
-                                                "You cast meteor swarm centered on the Invoker."
-                                            ],
-                                            [
-                                                18,
-                                                "A random item disappears from the Invoker permanently."
-                                            ],
-                                            [
-                                                19,
-                                                "The Invoker loses all of their Spell Slots "
-                                            ],
-                                            [
-                                                20,
-                                                "The Invoker falls unconscious instantly, being brought down to 0 hp. The Invoker cannot die or be targeted for attacks or other harmful effects. The Invoker disappears into the Astral Plane for 1d4 hours. Afterwards the Invoker wakes up in one location of the GM’s choosing, with nothing except 1 weapon, 1 magic item, 1 new sentient cursed magical item or weapon, and the Invoker’s clothes and arcane focus. The Invoker also has no memory of anything that happened within the last year. He regains his memory after 1d6 days."
-                                            ]
-                                        ]
-                                    }
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "name": "Invoke Element",
-                                "entries": [
-                                    "Starting at 10th level, when you roll acid, cold, fire, lightning, or poison damage, you can spend 1 Invoke Energy to replace that damage type with a different type from the same list."
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "name": "Invoke Fate",
-                                "entries": [
-                                    "At 15th level whenever you fail a saving throw, ability check, or miss an attack roll you can spend 2 Invoke Energy and gain 2 Chaos Points to re-roll that die and you choose which result to take. Once you use this feature you cannot use it again until you complete a short or long rest."
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "name": "Invoke Arcane",
-                                "entries": [
-                                    "At 18th level your arcane prowess towers over most. You add your proficiency modifier to all damage rolls from your spells. You also add your ability modifier to all your spells damage rolls if you don’t already add it. You can also spend 1 Invoke Energy to add an extra damage die to your spell’s damage."
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "name": "Invoke Control",
-                                "entries": [
-                                    "At 20th level, you can spend 4 Invoke energy to choose any 1 random event and any 1 chaos event to occur. You can do this a number of times equal to half your charisma modifier (rounded down). You regain all uses of this feature after you complete a long rest."
-                                ]
-                            }
-                        ]
-                    ],
-                    "source": "DW",
-                    "shortName": "Invoker"
-                },
-                {
-                    "name": "Weapon Master",
-                    "subclassFeatures": [
-                        [
-                            {
-                                "name": "Draconian Bond",
-                                "entries": [
-                                    "At third level you form a bond between you and your weapons, passing down your draconian powers to your weapons. You can spend 1 hour as part of your short or long rest meditating in front of 2 weapons. One ranged weapon of any kind, and one melee weapon of any kind, or both of one type. Once your meditation has completed your weapons glow and transform depending on your draconian origin. This bond breaks when you die. While your weapons are bonded they gain the following benefits :",
-                                    "Your weapons deal an additional 1d6 damage of the type relating to your draconian origin i.e red = fire and blue = lightning. The damage die increases to 1d8 at level 5, 1d10 at level 11, and 1d12 at level 17.",
-                                    "You can use a bonus action to make your weapons disappear into an extra dimensional plane. You can also use a bonus action to summon your weapons.",
-                                    "Your weapons count as magical for the purposes of overcoming magical resistances. At 5th level they gain a magic bonus of +1, at 11th they become +2, and on the 17th they become +3.",
-                                    "Your weapons are nigh indestructible, except by the means of the disintegrate or wish spells."
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "name": "Draconian Spirit",
-                                "entries": [
-                                    "Starting at 7th level you have a pool of spirit energy from deep within called “Draconian Spirit”. You have a number of Draconian Spirit Energy equal to half your Dragon Warrior level rounded down. As a bonus action on your turn by spending your Draconian Spirit Energy you can do one of the following, each of these abilities cost 1 point :",
-                                    "Spirit of the Warrior : You gain advantage on your attack rolls for the current turn and gain 10 temporary hit points.",
-                                    "Flurry of Strikes : You can make 2 weapon attacks immediately after you take the attack action, however you do not add your ability modifier to damage rolls.",
-                                    "Healing Energy : You can restore yourself  2d10 + your constitution modifier hit points.",
-                                    "Indomitable Shield : Your speed is reduced to 0. You cannot use this ability before you use your action, otherwise your action is wasted. You can cut the damage of the next incoming attack in half. If you are not attacked by the start of your next turn the effect ends and you instead gain 10 temporary hit points. While you have these temporary hit points you can spend your reaction to cut the damage of the next incoming attack in half. Once you do, you lose the temporary hit points, but after damage calculation. These temporary hit points are always lost first if you are using a variant rule for temporary hit points.",
-                                    "Staggering Strike : The next time you hit with a weapon attack the target makes a strength saving throw. On a failed save, the creature is knocked prone and they are stunned until the start of your next turn.",
-                                    "Swiftness of the Warrior : You can use the dash or disengage actions, choose one. Your jump distance is doubled and you cut any fall damage you would take in half until the start of your next turn. Alternatively you can use this ability as a reaction instead of a bonus action."
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "name": "Magic Warrior",
-                                "entries": [
-                                    "Starting at 10th level, your body has become a juggernaut against magical effects. You gain advantage on saving throws against spells and other magical effects. In addition, spell attacks have disadvantage against you if you are within 15 ft of the caster."
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "name": "Relentless Warrior",
-                                "entries": [
-                                    "At 15th level by spending 2 of your Draconian Spirit Energy as a reaction whenever you would be reduced to 0 hit points but not outright killed you can instead be reduced to 1 hit point."
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "name": "Honor Before Death",
-                                "entries": [
-                                    "Starting at 18th level once per long rest, you can use your Relentless Warrior without spending any Draconian Spirit Energy and even if the attack would outright kill you. If the attack would outright kill you you fall to 0 hit points but before you do, you can make a weapon attack against the attacker with advantage. If you hit, you deal an additional amount of damage equal to the same amount of damage you would have originally taken, but the damage is of your weapon’s type or your Draconian Origin’s type, your choice."
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "name": "Strength and Glory",
-                                "entries": [
-                                    "At 20th level, you can become a bastion of strength. Your current and maximum Strength and Constitution scores increase by 2. In addition, when you roll initiative while you have 0 Draconian Spirit Energy, you regain 4 points."
-                                ]
-                            }
-                        ]
-                    ],
-                    "source": "DW",
-                    "shortName": "Weapon Master"
                 }
             ],
             "fluff": [
                 {
                     "entries": [
-                        "A Dragon Warrior is a powerful fighter who has either made a deal with a dragon, has been blessed by a dragon, has killed a dragon or was around when a dragon died and absorbed its power, or was raised by a dragon. Either way, a Dragon Warrior uses the magical power that originated from a dragon, but has evolved it into their own power. While Dragons are indeed magical they are very limited on the spell casting end of things, which is what the Dragon Warrior tries to make up for with physical combat. One of the many benefits of the Dragon Warrior is that they have a lot of options, there are a lot of options that the Dragon Warrior can have and many that they will never obtain. There is a lot of versatility and choices for each Dragon Warrior, making 1 entirely different from the others. If you like a class with a lot of options, then this may be one for you.\n"
+                        "There are many variations of Dragon Mages, Summoners who call upon the help of an inner spirit to come to their aid, Devoted whose magic is brought upon the study or worship of either Tiamat or Bahamut, Evokers who imbue power into their allies, and Primordials who further enhance their elemental attunement."
                     ],
-                    "name": "Dragon Warrior",
+                    "name": "Dragon Mage",
                     "type": "section"
                 }
             ]
@@ -989,7 +1084,7 @@
     ],
     "optionalfeature": [
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Sight of the Land and Seas",
             "entries": [
                 "You gain a tremorsense of 60 feet."
@@ -997,7 +1092,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Draconian Claws and Fangs",
             "entries": [
                 "You gain 2 new additional forms of unarmed strikes. You have claws that, on top of your unarmed strike damage, gain an additional 1d6 slashing damage, and fangs that deal an additional 1d6 piercing damage. When you reach 5th level your unarmed strikes count as magical for the purposes of overcoming magic resistances."
@@ -1005,7 +1100,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "All Knowing Eyes",
             "entries": [
                 "You can cast Identify at will without expending a spell slot or requiring a material component, you also do not need to touch the item to identify it."
@@ -1013,7 +1108,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Terrifying Glare",
             "entries": [
                 "You gain proficiency in Intimidation and have advantage on Intimidation checks. If you already have proficiency in Intimidation, you add double your proficiency bonus instead."
@@ -1021,7 +1116,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Dragonsong",
             "entries": [
                 "You have advantage on performance and acrobatics checks. You gain proficiency in two musical instruments of your choice. As a bonus action you can begin singing your Dragonsong for 1 minute. While singing your song you gain a bonus to your AC equal to your Wisdom Modifier. You cannot use your Dragonsong again until you finish a long rest."
@@ -1029,7 +1124,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Deadly Veracity",
             "entries": [
                 " If you move at least 30 ft in a straight line to a target you gain 1 additional weapon attack or unarmed strike. You can only make one additional attack like this once per round."
@@ -1047,7 +1142,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Minor Draconian Senses",
             "entries": [
                 "You gain 10 ft of blindsight and 120 ft of darkvision if you don’t have it already. You cannot discern color while using your darkvision, only shades of gray."
@@ -1055,7 +1150,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Eyes of the Magi Drakes",
             "entries": [
                 "You can cast detect magic at will without material, somatic, or verbal components or spending a spell slot."
@@ -1063,7 +1158,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Draconian Breath Weapon",
             "entries": [
                 "Depending on the Draconian Origin you picked you gain a breath weapon that does 4d8 damage. The number of damage dice increases by 2 at 5th level, and then again at 10th, once more at 15th, and one last time at 20th level. You have a number of uses of this Draconian Power equal to half your Charisma Modifier (rounded down, minimum of 1) and regain all uses of it after a long rest. (Look at the Dragonborn Ancestry to determine the damage type). At 5th level the breath weapon increases to a range of a 30 foot cone or line depending on the type of dragon, 60 feet at 11th level, and 90 feet at 17th. The save DC for this power uses Constitution."
@@ -1071,7 +1166,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Draconian Rage",
             "entries": [
                 "As a bonus action on your turn you can enter a relentless rage for 1 minute. While raging you have resistance to non-magical slashing, piercing, and bludgeoning damage. In addition you receive a + 2 to attack and damage rolls. ",
@@ -1080,7 +1175,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Gift of the Sea Dragon",
             "entries": [
                 "You can breathe underwater as you do air. In addition, attacks made underwater are made normally as if you were on land."
@@ -1096,7 +1191,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Magma Walk",
             "entries": [
                 "You no longer suffer difficult terrain from natural phenomenons on volcanoes, or anywhere where magma or lava is impeding movement. You can also walk on magma or lava without suffering damage and swim through it using a swimming speed if you have one or use half your movement. (You are not immune to fire damage, but you can traverse in hot areas to no difficulty) You can do so for 10 minutes without taking damage."
@@ -1112,7 +1207,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Sense Treasure",
             "entries": [
                 "You can detect whether or not gold or magical items are within 60ft of you, but not how much or where specifically. (not gold pieces, more like bars or large sums of gold.) "
@@ -1120,7 +1215,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Acidic Shield",
             "entries": [
                 "You no longer suffer from difficult terrain or negative effects from terrain impeded by acid. Also you can swim in acid using your swimming speed or half your movement. (You are not immune to acid damage, but you can traverse in acidic areas to no difficulty) You can do so for 10 minutes without taking damage."
@@ -1136,7 +1231,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Moderate Flight",
             "entries": [
                 "You gain a flying speed equal to 30 ft."
@@ -1154,7 +1249,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Tongue of Dragons",
             "entries": [
                 "You can speak any language so long as it has linguistic meaning and you have heard someone speak it before. You can comprehend any language spoken to you, but only as a rough translation, GM’s discretion."
@@ -1172,7 +1267,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Mystical Insight",
             "entries": [
                 "You gain a passive insight equal to 10 + your insight modifier. You can use this in place of a failed insight check"
@@ -1190,7 +1285,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Moderate Draconian Senses",
             "entries": [
                 "You gain 30 ft of  blindsight and 120 ft of darkvision if you don’t have it already. You can also discern color while using your darkvision."
@@ -1208,7 +1303,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Minor Draconian Shapechanger",
             "entries": [
                 "You can cast Disguise Self and Alter Self at will without concentration or material components or spending a spell slot. Alternatively you can cast polymorph at will without spending a spell slot, but it does require concentration."
@@ -1226,7 +1321,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Draconian Shapechanger",
             "entries": [
                 "You magically polymorph into a humanoid or beast that has a challenge rating no higher than half your own level. You revert to your true form if you die or if you fall unconscious or incapacitated. Any equipment you are wearing or carrying is absorbed or borne by the new form (your choice). In the new form, you retain your alignment, hit points, Hit Dice, ability to speak, proficiencies, class features, and Intelligence, Wisdom, and Charisma scores, as well as this action. Your statistics and capabilities are otherwise replaced by those of the new form, except any class features of that form. You can use this feature a number of times equal to half your Charisma Modifier. Reverting back to normal does not expend a usage."
@@ -1248,7 +1343,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Knowledge of the Ancient Ones",
             "entries": [
                 "You gain proficiency in Arcana, History, Religion, and Intelligence Saving Throws. You also have advantage on Intelligence Checks. You also cannot have another “Ancient Ones” Draconian Power."
@@ -1266,7 +1361,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Wisdom of the Ancient Ones",
             "entries": [
                 "You gain proficiency in Insight, Survival, Medicine, and Wisdom Saving Throws. You also have advantage on Wisdom Checks. You also cannot have another “Ancient Ones” Draconian Power."
@@ -1284,7 +1379,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Strength of the Ancient Ones",
             "entries": [
                 "You gain proficiency in Athletics and Strength Saving Throws. You also have advantage on Strength Checks. Also whenever you make a grapple check you can move using your full movement instead of half. You can now carry triple the amount of weight before being encumbered. You also cannot have another “Ancient Ones” Draconian Power."
@@ -1302,7 +1397,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Speed of the Ancient Ones",
             "entries": [
                 "You gain proficiency in Acrobatics, Stealth, Sleight of Hand, and Dexterity Saving Throws. You also gain advantage on Dexterity Checks. All of your movement speeds gain an additional 10 ft. You also cannot have another “Ancient Ones” Draconian Power."
@@ -1320,7 +1415,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Charm of the Ancient Ones",
             "entries": [
                 "You gain proficiency in Persuasion, Deception, Performance, and add double your proficiency bonus to Charisma Saving Throws. You also gain advantage on Charisma Checks. You also cannot have another “Ancient Ones” Draconian Power."
@@ -1338,7 +1433,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Endurance of the Ancient Ones",
             "entries": [
                 "You add double your proficiency to Constitution Saving Throws and gain proficiency in Death Saving Throws. You can no longer be intoxicated, poisoned, nor diseased. Once per long rest if you were to drop to 0 or less HP but not outright killed, you can drop to 1 instead. You also cannot have another “Ancient Ones” Draconian Power"
@@ -1356,7 +1451,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Hyper Draconian Senses",
             "entries": [
                 "You gain 60 ft of  blindsight and 120 ft of darkvision if you don’t have it already. You can also discern color while using your darkvision. You can now also see normally in Magical Darkness."
@@ -1374,7 +1469,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Shadow Draconian",
             "entries": [
                 "You gain advantage on stealth checks, while in dim light or darkness, you have resistance to all damage that isn’t force, psychic, or radiant. You can take the Hide action as a bonus action. Any damage dealt by your Draconian Origins or other Dragon Warrior Features (such as Draconian Powers) becomes necrotic damage. You have immunity to necrotic damage but lose the immunity from your Draconian Origin. You cannot choose Radiant Draconian or Ethereal Draconian while having this power."
@@ -1392,7 +1487,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Radiant Draconian",
             "entries": [
                 "As an action you can dispel any magical darkness. You can do this a number of times equal to your charisma modifier. Any damage dealt by your Draconian Origins or other Dragon Warrior Features (such as Draconian Powers) becomes radiant damage. As an action you can touch another creature. The target magically regains 4d8 + your charisma modifier hit points and is freed from any curse, disease, poison, blindness, or deafness. You can do this up to a number of times equal to half your charisma modifier. You regain the uses of both of those abilities after a long rest. You have immunity to radiant damage but lose the immunity from your Draconian Origin. You cannot choose Shadow Draconian or Ethereal Draconian while having this power."
@@ -1410,7 +1505,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Ethereal Draconian",
             "entries": [
                 "You can see into the Ethereal Plane up to 120 feet. You can cast the Etherealness and Planeshift Spells without using a spell slot a number of times equal to your charisma modifier. (Both count for the expended uses.) You regain all uses of this after a long rest. Any damage dealt by your Draconian Origins or other Dragon Warrior Features (such as Draconian Powers) becomes Force damage, but only while on the Ethereal Plane. Your attacks always count as magical for the purposes of overcoming magic resistances but only on the Ethereal Plane. You gain resistance to force damage and retain your other immunities. You cannot choose Shadow Draconian or Radiant Draconian while having this power. (Note to GM : Feel free to disapprove if this does not fit in your campaign.)"
@@ -1428,7 +1523,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Hyperflight",
             "entries": [
                 "You have a flying speed of 60 ft."
@@ -1446,7 +1541,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Frightful Presence",
             "entries": [
                 "Each creature of your choice that is within 120 ft. of you and aware of you must succeed on a Wisdom Saving Throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your Frightful Presence for the next 24 hours."
@@ -1464,7 +1559,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Legendary Form",
             "entries": [
                 "As an action on your turn, you polymorph into an Ancient variant of whatever dragon you chose for your Draconian Origin OR if you chose Radiant, Shadow, or Ethereal Draconian you become an Ancient variant of that. Your equipment follows the same ruling as Polymorph for the purposes of this ability. Your HP also applies the same ruling as per Polymorph. If you as the dragon drops to 0 hit points you revert back to normal and take whatever excess damage is leftover. After which you cannot use this ability again for 1d4 days and you suffer a -2 to your AC and 2 levels of exhaustion. After you use this feature you expand the usage of your Invoke Transformation feature."
@@ -1489,7 +1584,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Legendary Summons",
             "entries": [
                 "You can manifest two dragons at the same time, both of which follow the same rules. In addition, they gain an additional 20 hit points. When you use the Unleash Draconic Fury feature, you can make two attacks originating from either manifested dragon rather than 1"
@@ -1511,7 +1606,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Legendary Weapons",
             "entries": [
                 "Your bonded weapons now crit on a 19 or 20 and on a successful critical hit they add an additional 4d6 of the weapon’s damage type. In addition your bonded weapons ignore resistances and immunities to damage types caused by them."
@@ -1533,7 +1628,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Dragon Rider",
             "entries": [
                 "As a 1 hour ritual you can summon a Wyvern to use as a mount. This Wyvern is clad in scales corresponding to your Draconian Origin, so it gains your Draconian Scales feature. The Wyvern rolls its own initiative but can take commands as per normal. If you are riding the Wyvern, it can go before or after your own initiative (your choice). The Wyvern summoned in this way is friendly towards you and your allies, in addition it cannot be charmed or frightened. You can speak telepathically to the Wyvern and command it as a free action on your turn, but it loses any multiattack feature it had previously if you command it. If you do not command it, it acts on its own controlled by the DM. The appearance of the Wyvern is entirely up to you, so long as it is a functional flying mount. At 12th level your Wyvern’s stats and abilities change to that of a Young Dragon’s, but it also retains its Wyvern abilities and attacks. Once it has grown into a Young Dragon, it regains its multiattack feature. Its appearance can also change if you so desire. You can only have 1 Wyvern summoned at a time."
@@ -1555,7 +1650,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Shared Powers",
             "entries": [
                 "Your summoned dragons share the Draconian Powers that you possess that do not have the “Summoner Archetype” prerequisite. They also share your Draconian Origins abilities."
@@ -1571,7 +1666,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Trained Body",
             "entries": [
                 "Through extensive training with your summoned dragons, your body has toughened even further. You gain an amount of hit points equal to your current level and each time you level up you gain 1 additional hit point. In addition you gain resistance to slashing, piercing, and bludgeoning damage from non-magical attacks."
@@ -1593,7 +1688,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Persistant Allies",
             "entries": [
                 "Whenever a summoned dragon is within 30 feet of you they regain 5 hit points at the start of their turn as long as they have at least 1 hit point. In addition if they fail a saving throw while within 30 ft of you, they can spend their reaction to reroll that saving throw."
@@ -1615,7 +1710,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Aura of Friendship",
             "entries": [
                 "Your summoned dragons within 10 feet of you receives an increase to all saving throws equal to your charisma modifier, to a minimum of 1. At 10th level this becomes 30 feet, and at 20th level this becomes 60 feet."
@@ -1637,7 +1732,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Summon Companion",
             "entries": [
                 "As a 1 hour ritual you can summon a dragon-like humanoid with the stats of a Wyrmling corresponding to your Draconian Origins. The appearance and gender of this humanoid is up to you, but the scales on them correspond to your Draconian Origins. This companion is friendly to you and your allies and you can communicate telepathically to them. They also speak, read, and write all the languages you do. You can only have 1 companion at a time."
@@ -1653,7 +1748,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Invoke Transformation",
             "entries": [
                 "As an action by spending 4 Invoke Energy you can transform your body into that of a Dragon’s. While transformed in this way you retain your skill proficiencies, saving throw proficiencies, ability scores that are higher than your transformed state, and class features. You gain the hit points of your new form along with any attacks or abilities by your new form except legendary resistance and legendary actions. In addition you gain any resistances or immunities from your new form. If you are dropped to 0 hit points or die in your transformation, the form is dropped. You can also end the transformation early as a bonus action on your turn. When your form is dropped you cannot transform again until after a long rest. At 8th level you can transform into a dragon of CR 4 or lower corresponding to your origin. At 14th level you can transform into a dragon CR 9 or lower corresponding to your origin. At 19th level you can transform into a CR 17 or lower corresponding to your origin."
@@ -1675,7 +1770,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Invoke Spirit",
             "entries": [
                 "By spending Invoke Energy you can create a pool of spirit energy that you can use to heal allies or empower yourself. Adding energy to the pool requires a bonus action, and healing an ally requires an action. 1 Invoke Energy adds 1 Spirit Energy to the pool, and you can only have a maximum number of Spirit Energy equal to your Proficiency Bonus. By spending 1 Spirit Energy you can heal either yourself or one ally within 30 feet 1d6 + your charisma modifier hit points. Alternatively you can spend 1 Energy point to roll a d6 and add that number to any attack roll, ability check, or saving throw - this can be done at any time when you make the roll.\n"
@@ -1691,7 +1786,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Invoke Dragon Eye",
             "entries": [
                 "By spending 1 Invoke Energy you can cast the true seeing spell without requiring concentration or material components or spending a spell slot."
@@ -1713,7 +1808,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Invoke Durability",
             "entries": [
                 "By spending 1 Invoke Energy, for 1 minute while you are conscious you also gain temporary hit points at the start of each of your turns equal to your charisma modifier, but not while you still have them. If you still have the temporary hit points but have less than your charisma modifier, you gain the difference."
@@ -1735,7 +1830,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Invoke Strength",
             "entries": [
                 "By spending 1 Invoke Energy, for 1 minute you can add your charisma modifier to all strength ability checks and saving throws."
@@ -1751,7 +1846,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Mastery of the Blade",
             "entries": [
                 "When you make a weapon attack using a bladed melee weapon you can subtract 5 from the attack roll to increase the damage by 10. As a reaction you can impose disadvantage on 1 melee weapon attack aimed towards you. When you score a critical hit you add extra damage to the roll equal to your weapon’s main damage die. You cannot have this power if you have the Mastery of Archery power."
@@ -1767,7 +1862,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Mastery of Archery",
             "entries": [
                 "The range of your ranged weapon attacks become twice the normal amount. Making a ranged attack on a prone creature or while within 5 feet of a creature does not impose disadvantage on the attack roll. When you make a ranged weapon attack and miss you can spend your reaction to make another ranged weapon attack, doing so gives you an advantage on the roll, however you do not add your proficiency bonus or ability modifier to the damage roll. You cannot have this power if you have the Mastery of the Blade power."
@@ -1783,7 +1878,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Combat Awareness",
             "entries": [
                 "Once per round as a free action, you can spend 1 Draconian Spirit Energy to gain 1 additional reaction. If a melee weapon attack is made against you, you can spend a reaction to make a weapon attack against the attacker. If you hit, the attack made against you is made at a disadvantage."
@@ -1805,7 +1900,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Heart of a Dragon",
             "entries": [
                 "If you were to fall unconscious as a result of a poison or effect other than falling to 0 hit points, you can choose to stay conscious instead. After you use this ability you cannot do so again until you finish a short or long rest. At 12th level you can do so twice per long rest, and at 18th level you can do so three times per long rest."
@@ -1827,7 +1922,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Dance of the Dragon Blade",
             "entries": [
                 "If you have made three or more melee weapon attacks on one target within your turn you can make 1 additional melee weapon attack against that target at advantage, afterward you gain the benefits of the dodge action. Doing so prevents you from taking your action next turn."
@@ -1849,7 +1944,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Arrow of the Soaring Dragon",
             "entries": [
                 "When you make a ranged weapon attack, instead of drawing an arrow from your quiver you can summon an arrow made of pure energy. Doing so does not require you to have ammunition. When you roll damage, instead of using your weapon’s normal damage roll you calculate the distance between you and the target. The damage equals 1d4 per 10 feet you are from the target. This damage does not gain the benefits of any damage modification, including your Dragon Warrior features."
@@ -1865,7 +1960,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Coming of Age",
             "entries": [
                 "Your maximum CR for your Draconian Shape feature increases by 4."
@@ -1883,7 +1978,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Abberant Dragon",
             "entries": [
                 "You can replace your Draconian Arts damage type with psychic damage. This choice can be made before you roll damage. In addition, you gain resistance to psychic damage and as a bonus action you can establish a telepathic link to one creature you can see within 30 feet of you. This telepathic link allows you to communicate freely telepathically for up to twice the amount you could normally speak in the span of 6 seconds. ",
@@ -1904,7 +1999,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Draconian Familiar",
             "entries": [
                 "You can conjure a tiny dragon to keep you company. You can ritual cast the “Find Familiar” spell without requiring material components, but you can only summon a Pseudodragon with this feature. The Pseudodragon has the “Familiar” feature when summoned in this way."
@@ -1922,7 +2017,7 @@
             "featureType": "Draconian Powers"
         },
         {
-            "source": "DW",
+            "source": "DM",
             "name": "Greater Draconian Familiar",
             "entries": [
                 "You can conjure a tiny dragon to keep you company. You can ritual cast the “Find Familiar” spell without requiring material components, but you can only summon a Pseudodragon or a Faerie Dragon with this feature. The Pseudodragon or Faerie Dragon has the “Familiar” feature when summoned in this way."
