@@ -570,7 +570,8 @@
                         "name": "Draconian Archetype Feature",
                         "entries": [
                             "At 11th level, gain a feature from your chosen Draconian Archetype"
-                        ]
+                        ],
+                        "gainSubclassFeature": true
                     }
                 ],
                 [
