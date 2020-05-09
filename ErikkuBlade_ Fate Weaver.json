@@ -743,7 +743,19 @@
                         ]
                     ],
                     "source": "FW",
-                    "shortName": "Aspect of the Sun"
+                    "shortName": "Aspect of the Sun",
+                    "subclassSpells": [
+                        "Bless",
+                        "Heroism",
+                        "Aid",
+                        "Branding Smite",
+                        "Blinding Smite",
+                        "Daylight",
+                        "Aura of Life",
+                        "Aura of Purity",
+                        "Dawn",
+                        "Holy Weapon"
+                    ]
                 },
                 {
                     "name": "Aspect of the Moon",
@@ -830,7 +842,19 @@
                         ]
                     ],
                     "source": "FW",
-                    "shortName": "Aspect of the Moon"
+                    "shortName": "Aspect of the Moon",
+                    "subclassSpells": [
+                        "Healing Word",
+                        "Shield of Faith",
+                        "Healing Spirit",
+                        "Moonbeam",
+                        "Beacon of Hope",
+                        "Mass Healing Word",
+                        "Control Water",
+                        "Death Ward",
+                        "Greater Restoration",
+                        "Mass Cure Wounds"
+                    ]
                 },
                 {
                     "name": "Aspect of Twilight",
@@ -928,7 +952,19 @@
                         ]
                     ],
                     "source": "FW",
-                    "shortName": "Aspect of Twilight"
+                    "shortName": "Aspect of Twilight",
+                    "subclassSpells": [
+                        "Hex",
+                        "Inflict Wounds",
+                        "Blindness/Deafness",
+                        "Shadow Blade",
+                        "Animate Dead",
+                        "Speak with Dead",
+                        "Blight",
+                        "Shadow of Moil",
+                        "Hallow",
+                        "Negative Energy Flood"
+                    ]
                 }
             ],
             "fluff": [
