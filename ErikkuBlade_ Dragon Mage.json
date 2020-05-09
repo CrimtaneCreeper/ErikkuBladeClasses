@@ -823,7 +823,61 @@
                         ]
                     ],
                     "source": "DM",
-                    "shortName": "Devoted"
+                    "shortName": "Devoted",
+                    "subclassSpells": [
+                        "Bless",
+                        "Cure Wounds",
+                        "Healing Word",
+                        "Sanctuary",
+                        "Shield of Faith",
+                        "Aid",
+                        "Augury",
+                        "Calm Emotions",
+                        "Prayer of Healing",
+                        "Lesser Restoration",
+                        "Beacon of Hope",
+                        "Daylight",
+                        "Mass Healing Word",
+                        "Revivify",
+                        "Spirit Guardians",
+                        "Banishment",
+                        "Death Ward",
+                        "Divination",
+                        "Guardian of Faith",
+                        "Commune",
+                        "Greater Restoration",
+                        "Mass Cure Wounds",
+                        "Heal",
+                        "Conjure Celestial",
+                        "Holy Aura",
+                        "Mass Heal",
+                        "Arms of Hadar",
+                        "Bane",
+                        "Inflict Wounds",
+                        "Wrathful Smite",
+                        "Chaos Bolt",
+                        "Blindness/Deafness",
+                        "Crown of Madness",
+                        "Silence",
+                        "Spiritual Weapon",
+                        "Phantasmal Force",
+                        "Animate Dead",
+                        "Bestow Curse",
+                        "Hunger of Hadar",
+                        "Speak with Dead",
+                        "Summon Lesser Demons",
+                        "Blight",
+                        "Sickening Radiance",
+                        "Staggering Smite",
+                        "Summon Greater Demons",
+                        "Contagion",
+                        "Destructive Wave",
+                        "Raise Dead",
+                        "Harm",
+                        "Finger of Death",
+                        "Feeblemind",
+                        "Power Word Kill"
+                    ]
                 },
                 {
                     "name": "Evoker",
@@ -894,39 +948,13 @@
                                 "name": "Elemental Attunement",
                                 "entries": [
                                     "Beginning at 1st level, you gain the Druidcraft cantrip and one additional cantrip depending on your Draconian Origin damage type. You also learn how to speak, read, and write all dialects of Primordial. The damage provided by your Draconian Origin becomes known as your “Primordial Damage”. ",
-                                    "*Original Cantrip, See below for details",
+                                    "*Original Cantrips, see spells for details",
                                     "Fire : Control Flames",
                                     "Cold : Shape Water",
                                     "Lightning : Control Sparks*",
                                     "Acid : Shape Acid*",
                                     "Poison : Poison Flow*",
-                                    "These cantrips do not count against your total known cantrips and count as Dragon Mage cantrips. ",
-                                    "Original Cantrips:",
-                                    "Control Sparks :",
-                                    "Transmutation",
-                                    "Casting Time : 1 Action",
-                                    "Range : 30 ft.",
-                                    "Components : S",
-                                    "Duration : Instantaneous or 1 Hour",
-                                    "You create small harmless sparks of electricity. You can shape the strands of electricity in any way you see fit within range in a 5ft cube. You can use the sparks to ignite small objects, for example a cigarette, but never actually set it aflame. You can also surround yourself with these sparks and whenever a creature comes into contact with you, the sparks zap them as if it were static electricity. You can also use this feature to give a device active electricity for up to 1 hour.",
-                                    "Shape Acid : ",
-                                    "Transmutation",
-                                    "Casting Time : 1 Action",
-                                    "Range : 30 ft.",
-                                    "Components : S",
-                                    "Duration : Instantaneous or 1 Hour",
-                                    "You choose an area of acid that you can see within range and that fits within a 5-foot cube. \nYou manipulate it in one of the following ways:",
-                                    "You instantaneously move or otherwise change the flow of the acid as you direct, up to 5 feet in any direction. This movement doesn’t have enough force to cause damage and the acid being manipulated loses its damaging properties until released, which when released it deals 1d6 acid damage to a creature it is dropped on.",
-                                    "You cause the acid to form into simple shapes and animate at your direction. This change lasts for 1 hour.",
-                                    "You change the acid’s color or opacity. The acid must be changed in the same way throughout. This change lasts for 1 hour.",
-                                    "If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.",
-                                    "Poison Flow :",
-                                    "Transmutation",
-                                    "Casting Time : 1 Action",
-                                    "Range : 30 ft.",
-                                    "Components : S",
-                                    "Duration : Instantaneous or 1 Hour",
-                                    "Choose a poisonous substance nearby, whether it is in a vial, pool, bowl, drink, etc. You can magically move that substance freely within range. If moved into a creature, the creature can make a Dexterity Saving Throw, consuming the poison on a failed save. If a creature has a poison flowing through them, you can use this cantrip to remove the poison safely, without harming the creature who is poisoned. The creature must be within the range of the cantrip and must remain perfectly still so that the flow is not interrupted."
+                                    "These cantrips do not count against your total known cantrips and count as Dragon Mage cantrips. "
                                 ]
                             }
                         ],
@@ -988,7 +1016,14 @@
                         ]
                     ],
                     "source": "DM",
-                    "shortName": "Primordial"
+                    "shortName": "Primordial",
+                    "subclassSpells": [
+                        "Control Flames",
+                        "Shape Water",
+                        "Control Sparks",
+                        "Shape Acid",
+                        "Poison Flow"
+                    ]
                 },
                 {
                     "name": "Summoner",
@@ -1070,6 +1105,375 @@
                     ],
                     "source": "DM",
                     "shortName": "Summoner"
+                },
+                {
+                    "name": "Red Dragon Spell List",
+                    "source": "DM",
+                    "shortname": "Red Dragon Spell List",
+                    "subclassSpells": [
+                        "Control Flames",
+                        "Create Bonfire",
+                        "Firebolt",
+                        "Green-Flame Blade",
+                        "Light",
+                        "Produce Flame",
+                        "Burning Hands",
+                        "Faerie Fire",
+                        "Searing Smite",
+                        "Aganazzar's Scorcher",
+                        "Continual Flame",
+                        "Flame Blade",
+                        "Flaming Sphere",
+                        "Heat Metal",
+                        "Pyrotechnics",
+                        "Scorching Ray",
+                        "Fireball",
+                        "Flame Arrows",
+                        "Fire Shield",
+                        "Wall of Fire",
+                        "Flame Strike",
+                        "Immolation",
+                        "Investiture of Flame",
+                        "Delayed Blast Fireball",
+                        "Fire Storm",
+                        "Incendiary Cloud",
+                        "Meteor Swarm"
+                    ]
+                },
+                {
+                    "name": "Blue Dragon Spell List",
+                    "source": "DM",
+                    "shortname": "Blue Dragon Spell List",
+                    "subclassSpells": [
+                        "Booming Blade",
+                        "Lightning Lure",
+                        "Shocking Grasp",
+                        "Magic Stone",
+                        "Mold Earth",
+                        "Earth Tremor",
+                        "Expeditious Retreat",
+                        "Fog Cloud",
+                        "Thunderous Smite",
+                        "Thunderwave",
+                        "Witch Bolt",
+                        "Blur",
+                        "Earthbind",
+                        "Earthen Grasp",
+                        "Shatter",
+                        "Call Lightning",
+                        "Erupting Earth",
+                        "Meld into Stone",
+                        "Haste",
+                        "Lightning Arrow",
+                        "Lightning Bolt",
+                        "Thunder Step",
+                        "Wall of Sand",
+                        "Freedom of Movement",
+                        "Stone Shape",
+                        "Stoneskin",
+                        "Storm Sphere",
+                        "Transmute Rock",
+                        "Bones of the Earth",
+                        "Chain Lightning",
+                        "Investiture of Stone",
+                        "Move Earth",
+                        "Earthquake",
+                        "Maze",
+                        "Storm of Vengeance"
+                    ]
+                },
+                {
+                    "name": "Black Dragon Spell List",
+                    "source": "DM",
+                    "shortname": "Black Dragon Spell List",
+                    "subclassSpells": [
+                        "Acid Splash",
+                        "Primal Savagery",
+                        "Shape Water",
+                        "Eldritch Blast",
+                        "Bane",
+                        "Chaos Bolt",
+                        "Chromatic Orb",
+                        "Entangle",
+                        "Grease",
+                        "Cloud of Daggers",
+                        "Darkness",
+                        "Invisibility",
+                        "Melf's Acid Arrow",
+                        "Misty Step",
+                        "Pass Without Trace",
+                        "See Invisibility",
+                        "Silence",
+                        "Bestow Curse",
+                        "Feign Death",
+                        "Hunger of Hadar",
+                        "Speak with Dead",
+                        "Control Water",
+                        "Evard's Black Tentacles",
+                        "Watery Sphere",
+                        "Vitriolic Sphere",
+                        "Contagion",
+                        "Far Step",
+                        "Maelstrom",
+                        "Mislead",
+                        "Abi-Dalzim's Horrid Wilting",
+                        "Maddening Darkness",
+                        "Tsunami",
+                        "Storm of Vengeance"
+                    ]
+                },
+                {
+                    "name": "White Dragon Spell List",
+                    "source": "DM",
+                    "shortname": "White Dragon Spell List",
+                    "subclassSpells": [
+                        "Frostbite",
+                        "Mold Earth",
+                        "Ray of Frost",
+                        "Shape Water",
+                        "Armor of Agathys",
+                        "Ice Knife",
+                        "Tenser's Floating Disk",
+                        "Blur",
+                        "Moonbeam",
+                        "Snilloc's Snowball Swarm",
+                        "Sleet Storm",
+                        "Slow",
+                        "Tidal Wave",
+                        "Wall of Water",
+                        "Water Breathing",
+                        "Water Walk",
+                        "Control Water",
+                        "Freedom of Movement",
+                        "Ice Storm",
+                        "Otiluke's Resilient Sphere",
+                        "Watery Sphere",
+                        "Cone of Cold",
+                        "Maelstrom",
+                        "Transmute Rock",
+                        "Investiture of Ice",
+                        "Otiluke's Freezing Sphere",
+                        "Wall of Ice",
+                        "Tsunami",
+                        "Storm of Vengeance"
+                    ]
+                },
+                {
+                    "name": "Bronze Dragon Spell List",
+                    "source": "DM",
+                    "shortname": "Bronze Dragon Spell List",
+                    "subclassSpells": [
+                        "Booming Blade",
+                        "Eldritch Blast",
+                        "Guidance",
+                        "Lightning Lure",
+                        "Shape Water",
+                        "Shocking Grasp",
+                        "Spare the Dying",
+                        "Thunderclap",
+                        "Toll the Dead",
+                        "Ceremony",
+                        "Command",
+                        "Compelled Duel",
+                        "Create or Destroy Water",
+                        "Disguise Self",
+                        "Heroism",
+                        "Magic Missile",
+                        "Protetion from Evil and Good",
+                        "Purify Food and Drink",
+                        "Sanctuary",
+                        "Shield of Faith",
+                        "Tenser's Floating Disk",
+                        "Thunderous Smite",
+                        "Thunderwave",
+                        "Unseen Servant",
+                        "Witch Bolt",
+                        "Alter Self",
+                        "Blur",
+                        "Calm Emotions",
+                        "Lesser Restoration",
+                        "Misty Step",
+                        "Shatter",
+                        "Zone of Truth",
+                        "Call Lightning",
+                        "Create Food and Water",
+                        "Haste",
+                        "Lightning Arrow",
+                        "Lightning Bolt",
+                        "Remove Curse",
+                        "Spirit Guardians",
+                        "Thunder Step",
+                        "Tidal Wave",
+                        "Wall of Water",
+                        "Water Breathing",
+                        "Water Walk",
+                        "Aura of Life",
+                        "Aura of Purity",
+                        "Control Water",
+                        "Freedom of Movement",
+                        "Polymorph",
+                        "Storm Sphere",
+                        "Watery Sphere",
+                        "Banishing Smite",
+                        "Destructive Wave",
+                        "Dispel Evil and Good",
+                        "Far Step",
+                        "Greater Restoration",
+                        "Maelstrom",
+                        "Swift Quiver",
+                        "Wall of Force",
+                        "Chain Lightning",
+                        "Disintegrate",
+                        "Forcecage",
+                        "Control Weather",
+                        "Tsunami",
+                        "Shape Change",
+                        "Storm of Vengeance",
+                        "True Polymorph"
+                    ]
+                },
+                {
+                    "name": "Copper Dragon Spell List",
+                    "source": "DM",
+                    "shortname": "Copper Dragon Spell List",
+                    "subclassSpells": [
+                        "Acid Splash",
+                        "Dancing Lights",
+                        "Friends",
+                        "Minor Illusion",
+                        "Primal Savagery",
+                        "Vicious Mockery",
+                        "Bane",
+                        "Charm Person",
+                        "Color Spray",
+                        "Command",
+                        "Dissonant Whispers",
+                        "Faerie Fire",
+                        "Grease",
+                        "Heroism",
+                        "Sleep",
+                        "Tasha's Hideous Laughter",
+                        "Wrathful Smite",
+                        "Mind Spike",
+                        "Silence",
+                        "Suggestion",
+                        "Enemies Abound",
+                        "Slow",
+                        "Charm Monster",
+                        "Compulsion",
+                        "Confusion",
+                        "Staggering Smite",
+                        "Vitriolic Sphere",
+                        "Dream",
+                        "Geas",
+                        "Mislead",
+                        "Scrying",
+                        "Synaptic Static",
+                        "Wall of Force",
+                        "Conjure Fey",
+                        "Mass Suggestion",
+                        "Mental Prison",
+                        "Otto's Irresistible Dance",
+                        "Programmed Illusion",
+                        "Power Word Pain",
+                        "Antipathy/Sympathy",
+                        "Mind Blank",
+                        "Power Word Stun",
+                        "Imprisonment",
+                        "Psychic Scream",
+                        "Storm of Vengeance"
+                    ]
+                },
+                {
+                    "name": "Brass Dragon Spell List",
+                    "source": "DM",
+                    "shortname": "Brass Dragon Spell List",
+                    "subclassSpells": [
+                        "Control Flames",
+                        "Create Bonfire",
+                        "Firebolt",
+                        "Friends",
+                        "Green-Flame Blade",
+                        "Light",
+                        "Produce Flame",
+                        "Burning Hands",
+                        "Charm Person",
+                        "Command",
+                        "Faerie Fire",
+                        "Searing Smite",
+                        "Sleep",
+                        "Aganazzar's Scorcher",
+                        "Continual Flame",
+                        "Flame Blade",
+                        "Flaming Sphere",
+                        "Heat Metal",
+                        "Pyrotechnics",
+                        "Scorching Ray",
+                        "Fireball",
+                        "Flame Arrows",
+                        "Compulsion",
+                        "Fire Shield",
+                        "Wall of Fire",
+                        "Flame Strike",
+                        "Geas",
+                        "Immolation",
+                        "Investiture of Flame",
+                        "Delayed Blast Fireball",
+                        "Fire Storm",
+                        "Incendiary Cloud",
+                        "Meteor Swarm"
+                    ]
+                },
+                {
+                    "name": "Silver Dragon Spell List",
+                    "source": "DM",
+                    "shortname": "Silver Dragon Spell List",
+                    "subclassSpells": [
+                        "Frostbite",
+                        "Ray of Frost",
+                        "Armor of Agathys",
+                        "Goodberry",
+                        "Heroism",
+                        "Ice Knife",
+                        "Shield",
+                        "Tenser's Floating Disk",
+                        "Blur",
+                        "Moonbeam",
+                        "Snilloc's Snowball Swarm",
+                        "Daylight",
+                        "Sleet Storm",
+                        "Slow",
+                        "Tidal Wave",
+                        "Wall of Water",
+                        "Water Breathing",
+                        "Water Walk",
+                        "Control Water",
+                        "Freedom of Movement",
+                        "Ice Storm",
+                        "Otiluke's Resilient Sphere",
+                        "Watery Sphere",
+                        "Cone of Cold",
+                        "Maelstrom",
+                        "Transmute Rock",
+                        "Investiture of Ice",
+                        "Otiluke's Freezing Sphere",
+                        "Wall of Ice",
+                        "Tsunami",
+                        "Storm of Vengeance"
+                    ]
+                },
+                {
+                    "name": "Gold Dragon Spell List",
+                    "source": "DM",
+                    "shortname": "Gold Dragon Spell List",
+                    "subclassSpells": [
+                        [
+                            {
+                                "class": "Wizard",
+                                "source": "PHB"
+                            }
+                        ]
+                    ]
                 }
             ],
             "fluff": [
@@ -1080,6 +1484,216 @@
                     "name": "Dragon Mage",
                     "type": "section"
                 }
+            ],
+            "classSpells": [
+                "Blade Ward",
+                "Gust",
+                "Thaumaturgy",
+                "Prestidigitation",
+                "Encode Thoughts",
+                "Message",
+                "Mage Hand",
+                "Absorb Elements",
+                "Animal Friendship",
+                "Cause Fear",
+                "Catapult",
+                "Comprehend Languages",
+                "Detect Magic",
+                "Detect Evil and Good",
+                "Feather Fall",
+                "Hellish Rebuke",
+                "Hex",
+                "Hunter's Mark",
+                "Identify",
+                "Speak with Animals",
+                "Zephyr Strike",
+                "Arcanist's Magic Aura",
+                "Branding Smite",
+                "Detect Thoughts",
+                "Dragon's Breath",
+                "Enhance Ability",
+                "Enlarge Reduce",
+                "Gust of Wind",
+                "Knock",
+                "Locate Object",
+                "Levitate",
+                "Magic Weapon",
+                "Skywrite",
+                "Warding Wind",
+                "Catnap",
+                "Counterspell",
+                "Dispel Magic",
+                "Elemental Weapon",
+                "Fear",
+                "Fly",
+                "Protection from Energy",
+                "Sending",
+                "Wind Wall",
+                "Nondetection",
+                "Tiny Hut",
+                "Arcane Eye",
+                "Elemental Bane",
+                "Fabricate",
+                "Locate Creature",
+                "Phantasmal Killer",
+                "Private Sanctum",
+                "Animate Objects",
+                "Arcane Hand",
+                "Awaken",
+                "Control Winds",
+                "Creation",
+                "Scrying",
+                "Seeming",
+                "Skill Empowerment",
+                "Steel Wind Strike",
+                "Telekinesis",
+                "Blade Barrier",
+                "Eyebite",
+                "Find the Path",
+                "Forbiddence",
+                "Heroe's Feast",
+                "Investiture of Wind",
+                "Primordial Ward",
+                "Tenser's Transformation",
+                "True Seeing",
+                "Wind Walk",
+                "Word of Recall",
+                "Magnificent Mansion",
+                "Sequester",
+                "Symbol",
+                "Teleport",
+                "Whirlwind",
+                "Illusory Dragon",
+                "Power Word Stun",
+                "Mighty Fortress",
+                "Foresight",
+                "Invulnerability"
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Control Sparks",
+            "level": 0,
+            "school": "Transmutation",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": {
+                "type": "timed",
+                "duration": {
+                    "type": "hour",
+                    "amount": 1
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Dragon Mage",
+                        "source": "DM"
+                    }
+                ]
+            },
+            "source": "DM",
+            "entries": [
+                "You create small harmless sparks of electricity. You can shape the strands of electricity in any way you see fit within range in a 5ft cube. You can use the sparks to ignite small objects, for example a cigarette, but never actually set it aflame. You can also surround yourself with these sparks and whenever a creature comes into contact with you, the sparks zap them as if it were static electricity. You can also use this feature to give a device active electricity for up to 1 hour."
+            ]
+        },
+        {
+            "name": "Shape Acid",
+            "level": 0,
+            "school": "Transmutation",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": {
+                "type": "timed",
+                "duration": {
+                    "type": "hour",
+                    "amount": 1
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Dragon Mage",
+                        "source": "DM"
+                    }
+                ]
+            },
+            "source": "DM",
+            "entries": [
+                "You choose an area of acid that you can see within range and that fits within a 5-foot cube. \nYou manipulate it in one of the following ways:",
+                "You instantaneously move or otherwise change the flow of the acid as you direct, up to 5 feet in any direction. This movement doesn’t have enough force to cause damage and the acid being manipulated loses its damaging properties until released, which when released it deals 1d6 acid damage to a creature it is dropped on.",
+                "You cause the acid to form into simple shapes and animate at your direction. This change lasts for 1 hour.",
+                "You change the acid’s color or opacity. The acid must be changed in the same way throughout. This change lasts for 1 hour.",
+                "If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+            ]
+        },
+        {
+            "name": "Poison Flow",
+            "level": 0,
+            "school": "Transmutation",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "s": true
+            },
+            "duration": {
+                "type": "timed",
+                "duration": {
+                    "type": "hour",
+                    "amount": 1
+                }
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Dragon Mage",
+                        "source": "DM"
+                    }
+                ]
+            },
+            "source": "DM",
+            "entries": [
+                "Choose a poisonous substance nearby, whether it is in a vial, pool, bowl, drink, etc. You can magically move that substance freely within range. If moved into a creature, the creature can make a Dexterity Saving Throw, consuming the poison on a failed save. If a creature has a poison flowing through them, you can use this cantrip to remove the poison safely, without harming the creature who is poisoned. The creature must be within the range of the cantrip and must remain perfectly still so that the flow is not interrupted."
             ]
         }
     ],
