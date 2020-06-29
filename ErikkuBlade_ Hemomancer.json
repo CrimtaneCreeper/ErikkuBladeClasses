@@ -283,9 +283,9 @@
                 "entries": [
                   {
                     "type": "entries",
-                    "name": "Blood Transmutation"
+                    "name": "Blood Rush"
                   },
-                  "As an action by spending a blood die, you can transmute up to 4 ounces of blood into 4 ounces of any of the following liquids : Water, Oil, Ale, Beer, Vinegar, Wine, Basic poison, Acid, Honey, Mayonnaise. You can transmute it into other basic liquids under the GM’s discretion."
+                  "As a bonus action you can spend a hit die and take damage equal to the result. You can take the dash or disengage actions as a bonus action for as many rounds equal to what you rolled on the hit die, excluding your constitution modifier."
                 ]
               }
             ]
